@@ -11,8 +11,8 @@ html {
   scroll-behavior: smooth;
 }
 .body {
-  font-family: 'Manrope', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 * {
   padding: 0;
@@ -60,8 +60,8 @@ header nav .navlinks ul li {
   /* padding-right: 2rem; */
   font-size: 18px;
   /* font-family: "Sofia Pro"; */
-  font-family: 'Manrope', sans-serif;
-  font-weight: 300;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
   text-decoration: none;
   color: var(--black);
 }
@@ -120,16 +120,17 @@ header nav .navlinks ul li {
   user-select: none;
 }
 .salutation {
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 25px;
+  line-height: 20px;
   color: var(--primary);
-  font-weight: 400;
-  font-family: 'Poppins', sans-serif;}
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
 .intro {
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 400;
-  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
 }
 .intro span {
   font-weight: 500;
@@ -139,9 +140,9 @@ header nav .navlinks ul li {
 .hero .designspan .middlemain h1 {
   z-index: 9999;
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 182px;
   line-height: 160px;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
@@ -170,9 +171,9 @@ header nav .navlinks ul li {
 }
 .hero .designspan .upperone h1 {
   position: absolute;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 152px;
   line-height: 160px;
   animation: slide-in-bitupper 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.6s
@@ -199,9 +200,9 @@ header nav .navlinks ul li {
 }
 .hero .designspan .uppertwo h1 {
   position: absolute;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 152px;
   line-height: 160px;
   animation: slide-in-upper 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.2s both;
@@ -228,9 +229,9 @@ header nav .navlinks ul li {
 
 .hero .designspan .lowerone h1 {
   position: absolute;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 152px;
   line-height: 160px;
   animation: slide-in-bitbottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.6s
@@ -260,7 +261,7 @@ header nav .navlinks ul li {
   position: absolute;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 152px;
   line-height: 160px;
   animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.2s both;
@@ -292,7 +293,7 @@ header nav .navlinks ul li {
 }
 .casetitle .sectionheading {
   font-weight: 500;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 25;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -354,7 +355,7 @@ header nav .navlinks ul li {
   height: auto;
   /* position: absolute; */
 }
-.csoverlay{
+.csoverlay {
   position: absolute;
   /* top: 100%; */
   /* bottom: 0; */
@@ -363,8 +364,8 @@ header nav .navlinks ul li {
   height: auto;
   width: auto;
   /* opacity: 0; */
-  transition: .5s ease;
-  background-color: #008CBA;
+  transition: 0.5s ease;
+  background-color: #008cba;
 }
 
 /* 
