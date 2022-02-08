@@ -138,10 +138,7 @@ header nav .navlinks ul li {
   color: #0074d9;
 }
 .navlinks a:hover {
-  color: red;
-}
-.navlinks ul li a:hover a:active {
-  color: red;
+  color: var(--linkactive);
 }
 .underline {
   position: relative;
