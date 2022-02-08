@@ -137,6 +137,12 @@ header nav .navlinks ul li {
   text-decoration: none;
   color: #0074d9;
 }
+.navlinks a:hover{
+  color: red;
+}
+.navlinks ul li a:hover a:active{
+  color: red
+}
 .underline {
   position: relative;
 }
