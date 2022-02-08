@@ -137,11 +137,11 @@ header nav .navlinks ul li {
   text-decoration: none;
   color: #0074d9;
 }
-.navlinks a:hover{
+.navlinks a:hover {
   color: red;
 }
-.navlinks ul li a:hover a:active{
-  color: red
+.navlinks ul li a:hover a:active {
+  color: red;
 }
 .underline {
   position: relative;
@@ -420,7 +420,6 @@ header nav .navlinks ul li {
   width: 100%;
 }
 .case2 {
-  border: 1px solid #cbbff9;
   border-radius: 0.35rem;
   background-color: #cbbff9;
   height: 100%;
@@ -428,7 +427,6 @@ header nav .navlinks ul li {
   text-align: center;
 }
 .case3 {
-  border: 1px solid #cbbff9;
   border-radius: 0.35rem;
   background-color: #b4e8ff;
   height: 100%;
