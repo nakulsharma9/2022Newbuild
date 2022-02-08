@@ -403,8 +403,8 @@ header nav .navlinks ul li {
   border-radius: 0.35rem;
   /* width: 1410px; */
   width: 100%;
-  height: 562px;
-  background-color: #ff557c;
+  height: 100%;
+  /* background-color: #ff557c; */
   grid-column: 1 / -1;
   display: flex;
   align-items: center;
@@ -412,11 +412,8 @@ header nav .navlinks ul li {
   z-index: 1;
 }
 
-/* .material-icons{
-  margin-right: 3rem;
-} */
 
-/* .case2 {
+.case2 {
   border: 1px solid #cbbff9;
   border-radius: 0.35rem;
   background-color: #cbbff9;
@@ -431,12 +428,13 @@ header nav .navlinks ul li {
   height: 100%;
   display: inline-block;
   text-align: center;
-} */
+}
 
 /* Footer  */
-/* .footer {
-  border-top: 1.5px dotted blue;
-} */
+.footer {
+  margin-top: 2rem;
+  /* border-top: 1.5px dotted blue; */
+}
 .socialinks ul {
   display: flex;
   flex-direction: row;
