@@ -385,8 +385,11 @@ header nav .navlinks ul li {
 } */
 
 /* Footer  */
-.footer {
-  margin-top: 4rem;
+.footer .divider {
+  margin: 1.5rem;
+}
+.footer .socialinks {
+  margin: 1rem 0;
   /* border-top: 1.5px dotted blue; */
 }
 .socialinks ul {
@@ -398,7 +401,7 @@ header nav .navlinks ul li {
 }
 
 .socialinks a {
-  font-size: 2rem;
+  /* font-size: 2rem; */
   color: black;
   /* text-decoration: none; */
   padding: 10px 20px;
@@ -409,10 +412,10 @@ header nav .navlinks ul li {
   -moz-transition: margin 0.3s ease-out;
   -o-transition: margin 0.3s ease-out;
 }
-.socialinks a:hover {
+/* .socialinks a:hover {
   margin-top: 2px;
   transition: none;
   -webkit-transition: margin 0.3s ease-out;
   -moz-transition: margin 0.3s ease-out;
   -o-transition: margin 0.35s ease-out;
-}
+} */
