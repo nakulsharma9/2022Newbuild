@@ -360,11 +360,16 @@ header nav .navlinks ul li {
   /* bottom: 0; */
   /* left: 0; */
   /* right: 0;*/
+  display: block;
+  justify-content: center;
   height: auto;
   width: auto;
   /* opacity: 0; */
   transition: .5s ease;
   background-color: #008CBA;
+}
+.case1:hover .csoverlay{
+  opacity: 1;
 }
 
 /* 
