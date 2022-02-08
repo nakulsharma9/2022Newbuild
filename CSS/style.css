@@ -369,7 +369,7 @@ header nav .navlinks ul li {
   transition: 0.5s ease;
   background-color: #008cba;
 }
-.case1:hover .csoverlay{
+.case1:hover .csoverlay {
   opacity: 1;
 }
 
