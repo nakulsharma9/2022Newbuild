@@ -374,6 +374,9 @@ header nav .navlinks ul li {
   animation: bounce 0.8s 2.1 alternate;
   -webkit-animation: bounce 0.8s 2.1 alternate;
 }
+.arrow img {
+  transform: translateY(5px);
+}
 .casestudy {
   margin-top: 4rem;
   display: grid;
