@@ -366,15 +366,22 @@ header nav .navlinks ul li {
   /* left: 0; */
   /* right: 0;*/
   display: block;
-  justify-content: center;
+  text-align: center;
   height: auto;
   width: auto;
   /* opacity: 0; */
-  transition: 0.5s ease;
+  transition: all 1s ease;
   background-color: #008cba;
 }
 .case1:hover .csoverlay {
   opacity: 1;
+}
+.case2:hover .csoverlay {
+  opacity: 1;
+}
+.case2 img {
+  width: 100%;
+  height: auto;
 }
 
 /* 
