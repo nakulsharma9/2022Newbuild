@@ -5,6 +5,9 @@
   --primary: #5e34ff;
   --lightprimary: #734fff;
   --linkactive: #2a54e9;
+  --grad: inear-gradient(124.25deg, #6E41E2 -20.46%, #E452FC 137.24%);
+  --fadewhite:#FAFAFA;
+  --textc: #8D96B2;
 }
 
 html {
@@ -436,11 +439,19 @@ header nav .navlinks ul li {
   -o-transition: margin 0.35s ease-out;
 } */
 .aboutfooter{
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
+  /* position: fixed; */
+  font-family: 'Poppins', sans-serif;
+  left: 0;
+  bottom: 0;
   background-color: #FAFAFA;
+  padding: 0 74px;
 }
 .footerrow{
   display: flex;
+  /* display: grid; */
+  /* grid-template-columns: auto; */
+  /* grid-template-rows: auto; */
   flex-wrap: wrap;
 }
 .aboutfooter ul{
@@ -448,6 +459,7 @@ header nav .navlinks ul li {
 }
 .footercol{
   width: 25%;
+  margin-top: 2rem;
   /* padding: 0 15px; */
 }
 .footercol .colhead{
@@ -457,3 +469,88 @@ header nav .navlinks ul li {
   margin-bottom: 30px;
   font-weight: 500;
 }
+.footercol ul li{
+  font-size: 16px;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footercol ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footercol ul li a:hover{
+  color: var(--linkactive);
+  padding-left: 8px;
+}
+.aboutfooter .copyryt{
+  margin-top: 8rem ;
+}
+.copyryt .copyryttxt1{
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--black);
+}
+.copyryt .copyryttxt2{
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--textc);
+}
+
+
+
+
+
+/*Chori ka maal*/
+/* .link--helike::before {
+  height: 2px;
+  opacity: 0;
+}
+.link--helike:hover::before {
+  opacity: 1;
+  animation: glitchLine 0.4s steps(2, start) forwards;
+}
+@keyframes glitchLine {
+  0% {
+      transform: scale3d(1, 1, 1);
+  }
+  10% {
+      transform: translate3d(10px, 0, 0);
+  }
+  20% {
+      transform: translate3d(0, 4px, 0);
+  }
+  30% {
+      transform: scale3d(0.1, 1.4, 1) translate3d(0, -25px, 0);
+      transform-origin: 100% 0%;
+  }
+  40% {
+      transform: scale3d(1, 0.3, 1) translate3d(0, 25px, 0);
+  }
+  50% {
+      transform: scale3d(0.5, 0.3, 1) translate3d(-100px, -80px, 0);
+  }
+  60% {
+      transform: scale3d(1, 1.25, 1) translate3d(10px, -5px, 0);
+  }
+  70% {
+      transform: scale3d(0.5, 0.5, 1) translate3d(0, 20px, 0);
+  }
+  80% {
+      transform: translate3d(-30, 10px, 0) scale3d(1, 0.4, 1);
+      transform-origin: 100% 0%;
+  }
+  90% {
+      transform: scale3d(1, 0.5, 1) translate3d(0, -15px, 0);
+      ;
+      transform-origin: 0% 50%;
+  }
+  100% {
+      opacity: 1;
+  }
+} */
