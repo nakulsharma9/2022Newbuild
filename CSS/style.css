@@ -389,6 +389,17 @@ header nav .navlinks ul li {
   text-align: center;
 } */
 
+/*About page*/
+.aboutme{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
 /* Footer  */
 .footer .divider {
   margin: 1.5rem;
@@ -424,3 +435,25 @@ header nav .navlinks ul li {
   -moz-transition: margin 0.3s ease-out;
   -o-transition: margin 0.35s ease-out;
 } */
+.aboutfooter{
+  margin-top: 4rem;
+  background-color: #FAFAFA;
+}
+.footerrow{
+  display: flex;
+  flex-wrap: wrap;
+}
+.aboutfooter ul{
+  list-style: none;
+}
+.footercol{
+  width: 25%;
+  /* padding: 0 15px; */
+}
+.footercol .colhead{
+  font-size: 18px;
+  color: var(--lightblack);
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
