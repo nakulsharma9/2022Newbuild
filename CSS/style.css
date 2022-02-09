@@ -294,10 +294,11 @@ header nav .navlinks ul li {
   width: 90vw;
   margin-left: calc(-45vw + 50%);
 }
-.casetitle .sectionheading {
+/* .casetitle  */
+.sectionheading {
   font-weight: 500;
   font-family: "Manrope", sans-serif;
-  font-size: 25;
+  font-size: 2rem;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -396,9 +397,26 @@ header nav .navlinks ul li {
 .aboutme{
   display: flex;
   align-items: center;
+  padding: 74px;
 }
+.aboutdescription{
+  display: block;
+  padding: 2rem;
+}
+.aboutdescription p{
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+.myimage img{
+/* position: absolute; */
+width: 355px;
+height: 473px;
+left: 1192px;
+top: 269px;
 
-
+}
 
 
 
@@ -449,10 +467,8 @@ header nav .navlinks ul li {
 }
 .footerrow{
   display: flex;
-  /* display: grid; */
-  /* grid-template-columns: auto; */
-  /* grid-template-rows: auto; */
   flex-wrap: wrap;
+  padding: 107px 0;
 }
 .aboutfooter ul{
   list-style: none;
@@ -466,7 +482,7 @@ header nav .navlinks ul li {
   font-size: 18px;
   color: var(--lightblack);
   text-transform: capitalize;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   font-weight: 500;
 }
 .footercol ul li{
@@ -478,6 +494,7 @@ header nav .navlinks ul li {
 
 .footercol ul li a{
   font-size: 16px;
+  color: var(--black);
   text-transform: capitalize;
   text-decoration: none;
   display: block;
@@ -489,7 +506,8 @@ header nav .navlinks ul li {
   padding-left: 8px;
 }
 .aboutfooter .copyryt{
-  margin-top: 8rem ;
+  margin: 19px 0;
+  
 }
 .copyryt .copyryttxt1{
   font-size: 12px;
