@@ -5,9 +5,9 @@
   --primary: #5e34ff;
   --lightprimary: #734fff;
   --linkactive: #2a54e9;
-  --grad: inear-gradient(124.25deg, #6E41E2 -20.46%, #E452FC 137.24%);
-  --fadewhite:#FAFAFA;
-  --textc: #8D96B2;
+  --grad: inear-gradient(124.25deg, #6e41e2 -20.46%, #e452fc 137.24%);
+  --fadewhite: #fafafa;
+  --textc: #8d96b2;
 }
 
 html {
@@ -366,15 +366,22 @@ header nav .navlinks ul li {
   /* left: 0; */
   /* right: 0;*/
   display: block;
-  justify-content: center;
+  text-align: center;
   height: auto;
   width: auto;
   /* opacity: 0; */
-  transition: 0.5s ease;
+  transition: all 1s ease;
   background-color: #008cba;
 }
 .case1:hover .csoverlay {
   opacity: 1;
+}
+.case2:hover .csoverlay {
+  opacity: 1;
+}
+.case2 img{
+  width: 100%;
+  height: auto;
 }
 
 /* 
@@ -394,32 +401,28 @@ header nav .navlinks ul li {
 } */
 
 /*About page*/
-.aboutme{
+.aboutme {
   display: flex;
   align-items: center;
   padding: 74px;
 }
-.aboutdescription{
+.aboutdescription {
   display: block;
   padding: 2rem;
 }
-.aboutdescription p{
+.aboutdescription p {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   margin-bottom: 12px;
 }
-.myimage img{
-/* position: absolute; */
-width: 355px;
-height: 473px;
-left: 1192px;
-top: 269px;
-
+.myimage img {
+  /* position: absolute; */
+  width: 355px;
+  height: 473px;
+  left: 1192px;
+  top: 269px;
 }
-
-
-
 
 /* Footer  */
 .footer .divider {
@@ -456,43 +459,43 @@ top: 269px;
   -moz-transition: margin 0.3s ease-out;
   -o-transition: margin 0.35s ease-out;
 } */
-.aboutfooter{
+.aboutfooter {
   /* margin-top: 4rem; */
   /* position: fixed; */
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   left: 0;
   bottom: 0;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   padding: 0 74px;
 }
-.footerrow{
+.footerrow {
   display: flex;
   flex-wrap: wrap;
   padding: 107px 0;
 }
-.aboutfooter ul{
+.aboutfooter ul {
   list-style: none;
 }
-.footercol{
+.footercol {
   width: 25%;
   margin-top: 2rem;
   /* padding: 0 15px; */
 }
-.footercol .colhead{
+.footercol .colhead {
   font-size: 18px;
   color: var(--lightblack);
   text-transform: capitalize;
   /* margin-bottom: 30px; */
   font-weight: 500;
 }
-.footercol ul li{
+.footercol ul li {
   font-size: 16px;
   text-transform: capitalize;
   display: block;
   margin-bottom: 10px;
 }
 
-.footercol ul li a{
+.footercol ul li a {
   font-size: 16px;
   color: var(--black);
   text-transform: capitalize;
@@ -501,28 +504,23 @@ top: 269px;
   transition: all 0.3s ease;
 }
 
-.footercol ul li a:hover{
+.footercol ul li a:hover {
   color: var(--linkactive);
   padding-left: 8px;
 }
-.aboutfooter .copyryt{
+.aboutfooter .copyryt {
   margin: 19px 0;
-  
 }
-.copyryt .copyryttxt1{
+.copyryt .copyryttxt1 {
   font-size: 12px;
   font-weight: 300;
   color: var(--black);
 }
-.copyryt .copyryttxt2{
+.copyryt .copyryttxt2 {
   font-size: 12px;
   font-weight: 300;
   color: var(--textc);
 }
-
-
-
-
 
 /*Chori ka maal*/
 /* .link--helike::before {
