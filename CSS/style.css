@@ -518,95 +518,126 @@ figcaption {
 .vtext span {
   color: var(--linkactive);
 }
-.visuals {
-  padding: 0;
-}
-.visual-grid {
-  --gap: 10px;
+/* .visual-grid {
+  --gap-side: 10px;
   --num-cols: auto;
-  --row-height: 424px;
+  --gap-vert: 30px;
+  --ldimg-width: 694px;
+  --ldimg-height: 424px;
 
   box-sizing: border-box;
-  padding: var(--gap);
+  padding: var(--gap-side);
 
   display: grid;
   grid-template-columns: repeat(var(--num-cols), 1fr);
-  grid-auto-rows: var(--row-height);
-  gap: var(--gap);
-}
-.visuals{
+  gap: var(--gap-vert);
+} */
+.visuals {
   margin-bottom: 2rem;
-
 }
-.visual-grid > img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+.visual-grid {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  display: grid;
+  grid-row-gap: 32px;
+  grid-column-gap: 10px;
+}
+.visual-grid img {
+  object-fit: none;
+  border-radius: 10px;
+}
+.visual-grid .twold {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.visual-grid .twold img {
+  width: 694px;
+  height: 424px;
+}
+.visual-grid .fullwall {
+  grid-template-columns: auto;
+}
+.visual-grid .fullwall img {
+  width: 1412px;
+  height: 794px;
+}
+.visual-grid .mdimage {
+  width: 1412px;
+  height: 461px;
+}
+.visual-grid .oneldtwosm {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 0.5rem;
+}
+.visual-grid .oneldtwosm .ldimgs {
+  width: 694px;
+  height: 424px;
+}
+.visual-grid .oneldtwosm .smimage {
+  width: 342px;
+  height: 424px;
+}
+.visual-grid .twosmoneld {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 0.5rem;
+}
+.visual-grid .twosmoneld .ldimgs {
+  width: 694px;
+  height: 424px;
+}
+.visual-grid .twosmoneld .smimage {
+  width: 342px;
+  height: 424px;
+}
+/* .visual-grid > img {
+  object-fit: none;
 }
 
 .wallpaper {
-  grid-row: span 2;
-  grid-auto-rows: 1410px;
-  /* height: 1410px; */
-  grid-column: span 4;
-  /* box-shadow: 0px -6px 16px rgb(209, 1, 1); */
-
-  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
-
-  /* filter: drop-shadow(0px -6px 16px rgba(204, 22, 22, 0.863)) drop-shadow(0px 4px 16px rgba(173, 12, 12, 0.911)); */
-}
-.smimage {
+  width: 1412px;
+  height: 794px;
   grid-column: span 2;
   border-radius: 10px;
-  /* box-shadow: 0px -6px 16px rgba(240, 12, 12, 0.897); */
 
   box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
+}
+.smimage {
+  grid-column: span 1;
+  border-radius: 10px;
+  width: 342px;
+  height: 424px;
   box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
-
-  /* filter: drop-shadow(0px -6px 16px rgba(228, 15, 15, 0.829)) drop-shadow(0px 4px 16px rgba(235, 7, 7, 0.788)); */
 }
 .mdimage {
   grid-column: span 3;
   border-radius: 10px;
-
-  /* box-shadow: 0px -6px 16px rgba(241, 22, 22, 0.952); */
+  width: 1412px;
+  height: 461px;
 
   box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
-
-  /* filter: drop-shadow(0px -6px 16px rgba(197, 12, 12, 0.911)) drop-shadow(0px 4px 16px rgba(223, 11, 11, 0.931)); */
-}
-.vimage {
+} */
+/* .ldimgs {
   grid-column: span 1;
   border-radius: 10px;
-
-  /* box-shadow: 0px -6px 16px rgba(240, 9, 9, 0.932); */
+  width: var(--ldimg-width);
+  height: var(--ldimg-height);
 
   box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
 
-  /* filter: drop-shadow(0px -6px 16px rgba(224, 14, 14, 0.884)) drop-shadow(0px 4px 16px rgba(255, 0, 0, 0.884)); */
-}
+} */
 /* Anything udner 1024px */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .visual-grid {
     --num-cols: 3;
     --row-height: 200px;
   }
-}
-/*Work Page*/
-.work1{
-  /* display: grid;
-  grid-template-columns: auto; */
-  display: flex;
-  justify-content: space-between;
-  padding: 100px 97px 130px 97px;
-  align-items: center;
-}
-.worktext{
-  display: block;
-}
-.work-grid .work1 .workimg:hover img{
-  transform: scale(1.1);
-}
+} */
 
 /* Footer  */
 .footer .divider {
