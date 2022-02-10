@@ -352,7 +352,6 @@ header nav .navlinks ul li {
   background-color: #ff557c;
   grid-column: 1 / -1;
   display: flex;
-  /* flex-direction: ; */
   align-items: center;
   justify-content: center;
   z-index: 1;
@@ -364,44 +363,75 @@ header nav .navlinks ul li {
 }
 .csoverlay {
   position: absolute;
-  /* top: 100%; */
-  /* bottom: 0; */
-  /* left: 0; */
-  /* right: 0;*/
   display: block;
   text-align: center;
   height: auto;
-  width: auto;
-  /* opacity: 0; */
-  transition: all 1s ease;
-  background-color: #008cba;
+  padding: 12px;
+  width: 20%;
+  opacity: 0;
+  transition: all 2s ease;
+  /* background-color: #b3e0f0; */
+  backdrop-filter: blur(35px);
+}
+.csoverlay h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0.8rem
 }
 .case1:hover .csoverlay {
   opacity: 1;
+  /* backdrop-filter: blur(10px); */
 }
-.case2:hover .csoverlay {
+.case2 {
+  border-radius: 20px;
+  display: flex;
+  /* flex-direction: ; */
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.case3 {
+  border-radius: 20px;
+  display: flex;
+  /* flex-direction: ; */
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.case2:hover .csoverlay2 {
   opacity: 1;
 }
 .case2 img {
   width: 100%;
   height: auto;
 }
-
-/* 
-.case2 {
-  border-radius: 0.35rem;
-  background-color: #cbbff9;
-  height: 100%;
-  display: inline-block;
-  text-align: center;
+.case3:hover .csoverlay2 {
+  opacity: 1;
+  /* backdrop-filter: 10px; */
 }
-.case3 {
-  border-radius: 0.35rem;
-  background-color: #b4e8ff;
-  height: 100%;
-  display: inline-block;
+.case3 img {
+  width: 100%;
+  height: auto;
+}
+.csoverlay2 {
+  position: absolute;
+  display: block;
   text-align: center;
-} */
+  padding: 12px;
+  width: 20%;
+  opacity: 0;
+  transition: all 2s ease;
+  backdrop-filter: blur(35px);
+}
+.csoverlay2 h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0.8rem;
+}
+.csdescription{
+  font-family: "Poppins",sans-serif;
+  font-size: 1rem;
+}
 
 /*About page*/
 .aboutme {
