@@ -523,7 +523,7 @@ figcaption {
 .visual-grid {
   --gap: 10px;
   --num-cols: auto;
-  /* --row-height: 424px; */
+  --row-height: 424px;
 
   box-sizing: border-box;
   padding: var(--gap);
@@ -537,7 +537,7 @@ figcaption {
 .visual-grid > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .wallpaper {
