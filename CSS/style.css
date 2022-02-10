@@ -513,7 +513,8 @@ figcaption {
   line-height: 28px;
   letter-spacing: 0.02em;
   margin-top: 100px;
-  margin-bottom: 10px;
+  /* margin-left: 10px; */
+  margin-bottom: 25px;
 }
 .vtext span {
   color: var(--linkactive);
@@ -581,6 +582,48 @@ figcaption {
   width: 342px;
   height: 424px;
 }
+<<<<<<< HEAD
+=======
+/* .visual-grid > img {
+  object-fit: none;
+}
+
+/* @media screen and (max-width: 1024px) {
+  .visual-grid {
+    --num-cols: 3;
+    --row-height: 200px;
+  }
+} */
+.workgrid {
+  display: grid;
+  grid-template-columns: repeat(2) 1fr;
+  grid-row: auto;
+  align-items: center;
+}
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.worktext {
+  display: block;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.worktext ul {
+  list-style: none;
+}
+.workimg {
+  width: 500px;
+  transition: 0.3s;
+}
+.workimg:hover img {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-out; */
+}
+
+>>>>>>> 60f1d116ce75bfcb714d71acef6f274e6c40c9f5
 
 /* Footer  */
 .footer .divider {
@@ -607,13 +650,6 @@ figcaption {
   -moz-transition: margin 0.3s ease-out;
   -o-transition: margin 0.3s ease-out;
 }
-/* .socialinks a:hover {
-  margin-top: 2px;
-  transition: none;
-  -webkit-transition: margin 0.3s ease-out;
-  -moz-transition: margin 0.3s ease-out;
-  -o-transition: margin 0.35s ease-out;
-} */
 .aboutfooter {
   font-family: "Poppins", sans-serif;
   left: 0;
