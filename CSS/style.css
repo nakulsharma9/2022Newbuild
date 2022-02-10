@@ -321,6 +321,7 @@ header nav .navlinks ul li {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(495px, 100%), 1fr));
   gap: 20px;
+  margin-bottom: 2rem;
 }
 .casetitle {
   display: flex;
@@ -525,7 +526,10 @@ figcaption {
   grid-auto-rows: var(--row-height);
   gap: var(--gap);
 }
+.visuals{
+  margin-bottom: 2rem;
 
+}
 .visual-grid > img {
   width: 100%;
   height: 100%;
