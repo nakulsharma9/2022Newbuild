@@ -513,25 +513,11 @@ figcaption {
   line-height: 28px;
   letter-spacing: 0.02em;
   margin-top: 100px;
-  margin-left: 10px;
+  margin-bottom: 10px;
 }
 .vtext span {
   color: var(--linkactive);
 }
-/* .visual-grid {
-  --gap-side: 10px;
-  --num-cols: auto;
-  --gap-vert: 30px;
-  --ldimg-width: 694px;
-  --ldimg-height: 424px;
-
-  box-sizing: border-box;
-  padding: var(--gap-side);
-
-  display: grid;
-  grid-template-columns: repeat(var(--num-cols), 1fr);
-  gap: var(--gap-vert);
-} */
 .visuals {
   margin-bottom: 2rem;
 }
@@ -543,8 +529,7 @@ figcaption {
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
   display: grid;
-  grid-row-gap: 32px;
-  grid-column-gap: 10px;
+  grid-row-gap: 20px;
 }
 .visual-grid img {
   object-fit: none;
@@ -553,6 +538,7 @@ figcaption {
 .visual-grid .twold {
   display: grid;
   grid-template-columns: auto auto;
+  grid-column-gap: 20px;
 }
 .visual-grid .twold img {
   width: 694px;
@@ -572,7 +558,7 @@ figcaption {
 .visual-grid .oneldtwosm {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-column-gap: 0.5rem;
+  grid-column-gap: 18px;
 }
 .visual-grid .oneldtwosm .ldimgs {
   width: 694px;
@@ -585,7 +571,7 @@ figcaption {
 .visual-grid .twosmoneld {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-column-gap: 0.5rem;
+  grid-column-gap: 18px;
 }
 .visual-grid .twosmoneld .ldimgs {
   width: 694px;
@@ -595,49 +581,6 @@ figcaption {
   width: 342px;
   height: 424px;
 }
-/* .visual-grid > img {
-  object-fit: none;
-}
-
-.wallpaper {
-  width: 1412px;
-  height: 794px;
-  grid-column: span 2;
-  border-radius: 10px;
-
-  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
-}
-.smimage {
-  grid-column: span 1;
-  border-radius: 10px;
-  width: 342px;
-  height: 424px;
-  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
-}
-.mdimage {
-  grid-column: span 3;
-  border-radius: 10px;
-  width: 1412px;
-  height: 461px;
-
-  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
-} */
-/* .ldimgs {
-  grid-column: span 1;
-  border-radius: 10px;
-  width: var(--ldimg-width);
-  height: var(--ldimg-height);
-
-  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
-
-} */
-/* Anything udner 1024px */
-/* @media screen and (max-width: 1024px) {
-  .visual-grid {
-    --num-cols: 3;
-    --row-height: 200px;
-  }
-} */
 
 /* Footer  */
 .footer .divider {
