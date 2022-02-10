@@ -513,25 +513,12 @@ figcaption {
   line-height: 28px;
   letter-spacing: 0.02em;
   margin-top: 100px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
+  margin-bottom: 25px;
 }
 .vtext span {
   color: var(--linkactive);
 }
-/* .visual-grid {
-  --gap-side: 10px;
-  --num-cols: auto;
-  --gap-vert: 30px;
-  --ldimg-width: 694px;
-  --ldimg-height: 424px;
-
-  box-sizing: border-box;
-  padding: var(--gap-side);
-
-  display: grid;
-  grid-template-columns: repeat(var(--num-cols), 1fr);
-  gap: var(--gap-vert);
-} */
 .visuals {
   margin-bottom: 2rem;
 }
@@ -599,45 +586,42 @@ figcaption {
   object-fit: none;
 }
 
-.wallpaper {
-  width: 1412px;
-  height: 794px;
-  grid-column: span 2;
-  border-radius: 10px;
-
-  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
-}
-.smimage {
-  grid-column: span 1;
-  border-radius: 10px;
-  width: 342px;
-  height: 424px;
-  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
-}
-.mdimage {
-  grid-column: span 3;
-  border-radius: 10px;
-  width: 1412px;
-  height: 461px;
-
-  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
-} */
-/* .ldimgs {
-  grid-column: span 1;
-  border-radius: 10px;
-  width: var(--ldimg-width);
-  height: var(--ldimg-height);
-
-  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
-
-} */
-/* Anything udner 1024px */
 /* @media screen and (max-width: 1024px) {
   .visual-grid {
     --num-cols: 3;
     --row-height: 200px;
   }
 } */
+.workgrid{
+  display: grid;
+  grid-template-columns: repeat(2) 1fr;
+  grid-row: auto;
+  align-items: center;
+}
+.work{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.worktext{
+  display: block;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.worktext ul{
+  list-style: none;
+}
+.workimg{
+  width: 500px;
+  transition: 0.3s;
+}
+.workimg:hover img{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-out; */
+}
+
 
 /* Footer  */
 .footer .divider {
@@ -664,13 +648,6 @@ figcaption {
   -moz-transition: margin 0.3s ease-out;
   -o-transition: margin 0.3s ease-out;
 }
-/* .socialinks a:hover {
-  margin-top: 2px;
-  transition: none;
-  -webkit-transition: margin 0.3s ease-out;
-  -moz-transition: margin 0.3s ease-out;
-  -o-transition: margin 0.35s ease-out;
-} */
 .aboutfooter {
   font-family: "Poppins", sans-serif;
   left: 0;
