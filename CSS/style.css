@@ -471,6 +471,89 @@ header nav .navlinks ul li {
     0px 4px 16px rgba(155, 155, 155, 0.13);
 }
 
+/* etc PAGE*/
+.vtext{
+  font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.02em;
+}
+.vtext span{
+  color: var(--lightprimary);
+}
+.visual-grid {
+  --gap: 11px;
+  --num-cols: 4;
+  --row-height: 424px;
+
+  box-sizing: border-box;
+  padding: var(--gap);
+
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-auto-rows: var(--row-height);
+  gap: var(--gap);
+}
+
+.visual-grid > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wallpaper{
+  grid-row: span 2;
+  grid-auto-rows: 1410px;
+  /* height: 1410px; */
+  grid-column: span 4;
+  /* box-shadow: 0px -6px 16px rgb(209, 1, 1); */
+
+  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
+
+  /* filter: drop-shadow(0px -6px 16px rgba(204, 22, 22, 0.863)) drop-shadow(0px 4px 16px rgba(173, 12, 12, 0.911)); */
+}
+.smimage{
+  grid-column: span 2;
+  border-radius: 10px;
+  /* box-shadow: 0px -6px 16px rgba(240, 12, 12, 0.897); */
+
+  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
+  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
+
+
+  /* filter: drop-shadow(0px -6px 16px rgba(228, 15, 15, 0.829)) drop-shadow(0px 4px 16px rgba(235, 7, 7, 0.788)); */
+}
+.mdimage{
+  grid-column: span 3;
+  border-radius: 10px;
+  
+  /* box-shadow: 0px -6px 16px rgba(241, 22, 22, 0.952); */
+  
+  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
+
+  /* filter: drop-shadow(0px -6px 16px rgba(197, 12, 12, 0.911)) drop-shadow(0px 4px 16px rgba(223, 11, 11, 0.931)); */
+}
+.vimage{
+  grid-column: span 1;
+  border-radius: 10px;
+
+  /* box-shadow: 0px -6px 16px rgba(240, 9, 9, 0.932); */
+
+  box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13);
+
+  /* filter: drop-shadow(0px -6px 16px rgba(224, 14, 14, 0.884)) drop-shadow(0px 4px 16px rgba(255, 0, 0, 0.884)); */
+}
+/* Anything udner 1024px */
+@media screen and (max-width: 1024px) {
+  .visual-grid {
+    --num-cols: 2;
+    --row-height: 200px;
+  }
+}
+
+
 /* Footer  */
 .footer .divider {
   margin: 1.5rem;
