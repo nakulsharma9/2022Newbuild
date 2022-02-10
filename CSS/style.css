@@ -592,6 +592,21 @@ figcaption {
     --row-height: 200px;
   }
 }
+/*Work Page*/
+.work1{
+  /* display: grid;
+  grid-template-columns: auto; */
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 97px 130px 97px;
+  align-items: center;
+}
+.worktext{
+  display: block;
+}
+.work-grid .work1 .workimg:hover img{
+  transform: scale(1.1);
+}
 
 /* Footer  */
 .footer .divider {
