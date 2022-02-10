@@ -5,10 +5,10 @@
   --primary: #5e34ff;
   --lightprimary: #734fff;
   --linkactive: #2a54e9;
-  --grad: inear-gradient(124.25deg, #6e41e2 -20.46%, #e452fc 137.24%);
+  --grad: linear-gradient(124.25deg, #6e41e2 -20.46%, #e452fc 137.24%);
   --fadewhite: #fafafa;
   --textc: #8d96b2;
-  --purplelight:#734FFF;
+  --purplelight: #734fff;
 }
 
 html {
@@ -406,54 +406,72 @@ header nav .navlinks ul li {
 .aboutme {
   display: flex;
   justify-content: space-between;
-  padding: 130px 97px 130px 97px;
+  padding: 100px 97px 130px 97px;
 }
-.aboutheading{
+.aboutheading {
   font-weight: 500;
-  font-family: "Manrope", sans-serif;
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-bottom: 1rem;
   color: var(--purplelight);
+  opacity: 85%;
 }
 .aboutdescription {
   display: block;
-  /* padding: 2rem; */
 }
 .aboutdescription p {
   font-size: 16px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   line-height: 28px;
-  margin-bottom: 12px;
-  /* or 175% */
-  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  color: var(--black);
 }
-.name{
+.aboutdescription p .emoji {
+  font-size: 23px;
+  vertical-align: top;
+}
+.aboutdescription .aboutheading span {
+  font-size: 40px;
+}
+.name {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  margin-bottom: 0.5rem;
+  line-height: 21px;
 }
-.aboutlinks ul{
+.name a {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--linkactive);
+}
+.aboutlinks ul {
   display: flex;
-  /* flex-direction: row; */
-  /* justify-content: center; */
   list-style: none;
+  margin-top: 0.2rem;
+}
+.aboutlinks ul li {
+  margin-right: 0.4rem;
 }
 .aboutlinks a {
   color: black;
-  padding: 10px 10px 0 0;
+  margin-top: 10px;
+  margin-right: 10px;
   display: inline-block;
   transition: none;
   -webkit-transition: margin 0.3s ease-out;
   -moz-transition: margin 0.3s ease-out;
   -o-transition: margin 0.3s ease-out;
 }
-.aboutextra{
-  /* margin-top: 2rem; */
+.aboutextra .aboutlinks img {
+  width: 90%;
+}
+.aboutextra {
   margin-top: 41px;
 }
-.aboutextra a{
+.aboutextra a {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
@@ -470,7 +488,17 @@ header nav .navlinks ul li {
   box-shadow: 0px -6px 16px rgba(155, 155, 155, 0.13),
     0px 4px 16px rgba(155, 155, 155, 0.13);
 }
-
+figcaption {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.005em;
+  color: var(--black);
+  padding: 2px;
+  text-align: center;
+  opacity: 0.5;
+}
 /* Footer  */
 .footer .divider {
   margin: 1.5rem;
@@ -504,8 +532,6 @@ header nav .navlinks ul li {
   -o-transition: margin 0.35s ease-out;
 } */
 .aboutfooter {
-  /* margin-top: 4rem; */
-  /* position: fixed; */
   font-family: "Poppins", sans-serif;
   left: 0;
   bottom: 0;
@@ -523,28 +549,33 @@ header nav .navlinks ul li {
 .footercol {
   width: 25%;
   margin-top: 2rem;
-  /* padding: 0 15px; */
 }
 .footercol .colhead {
-  font-size: 18px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+
   color: var(--textc);
-  text-transform: capitalize;
-  margin-bottom: 30px;
-  font-weight: 500;
 }
 .footercol ul li {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: capitalize;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
 }
 
 .footercol ul li a {
-  font-size: 16px;
-  color: var(--black);
+  font-size: 14px;
+  color: var(--linkactive);
   text-transform: capitalize;
   text-decoration: none;
   display: block;
+  margin-bottom: 18px;
   transition: all 0.3s ease;
 }
 
@@ -555,7 +586,24 @@ header nav .navlinks ul li {
 .aboutfooter .copyryt {
   margin: 19px 0;
 }
-.copyryt .copyryttxt1 {
+.copyryt {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.copyryt .cright {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--textc);
+  padding-right: 97px;
+}
+.copyryt .cright a {
+  text-decoration: none;
+}
+.copyryt .cright a:visited {
+  color: var(--linkactive);
+}
+.copyryt .copryttxt1 {
   font-size: 12px;
   font-weight: 300;
   color: var(--black);
