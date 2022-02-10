@@ -502,8 +502,8 @@ figcaption {
   text-align: center;
   opacity: 0.5;
 }
+/* The css of etc page */
 
-/* etc PAGE*/
 .vtext {
   font-family: Poppins;
   font-style: normal;
@@ -511,14 +511,19 @@ figcaption {
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.02em;
+  margin-top: 100px;
+  margin-left: 10px;
 }
 .vtext span {
-  color: var(--lightprimary);
+  color: var(--linkactive);
+}
+.visuals {
+  padding: 0;
 }
 .visual-grid {
-  --gap: 11px;
-  --num-cols: 4;
-  --row-height: 424px;
+  --gap: 10px;
+  --num-cols: auto;
+  /* --row-height: 424px; */
 
   box-sizing: border-box;
   padding: var(--gap);
