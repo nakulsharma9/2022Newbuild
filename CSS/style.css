@@ -576,7 +576,7 @@ figcaption {
 /* Anything udner 1024px */
 @media screen and (max-width: 1024px) {
   .visual-grid {
-    --num-cols: 2;
+    --num-cols: 3;
     --row-height: 200px;
   }
 }
