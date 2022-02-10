@@ -433,7 +433,7 @@ header nav .navlinks ul li {
   vertical-align: top;
 }
 .aboutdescription p a:hover {
-  filter: grayscale(80%);
+  filter: grayscale(100%);
 }
 .aboutdescription .aboutheading span {
   font-size: 40px;
