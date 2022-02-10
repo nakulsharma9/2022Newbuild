@@ -62,10 +62,10 @@ header nav .navlinks ul li {
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
   /* padding-right: 2rem; */
-  font-size: 18px;
+  font-size: 16px;
   /* font-family: "Sofia Pro"; */
   font-family: "Manrope", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none;
   color: var(--black);
 }
