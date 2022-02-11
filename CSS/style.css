@@ -37,6 +37,9 @@ html {
   background-color: var(--linkactive);
 }
 
+/********************************************************************/
+/* Home Page  */
+/********************************************************************/
 header nav {
   margin: 3vw auto;
 }
@@ -359,7 +362,6 @@ header nav .navlinks ul li {
 .case1 img {
   width: 100%;
   height: auto;
-  /* position: absolute; */
 }
 .csoverlay {
   position: absolute;
@@ -374,7 +376,12 @@ header nav .navlinks ul li {
 .csoverlay h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  font-size: 2rem;
   margin: 0.8rem;
+}
+.csoverlay .csdescription{
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
 }
 .case1:hover .csoverlay {
   opacity: 1;
@@ -398,9 +405,8 @@ header nav .navlinks ul li {
   justify-content: center;
   z-index: 1;
 }
-.case2:hover .csoverlay2 {
+.case2:hover .csoverlay {
   opacity: 1;
-  /* backdrop-filter: blur(35px); */
 }
 .case2:hover img{
    transition: all 1s ease;
@@ -412,7 +418,7 @@ header nav .navlinks ul li {
   width: 100%;
   height: auto;
 }
-.case3:hover .csoverlay2 {
+.case3:hover .csoverlay {
   opacity: 1;
 }
 .case3:hover img{
@@ -426,27 +432,11 @@ header nav .navlinks ul li {
   height: auto;
   
 }
-.csoverlay2 {
- position: absolute;
-  display: block;
-  text-align: center;
-  padding: 12px;
-  width: 20%;
-  opacity: 0;
-  transition: all 1s ease;
-  color: var(--white);
-}
-.csoverlay2 h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  margin: 0.8rem;
-}
-.csdescription {
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-}
 
+/********************************************************************/
 /*About page*/
+/********************************************************************/
+
 .aboutme {
   display: flex;
   justify-content: space-between;
@@ -550,7 +540,10 @@ figcaption {
   text-align: center;
   opacity: 0.5;
 }
+
+/********************************************************************/
 /* The css of etc page */
+/********************************************************************/
 
 .vtext {
   font-family: Poppins;
@@ -629,9 +622,6 @@ figcaption {
   width: 342px;
   height: 424px;
 }
-/* .visual-grid > img {
-  object-fit: none;
-}
 
 /* @media screen and (max-width: 1024px) {
   .visual-grid {
@@ -668,7 +658,11 @@ figcaption {
   /* transition: all 0.3s ease-out; */
 }
 
+
+/********************************************************************/
 /* Footer  */
+/********************************************************************/
+
 .footer .divider {
   margin: 1.5rem;
 }
