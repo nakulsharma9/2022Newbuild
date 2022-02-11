@@ -373,10 +373,10 @@ header nav .navlinks ul li {
   /* background-color: #b3e0f0; */
   backdrop-filter: blur(35px);
 }
-.csoverlay h2{
+.csoverlay h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  margin: 0.8rem
+  margin: 0.8rem;
 }
 .case1:hover .csoverlay {
   opacity: 1;
@@ -423,13 +423,13 @@ header nav .navlinks ul li {
   transition: all 2s ease;
   backdrop-filter: blur(35px);
 }
-.csoverlay2 h2{
+.csoverlay2 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   margin: 0.8rem;
 }
-.csdescription{
-  font-family: "Poppins",sans-serif;
+.csdescription {
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
 }
 
@@ -461,6 +461,10 @@ header nav .navlinks ul li {
 .aboutdescription p .emoji {
   font-size: 23px;
   vertical-align: top;
+}
+.aboutdescription p a {
+  filter: none;
+  transition: color 300ms ease-out;
 }
 .aboutdescription p a:hover {
   filter: grayscale(100%);
