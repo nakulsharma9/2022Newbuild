@@ -365,13 +365,11 @@ header nav .navlinks ul li {
   position: absolute;
   display: block;
   text-align: center;
-  height: auto;
-  padding: 12px;
+  border-radius: 20px;
   width: 20%;
+  height: auto;
   opacity: 0;
-  transition: all 2s ease;
-  /* background-color: #b3e0f0; */
-  backdrop-filter: blur(35px);
+  transition: all 1s ease;
 }
 .csoverlay h2 {
   font-family: "Poppins", sans-serif;
@@ -380,12 +378,15 @@ header nav .navlinks ul li {
 }
 .case1:hover .csoverlay {
   opacity: 1;
-  /* backdrop-filter: blur(10px); */
+}
+.case1:hover img{
+  transition: all 1s ease-in-out;
+  -webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
 }
 .case2 {
   border-radius: 20px;
   display: flex;
-  /* flex-direction: ; */
   align-items: center;
   justify-content: center;
   z-index: 1;
@@ -393,35 +394,47 @@ header nav .navlinks ul li {
 .case3 {
   border-radius: 20px;
   display: flex;
-  /* flex-direction: ; */
   align-items: center;
   justify-content: center;
   z-index: 1;
 }
 .case2:hover .csoverlay2 {
   opacity: 1;
+  /* backdrop-filter: blur(35px); */
 }
+.case2:hover img{
+   transition: all 1s ease;
+  -webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+  filter: blur(4px);
+}
+
 .case2 img {
   width: 100%;
   height: auto;
 }
 .case3:hover .csoverlay2 {
   opacity: 1;
-  /* backdrop-filter: 10px; */
+}
+.case3:hover img{
+  transition: all 1s ease;
+  -webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+
 }
 .case3 img {
   width: 100%;
   height: auto;
+  
 }
 .csoverlay2 {
-  position: absolute;
+ position: absolute;
   display: block;
   text-align: center;
   padding: 12px;
   width: 20%;
   opacity: 0;
-  transition: all 2s ease;
-  backdrop-filter: blur(35px);
+  transition: all 1s ease;
+  color: var(--white);
 }
 .csoverlay2 h2 {
   font-family: "Poppins", sans-serif;
