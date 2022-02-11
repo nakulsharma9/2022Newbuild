@@ -770,9 +770,9 @@ figcaption {
   color: var(--textc);
 }
 
-.site-wrapper {
+/* .site-wrapper {
   position: relative;
-}
+} */
 /* .hemberger {
   cursor: pointer;
   display: flex;
@@ -839,6 +839,7 @@ path:nth-child(6) {
   padding: 3rem;
   padding-top: 4rem;
   opacity: 0;
+  z-index: -2;
   /* transform: translateY(-100%); */
 }
 .mobile-nav ul {
@@ -865,21 +866,49 @@ path:nth-child(6) {
 /********************************************************************/
 /* Started with the media query */
 /********************************************************************/
-@media screen and (min-width: 320px) and (max-width: 374px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   /* header #main-nav{
     display: none;
   } */
+  .site-wrapper {
+    width: 320px;
+  }
   .container2 {
-    width: 100vw;
-    padding: 0px;
+    max-width: 320px;
+    padding: 0;
     margin: 0;
   }
+  /* .site-wrapper{
+      width: 80vw;
+    } */
   .designspan {
     display: none;
   }
   .casestudy {
     width: auto;
+    /* height: 424px; */
+  }
+  .csoverlay {
+    width: auto;
+    opacity: 1;
+  }
+  .case1 {
+    width: 100%;
     height: 424px;
+  }
+  .case2 {
+    width: 100%;
+    height: 424px;
+  }
+  .case3 {
+    width: 100%;
+    height: 424px;
+  }
+  .footer {
+    width: 320px;
+  }
+  .socialinks ul {
+    display: inline-flex;
   }
 }
 @media screen and (max-width: 1024px) {
