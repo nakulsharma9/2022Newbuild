@@ -832,14 +832,14 @@ path:nth-child(6) {
 .mobile-nav {
   position: fixed;
   background: var(--lightblack);
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
-  height:100%;
-  padding:3rem;
+  height: 100%;
+  padding: 3rem;
   padding-top: 4rem;
-  opacity: 0;
-  /* transform:translateY(-100%); */
+  /* opacity: 0; */
+  /* transform: translateY(-100%); */
 }
 .mobile-nav ul {
   list-style: none;
@@ -850,20 +850,17 @@ path:nth-child(6) {
   font-family: "Poppins";
   text-transform: uppercase;
   font-weight: 501;
-  font-size:20px;
-  line-height:3rem;
+  font-size: 20px;
+  line-height: 3rem;
 }
-.moblogo{
+.moblogo {
   position: fixed;
   top: 30px;
   left: 30px;
 }
-.moblogo img{
+.moblogo img {
   width: 60px;
 }
-
-
-
 
 /********************************************************************/
 /* Started with the media query */
