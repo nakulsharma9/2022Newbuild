@@ -379,17 +379,17 @@ header nav .navlinks ul li {
   font-size: 2rem;
   margin: 0.8rem;
 }
-.csoverlay .csdescription{
+.csoverlay .csdescription {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
 }
 .case1:hover .csoverlay {
   opacity: 1;
 }
-.case1:hover img{
+.case1:hover img {
   transition: all 1s ease-in-out;
   -webkit-filter: blur(10px); /* Chrome, Safari, Opera */
-    filter: blur(4px);
+  filter: blur(4px);
 }
 .case2 {
   border-radius: 20px;
@@ -408,8 +408,8 @@ header nav .navlinks ul li {
 .case2:hover .csoverlay {
   opacity: 1;
 }
-.case2:hover img{
-   transition: all 1s ease;
+.case2:hover img {
+  transition: all 1s ease;
   -webkit-filter: blur(10px); /* Chrome, Safari, Opera */
   filter: blur(4px);
 }
@@ -421,16 +421,14 @@ header nav .navlinks ul li {
 .case3:hover .csoverlay {
   opacity: 1;
 }
-.case3:hover img{
+.case3:hover img {
   transition: all 1s ease;
   -webkit-filter: blur(10px); /* Chrome, Safari, Opera */
-    filter: blur(4px);
-
+  filter: blur(4px);
 }
 .case3 img {
   width: 100%;
   height: auto;
-  
 }
 
 /********************************************************************/
@@ -658,7 +656,6 @@ figcaption {
   /* transition: all 0.3s ease-out; */
 }
 
-
 /********************************************************************/
 /* Footer  */
 /********************************************************************/
@@ -770,8 +767,7 @@ figcaption {
   color: var(--textc);
 }
 
-
-.site-wrapper{
+.site-wrapper {
   position: relative;
 }
 /* .hemberger {
@@ -830,7 +826,7 @@ path:nth-child(6) {
   transform: translateX(9px) translateY(1px) rotate(45deg);
 } */
 
-.mobile-nav{
+.mobile-nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -844,19 +840,15 @@ path:nth-child(6) {
   align-items: center;
   opacity: 0;
 }
-.mobile-nav ul{
+.mobile-nav ul {
   list-style: none;
 }
-.mobile-nav ul li a{
+.mobile-nav ul li a {
   color: var(--white);
   text-decoration: none;
   font-size: 20px;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
-
-
-
 
 /********************************************************************/
 /* Started with the media query */
@@ -865,44 +857,23 @@ path:nth-child(6) {
   /* header #main-nav{
     display: none;
   } */
-  .container2{
-    width:100vw;
+  .container2 {
+    width: 100vw;
     padding: 0px;
     margin: 0;
   }
-  .designspan{
+  .designspan {
     display: none;
   }
-  .casestudy{
+  .casestudy {
     width: auto;
   }
 }
 @media screen and (max-width: 1024px) {
-  header #main-nav{
+  header #main-nav {
     display: none;
   }
- 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Chori ka maal*/
 /* .link--helike::before {
