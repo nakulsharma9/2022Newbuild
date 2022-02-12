@@ -818,16 +818,14 @@ navbar CSS be hitting different
 .navsocialinks ul{
   display: flex;
   flex-direction: row;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex: 1;
   list-style: no;
-  /* top: 100%; */
-  
-}
-.nav .navsocialinks ul{
+  justify-content: center;
+  margin-top: 100%;
   list-style: none;
+
 }
+
 .list {
   position: absolute;
   top: 50%;
@@ -857,7 +855,7 @@ navbar CSS be hitting different
     transparent 50%,
     white 50%
   ); */
-  background-size: 220%;
+  /* background-size: 220%;  */
   transition: all 0.4s;
 }
 
