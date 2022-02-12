@@ -372,25 +372,39 @@ header nav .navlinks ul li {
   width: 20%;
   height: auto;
   opacity: 0;
-  transition: all 1s ease;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 .csoverlay h2 {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 2rem;
+  color: var(--fadewhite);
+
   margin: 0.8rem;
 }
 .csoverlay .csdescription {
+  color: var(--fadewhite);
+  opacity: 80%;
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-size: 1rem;
 }
 .case1:hover .csoverlay {
   opacity: 1;
 }
 .case1:hover img {
-  transition: all 1s ease-in-out;
-  -webkit-filter: blur(10px); /* Chrome, Safari, Opera */
-  filter: blur(4px);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  opacity: 50%;
+  -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(2px);
 }
 .case2 {
   border-radius: 20px;
@@ -412,9 +426,14 @@ header nav .navlinks ul li {
   opacity: 1;
 }
 .case2:hover img {
-  transition: all 1s ease;
-  -webkit-filter: blur(10px); /* Chrome, Safari, Opera */
-  filter: blur(4px);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  opacity: 50%;
+  -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(2px);
 }
 
 .case2 img {
@@ -425,9 +444,14 @@ header nav .navlinks ul li {
   opacity: 1;
 }
 .case3:hover img {
-  transition: all 1s ease;
-  -webkit-filter: blur(10px); /* Chrome, Safari, Opera */
-  filter: blur(4px);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  opacity: 50%;
+  -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(2px);
 }
 .case3 img {
   width: 100%;
@@ -772,7 +796,6 @@ figcaption {
 navbar CSS be hitting different
 ************************************************************************/
 
-
 .checkbox {
   display: none;
 }
@@ -784,11 +807,11 @@ navbar CSS be hitting different
   width: 5rem;
   border-radius: 50%;
   position: fixed;
-  top: 5vh; 
-  right: 5vw; 
+  top: 5vh;
+  right: 5vw;
   z-index: 2000;
   box-shadow: 0 1rem 3rem black;
-  text-align: center; 
+  text-align: center;
   cursor: pointer;
 }
 
@@ -797,8 +820,8 @@ navbar CSS be hitting different
   width: 4rem;
   border-radius: 50%;
   position: fixed;
-  top: 5.5vh; 
-  right: 5.5vw; 
+  top: 5.5vh;
+  right: 5.5vw;
   background-image: radial-gradient(green, black);
   z-index: 1000;
 
@@ -815,7 +838,7 @@ navbar CSS be hitting different
   width: 0;
   transition: all 0.8s;
 }
-.navsocialinks ul{
+.navsocialinks ul {
   display: flex;
   flex-direction: row;
   display: flex;
@@ -823,9 +846,8 @@ navbar CSS be hitting different
   justify-content: center;
   list-style: no;
   /* top: 100%; */
-  
 }
-.nav .navsocialinks ul{
+.nav .navsocialinks ul {
   list-style: none;
 }
 .list {
@@ -929,7 +951,6 @@ navbar CSS be hitting different
   top: 0;
   transform: rotate(-135deg);
 }
-
 
 /********************************************************************/
 /* Started with the media query */
