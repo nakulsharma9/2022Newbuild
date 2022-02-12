@@ -814,12 +814,12 @@ navbar CSS be hitting different
 }
 
 .background {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
   border-radius: 50%;
   position: fixed;
-  top: 5vh;
-  right: 5vw;
+  top: 5.5vh;
+  right: 5.5vw;
   background-color: var(--black);
   z-index: 1000;
 
@@ -887,10 +887,9 @@ navbar CSS be hitting different
   text-decoration: none;
   transition: all 0.4s;
 }
-
 .link:hover,
 .link:active {
-  color: var(--white);
+  color: white;
   cursor: pointer;
 }
 
@@ -914,11 +913,11 @@ navbar CSS be hitting different
 }
 
 .icon,
-s .icon::before,
+.icon::before,
 .icon::after {
   width: 1.5rem;
-  height: 1px;
-  color: var(--black);
+  height: 2px;
+  background-color: var(--black);
   display: inline-block;
 }
 
