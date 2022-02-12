@@ -811,6 +811,7 @@ navbar CSS be hitting different
   z-index: 2000;
   text-align: center;
   cursor: pointer;
+  transform: translateY(35px);
 }
 
 .background {
@@ -822,7 +823,7 @@ navbar CSS be hitting different
   right: 5.5vw;
   background-color: var(--black);
   z-index: 1000;
-
+  transform: translateY(35px);
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
