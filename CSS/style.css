@@ -807,10 +807,7 @@ navbar CSS be hitting different
   cursor: pointer;
   display:none;
 }
-.mainmobilenav{
-  display: flex;
-  flex-direction: row;
-}
+
 .mobile-nav {
   z-index: 99999;
   position: fixed;
@@ -864,10 +861,7 @@ navbar CSS be hitting different
   /* header #main-nav {
     display: none;
   } */
-  .mainmobilenav{
-    display: flex;
-    flex-direction: row;
-  }
+  
   .Logo-out img{
     width:60px;
     /* display: block; */
