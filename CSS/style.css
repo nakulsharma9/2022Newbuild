@@ -822,7 +822,8 @@ navbar CSS be hitting different
   position: fixed;
   top: 5.5vh;
   right: 5.5vw;
-  background-image: radial-gradient(green, black);
+  background-color: var(--black);
+  /* background-image: radial-gradient(green, black); */
   z-index: 1000;
 
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
@@ -845,11 +846,10 @@ navbar CSS be hitting different
   list-style: no;
   /* top: 100%; */
   justify-content: center;
-  margin-top: 100%;
+  /* margin-top: 100%; */
 }
 .nav .navsocialinks ul {
   list-style: none;
-
 }
 
 .list {
@@ -887,7 +887,7 @@ navbar CSS be hitting different
 
 .link:hover,
 .link:active {
-  color: lightgreen;
+  color: var(--white);
   cursor: pointer;
 }
 
