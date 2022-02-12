@@ -803,8 +803,8 @@ navbar CSS be hitting different
 .button {
   position: relative;
   background-color: white;
-  height: 5rem;
-  width: 5rem;
+  height: 2.5rem;
+  width: 2.5rem;
   border-radius: 50%;
   position: fixed;
   top: 5vh;
@@ -816,13 +816,13 @@ navbar CSS be hitting different
 }
 
 .background {
-  height: 4rem;
-  width: 4rem;
+  height: 1.5rem;
+  width: 1.5rem;
   border-radius: 50%;
   position: fixed;
   top: 5.5vh;
   right: 5.5vw;
-  background-image: radial-gradient(green, black);
+  background-color: var(--black);
   z-index: 1000;
 
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
