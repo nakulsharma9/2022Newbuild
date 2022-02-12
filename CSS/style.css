@@ -801,12 +801,10 @@ navbar CSS be hitting different
 }
 
 .button {
-  position: relative;
   background-color: white;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
-  /* border: transparent; */
   position: fixed;
   top: 5vh;
   right: 5vw;
@@ -910,7 +908,6 @@ navbar CSS be hitting different
 /* styling hamb ICON */
 .icon {
   position: absolute;
-  color: var(--black);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -921,6 +918,7 @@ s .icon::before,
 .icon::after {
   width: 1.5rem;
   height: 1px;
+  color: var(--black);
   display: inline-block;
 }
 
