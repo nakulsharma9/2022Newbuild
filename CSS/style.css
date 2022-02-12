@@ -815,12 +815,12 @@ navbar CSS be hitting different
 }
 
 .background {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
   border-radius: 50%;
   position: fixed;
-  top: 5vh;
-  right: 5vw;
+  top: 5.5vh;
+  right: 5.5vw;
   background-color: var(--black);
   z-index: 1000;
 
@@ -909,13 +909,14 @@ navbar CSS be hitting different
 /* styling hamb ICON */
 .icon {
   position: absolute;
+  color: var(--black);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .icon,
-.icon::before,
+s .icon::before,
 .icon::after {
   width: 1.5rem;
   height: 1px;
@@ -932,10 +933,10 @@ navbar CSS be hitting different
 }
 
 .icon::before {
-  top: -0.8rem;
+  top: -0.5rem;
 }
 .icon::after {
-  top: 0.8rem;
+  top: 0.5rem;
 }
 
 .button:hover icon:before {
