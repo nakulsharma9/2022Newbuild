@@ -807,7 +807,7 @@ navbar CSS be hitting different
   border-radius: 50%;
   position: fixed;
   top: 5vh;
-  right: 8vw;
+  right: 5vw;
   z-index: 2000;
   text-align: center;
   cursor: pointer;
@@ -820,7 +820,7 @@ navbar CSS be hitting different
   border-radius: 50%;
   position: fixed;
   top: 5.5vh;
-  right: 9.5vw;
+  right: 5.5vw;
   background-color: var(--black);
   z-index: 1000;
   transform: translateY(35px);
@@ -852,13 +852,13 @@ navbar CSS be hitting different
 }
 
 .list {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   list-style: none;
   text-align: center;
-  /* width: 100%; */
+  width: 100%;
 }
 
 .item {
@@ -965,10 +965,10 @@ navbar CSS be hitting different
     display: none;
   } */
   .mnav {
-    z-index: 999999;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     margin-top: 2rem;
+    background-color: var(--white);
   }
   .Logo-out img {
     width: 60px;
@@ -978,7 +978,7 @@ navbar CSS be hitting different
     padding: 0.3rem;
   }
   .site-wrapper {
-    width: 300px;
+    max-width: 320px;
     padding: 0 auto;
     margin: 0 auto;
   }
