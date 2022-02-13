@@ -894,6 +894,193 @@ navbar CSS be hitting different
 .showMenu {
   transform: translateY(0);
 }
+
+/*8888888888888888888888888888888888*********************************
+This is the fith new freaking mobilenavbar
+**********************************************88888888888888888888888888888*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.mobilenav {
+  background: var(--white);
+  top: 0%;
+  left: 0%;
+  /* text-align: center; */
+  position: fixed;
+  z-index: 99999999;
+  width: 100%;
+}
+.logoimg{
+    width: 64px;
+    left: 0%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 10px;
+    /* text-align: left; */
+}
+
+/* changed this from the tutorial video to
+   allow it to gain focus, making it tabbable */
+.nav-toggle {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+.nav-toggle:focus ~ .nav-toggle-label {
+  outline: 3px solid rgba(rgb(0, 0, 0), .75);
+}
+
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0.5rem;
+  margin-right: 1.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: rgb(7, 7, 7);
+  height: 2px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: '';
+  position: absolute;
+}
+
+.nav-toggle-label span::before {
+  bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+  top: 7px;
+}
+
+.mobnav {
+  position: absolute;
+  text-align: right;
+  top: 100%;
+  /* right: 2px; */
+  padding-right: 1rem;
+  background: #fffcfc;
+  width: 100%;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+
+.mobnav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mobnav li {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.mobnav a {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+
+.mobnav a:hover {
+  color: rgb(2, 2, 2);
+}
+
+.nav-toggle:checked ~ .mobnav {
+  transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ .mobnav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-toggle-label {
+    display: none;
+  }
+
+  .mobilenav {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+  }
+  
+  /* .logo {
+    grid-column: 2 / 3;
+  } */
+  
+  .mobnav {
+     /* all: unset; this causes issues with Edge, since it's unsupported */
+    
+    /* the following lines are not from my video, but add Edge support */
+    position: relative;
+    text-align: left;
+    transition: none;
+    transform: scale(1,1);
+    background: none;
+    top: initial;
+    left: initial;
+    /* end Edge support stuff */
+    
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .mobnav ul {
+    display: flex;
+  }
+  
+  .mobnav li {
+    margin-left: 3em;
+    margin-bottom: 0;
+  }
+  
+  .mobnav a {
+    opacity: 1;
+    position: relative;
+  }
+  
+  .mobnav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: -.75em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+  }
+  
+  .mobnav a:hover::before {
+    transform: scale(1,1);
+  }
+}
+
+
+
 /********************************************************************/
 /* Started with the media query */
 /********************************************************************/
