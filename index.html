@@ -19,6 +19,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>Nakul Sharma</title>
   </head>
 
@@ -26,24 +30,34 @@
     <div class="site-wrapper">
       <div class="Logo-out">
         <img src="images/logo.png" alt="Nakul Sharma's Portfolio logo" />
-        <div class="borgir">
-          <i class="gg-menu-right"></i>
-        </div>
-      </div>
-      <div class="mobile-nav">
-        <div class="Logo-in">
-          <img src="images/whitelogo.png" alt="Nakul Sharma's Portfolio logo" />
-          <div class="borgirclose">
-            <i class="gg-close-o"></i>
+        <button class="hamburger">
+          <!-- <i class="menuIcon material-icons">menu</i> -->
+          <div class="menuIcon">
+            <span
+              class="iconify"
+              data-icon="heroicons-outline:menu-alt-3"
+              data-width="35"
+              data-height="35"
+            ></span>
           </div>
-        </div>
-        <ul class="menu">
-          <li><a href="#about">About</a></li>
-          <li><a href="#exp">Experience</a></li>
-          <li><a href="#edu">Education & Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+          <div class="closeIcon">
+            <span
+              class="iconify"
+              data-icon="eva:close-circle-outline"
+              style="color: #000"
+              data-width="35"
+              data-height="35"
+            ></span>
+          </div>
+          <!-- <i class="closeIcon material-icons">close</i> -->
+        </button>
       </div>
+      <ul class="menu">
+        <li><a class="menuItem" href="#">Home</a></li>
+        <li><a class="menuItem" href="#">Profile</a></li>
+        <li><a class="menuItem" href="#">About</a></li>
+        <li><a class="menuItem" href="#">Contacts</a></li>
+      </ul>
 
       <header class="container1">
         <nav id="main-nav">
@@ -173,5 +187,6 @@
     </div>
   </body>
   <!--Scriptsss-->
+  <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
   <script type="text/javascript" src="JS/main.js"></script>
 </html>
