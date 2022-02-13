@@ -899,7 +899,9 @@ navbar CSS be hitting different
 This is the fith new freaking mobilenavbar
 **********************************************88888888888888888888888888888*/
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 .mobilenav {
@@ -911,13 +913,12 @@ This is the fith new freaking mobilenavbar
   z-index: 99999999;
   width: 100%;
 }
-.logoimg{
-    width: 64px;
-    left: 0%;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    padding: 10px;
-    /* text-align: left; */
+.logoimg {
+  width: 64px;
+  left: 0%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 10px;
 }
 
 /* changed this from the tutorial video to
@@ -929,7 +930,7 @@ This is the fith new freaking mobilenavbar
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
-  outline: 3px solid rgba(rgb(0, 0, 0), .75);
+  outline: 3px solid rgba(rgb(0, 0, 0), 0.75);
 }
 
 .nav-toggle-label {
@@ -956,7 +957,7 @@ This is the fith new freaking mobilenavbar
 
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
-  content: '';
+  content: "";
   position: absolute;
 }
 
@@ -1006,7 +1007,7 @@ This is the fith new freaking mobilenavbar
 }
 
 .nav-toggle:checked ~ .mobnav {
-  transform: scale(1,1);
+  transform: scale(1, 1);
 }
 
 .nav-toggle:checked ~ .mobnav a {
@@ -1014,72 +1015,69 @@ This is the fith new freaking mobilenavbar
   transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 800px) {
   .nav-toggle-label {
     display: none;
   }
-
   .mobilenav {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
   }
-  
+
   /* .logo {
     grid-column: 2 / 3;
   } */
-  
+
   .mobnav {
-     /* all: unset; this causes issues with Edge, since it's unsupported */
-    
+    /* all: unset; this causes issues with Edge, since it's unsupported */
+
     /* the following lines are not from my video, but add Edge support */
     position: relative;
     text-align: left;
     transition: none;
-    transform: scale(1,1);
+    transform: scale(1, 1);
     background: none;
     top: initial;
     left: initial;
     /* end Edge support stuff */
-    
+
     grid-column: 3 / 4;
     display: flex;
     justify-content: flex-end;
     align-items: center;
   }
-  
+
   .mobnav ul {
     display: flex;
   }
-  
+
   .mobnav li {
     margin-left: 3em;
     margin-bottom: 0;
   }
-  
+
   .mobnav a {
     opacity: 1;
     position: relative;
   }
-  
+
   .mobnav a::before {
-    content: '';
+    content: "";
     display: block;
     height: 5px;
     background: black;
     position: absolute;
-    top: -.75em;
+    top: -0.75em;
     left: 0;
     right: 0;
     transform: scale(0, 1);
     transition: transform ease-in-out 250ms;
   }
-  
+
   .mobnav a:hover::before {
-    transform: scale(1,1);
+    transform: scale(1, 1);
   }
 }
-
-
 
 /********************************************************************/
 /* Started with the media query */
@@ -1201,8 +1199,19 @@ This is the fith new freaking mobilenavbar
     padding: 5px 15px;
   }
 }
-@media screen and (max-width: 1024px) {
-  header #main-nav {
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+  nav {
+    display: block;
+  }
+  .mobilenav {
     display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mobilenav {
+    display: none;
+  }
+  nav {
+    display: block;
   }
 }
