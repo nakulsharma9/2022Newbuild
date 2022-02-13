@@ -874,9 +874,6 @@ navbar CSS be hitting different
   background: white;
   cursor: pointer;
 }
-.menuIcon {
-  border: transparent;
-}
 .closeIcon {
   display: none;
 }
@@ -901,10 +898,6 @@ navbar CSS be hitting different
 /* Started with the media query */
 /********************************************************************/
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  /* header #main-nav {
-    display: none;
-  } */
-
   .site-wrapper {
     max-width: 320px;
     padding: 0 auto;
