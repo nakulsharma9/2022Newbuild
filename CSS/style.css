@@ -145,7 +145,7 @@ header nav .navlinks ul li {
 /*Css for the I am designer text in hero section*/
 
 .hero .designspan .middlemain h1 {
-  z-index: 9999;
+  z-index: 99999;
   position: relative;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -167,7 +167,7 @@ header nav .navlinks ul li {
 }
 @keyframes tracking-in-expand {
   0% {
-    letter-spacing: -0.5em;
+    letter-spacing: -0.2em;
     opacity: 0;
   }
   40% {
@@ -303,7 +303,7 @@ header nav .navlinks ul li {
 .sectionheading {
   font-weight: 500;
   font-family: "Manrope", sans-serif;
-  font-size: 2rem;
+  font-size: 30px;
   /* margin-bottom: 2rem; */
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -862,7 +862,7 @@ navbar CSS be hitting different
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem;
+  margin: 1rem 0 1rem;
 }
 .hamburger {
   /* position: fixed; */
@@ -908,8 +908,73 @@ navbar CSS be hitting different
     padding: 0;
     margin: 0;
   }
-  .designspan {
-    display: none;
+  .hero {
+    text-align: center;
+    margin: 9rem 0 9rem;
+  }
+  .salutation {
+    font-size: 20px;
+  }
+  .intro {
+    font-size: 25px;
+  }
+  .hero .designspan .middlemain h1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 65px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .hero .designspan .upperone h1 {
+    position: relative;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 0.3rem;
+
+    -webkit-text-stroke: 0.5px var(--lightblack);
+
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
+      both;
+  }
+  .hero .designspan .uppertwo h1 {
+    position: relative;
+    font-size: 30px;
+    line-height: 30px;
+    -webkit-text-stroke: 0.5px var(--lightblack);
+    margin-bottom: 0.3rem;
+
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
+      both;
+  }
+  .hero .designspan .lowerone h1 {
+    position: relative;
+    font-size: 30px;
+    line-height: 30px;
+    -webkit-text-stroke: 0.5px var(--lightblack);
+    margin-bottom: 0.3rem;
+
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
+      both;
+  }
+  .hero .designspan .lowertwo h1 {
+    position: relative;
+    font-size: 30px;
+    line-height: 30px;
+    -webkit-text-stroke: 0.5px var(--lightblack);
+    margin-bottom: 0.3rem;
+
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
+      both;
+  }
+  .casetitle {
+    justify-content: center;
+  }
+  .sectionheading {
+    font-size: 20px;
+  }
+  .arrow img {
+    width: 80%;
+    transform: translateY(0px);
   }
   .casestudy {
     width: auto;
@@ -921,24 +986,33 @@ navbar CSS be hitting different
   }
   .case1 {
     width: 100%;
-    height: 424px;
+    height: 550px;
+  }
+  .case1 img,
+  .case2 img,
+  .case3 img {
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
   }
   .case2 {
     width: 100%;
-    height: 424px;
+    height: 550px;
   }
   .case3 {
     width: 100%;
-    height: 424px;
+    height: 550px;
   }
+  .csoverlay {
+    display: none;
+  }
+
   .footer {
     width: 320px;
   }
   .socialinks a {
     padding: 5px 15px;
-  }
-  .socialinks ul {
-    display: inline-flex;
   }
 }
 @media screen and (max-width: 1024px) {
