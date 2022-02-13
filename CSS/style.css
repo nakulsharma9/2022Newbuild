@@ -930,9 +930,8 @@ navbar CSS be hitting different
     font-size: 30px;
     line-height: 30px;
     margin-bottom: 0.3rem;
-
+    letter-spacing: 0.02em;
     -webkit-text-stroke: 0.5px var(--lightblack);
-
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
       both;
   }
