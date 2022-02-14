@@ -797,12 +797,6 @@ figcaption {
 /*8888888888888888888888888888888888*********************************
 This is the fith new freaking mobilenavbar
 **********************************************88888888888888888888888888888*/
-/* 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-} */
 .mobilenav {
   background: var(--white);
   top: 0%;
