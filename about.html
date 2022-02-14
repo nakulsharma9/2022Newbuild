@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+< lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <!-- <script
       src="https://kit.fontawesome.com/ea90b49ccf.js"
       crossorigin="anonymous"
@@ -20,102 +20,104 @@
   </head>
 
   <body>
-    <header class="container1">
-      <nav>
-        <div class="navlinks">
-          <div class="navleft">
-            <ul>
-              <li>
-                <a href="#" class="underline">work</a>
-              </li>
-              <li>
-                <a href="./etc.html" class="underline">etc.</a>
-              </li>
-            </ul>
-          </div>
-          <div class="navcenter">
-            <a href="./index.html"><img src="./images/logo.png" alt="" /></a>
-          </div>
-          <div class="navright">
-            <ul>
-              <li>
-                <a href="#" class="underline">about me</a>
-              </li>
-              <li>
-                <a href="#" class="underline">resume</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <div class="container2">
-      <div class="aboutme">
-        <div class="aboutdescription">
-          <div class="aboutheading">
-            This is me... <span class="mainemoji">👋</span>
-          </div>
-          <p>
-            I Believe, design is the way to solve the pain points with sweet<br />candies.
-            <span class="emoji">🍬</span>
-          </p>
+    <div class="site-wrapper">
+      <div class="mobilenav">
+        <img class="logoimg" src="./images/logo.png" alt="Nakul Sharma's Portfolio logo" />
 
-          <p>
-            I enjoy spending time on the aesthetically compelling elements of<br />the
-            designs and creating those lovely little journeys of experience<br />for
-            the users. <span class="emoji">💁‍♂️</span>
-          </p>
-
-          <p>
-            When I'm not designing, you may find me photographing, playing<br />PC
-            games, stressing about design or making yet another Spotify<br />playlist.
-
-            <a
-              href="https://open.spotify.com/user/31fha6aevb6wwhiek3s4enm4qo3q"
-              target="_blank"
-              ><span class="emoji"
-                ><img
-                  src="./images/Icons/logos_spotify-icon.svg"
-                  alt="" /></span
-            ></a>
-          </p>
-          <div class="aboutextra">
-            <h2 class="name">~Nakul :)</h2>
-            <a href="" target="_blank">nakulvashisht09@gmail.com</a>
-            <div class="aboutlinks">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <nav class="mobnav">
+          <ul>
+            <li><a href="./about.html">about me</a></li>
+            <li><a href="./work.html">work</a></li>
+            <li><a href="./etc.html">etc</a></li>
+            <li><a href="#">resume</a></li>
+          </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </div>
+      <header class="container1">
+        <nav>
+          <div class="navlinks">
+            <div class="navleft">
               <ul>
                 <li>
-                  <a href="" target="_blank">
-                    <img src="./images/Icons/ph_linkedin-logo-light.svg" alt=""
-                  /></a>
+                  <a href="#" class="underline">work</a>
                 </li>
                 <li>
-                  <a href="" target="_blank"
-                    ><img
-                      src="./images/Icons/ph_instagram-logo-light.svg"
-                      alt=""
-                  /></a>
+                  <a href="./etc.html" class="underline">etc.</a>
+                </li>
+              </ul>
+            </div>
+            <div class="navcenter">
+              <a href="./index.html"><img src="./images/logo.png" alt="" /></a>
+            </div>
+            <div class="navright">
+              <ul>
+                <li>
+                  <a href="#" class="underline">about me</a>
                 </li>
                 <li>
-                  <a href="" target="_blank"
-                    ><img src="./images/Icons/ph_behance-logo-light.svg" alt=""
-                  /></a>
-                </li>
-                <li>
-                  <a href="" target="_blank"
-                    ><img src="./images/Icons/ph_twitter-logo-light.svg" alt=""
-                  /></a>
+                  <a href="#" class="underline">resume</a>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
-        <div class="myimage">
-          <img src="./images/mainbro.jpg" alt="" />
-          <figcaption>me in Patnitop, Jammu ft. some snow</figcaption>
+        </nav>
+      </header>
+      <div class="container2">
+        <div class="aboutme">
+          <div class="aboutdescription">
+            <div class="aboutheading">
+              This is me... <span class="mainemoji">👋</span>
+            </div>
+            <p>
+              I Believe, design is the way to solve the pain points with sweet<br />candies.
+              <span class="emoji">🍬</span>
+            </p>
+
+            <p>
+              I enjoy spending time on the aesthetically compelling elements of<br />the
+              designs and creating those lovely little journeys of experience<br />for
+              the users. <span class="emoji">💁‍♂️</span>
+            </p>
+
+            <p>
+              When I'm not designing, you may find me photographing, playing<br />PC
+              games, stressing about design or making yet another Spotify<br />playlist.
+
+              <a href="https://open.spotify.com/user/31fha6aevb6wwhiek3s4enm4qo3q" target="_blank"><span
+                  class="emoji"><img src="./images/Icons/logos_spotify-icon.svg" alt="" /></span></a>
+            </p>
+            <div class="aboutextra">
+              <h2 class="name">~Nakul :)</h2>
+              <a href="" target="_blank">nakulvashisht09@gmail.com</a>
+              <div class="aboutlinks">
+                <ul>
+                  <li>
+                    <a href="" target="_blank">
+                      <img src="./images/Icons/ph_linkedin-logo-light.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"><img src="./images/Icons/ph_instagram-logo-light.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"><img src="./images/Icons/ph_behance-logo-light.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"><img src="./images/Icons/ph_twitter-logo-light.svg" alt="" /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="myimage">
+            <img src="./images/mainbro.jpg" alt="" />
+            <figcaption>me in Patnitop, Jammu ft. some snow</figcaption>
+          </div>
         </div>
       </div>
-    </div>
   </body>
 
   <footer class="aboutfooter">
@@ -149,14 +151,10 @@
               <a href="https://color.adobe.com/" target="_blank">Abode Color</a>
             </li>
             <li>
-              <a href="https://www.speakhuman.today/" target="_blank"
-                >Speak Human</a
-              >
+              <a href="https://www.speakhuman.today/" target="_blank">Speak Human</a>
             </li>
             <li>
-              <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank"
-                >Top Designs Tips</a
-              >
+              <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Top Designs Tips</a>
             </li>
           </ul>
         </div>
@@ -177,15 +175,13 @@
         </div>
         <div class="cright">
           <p>
-            Coded by Noice o_o Developer<a
-              href="https://www.linkedin.com/in/raghav-sharma0412/"
-              target="_blank"
-            >
-              Raghav Sharma :)</a
-            >
+            Coded by Noice o_o Developer<a href="https://www.linkedin.com/in/raghav-sharma0412/" target="_blank">
+              Raghav Sharma :)</a>
           </p>
         </div>
       </div>
     </div>
   </footer>
-</html>
+  </div>
+
+  </html>
