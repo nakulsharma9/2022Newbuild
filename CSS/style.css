@@ -898,12 +898,12 @@ navbar CSS be hitting different
 /*8888888888888888888888888888888888*********************************
 This is the fith new freaking mobilenavbar
 **********************************************88888888888888888888888888888*/
-
+/* 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 .mobilenav {
   background: var(--white);
   top: 0%;
@@ -991,6 +991,7 @@ This is the fith new freaking mobilenavbar
 .mobnav li {
   margin-bottom: 1em;
   margin-left: 1em;
+  margin-right: 1rem;
 }
 
 .mobnav a {
