@@ -793,107 +793,6 @@ figcaption {
   color: var(--textc);
 }
 
-/***********************************************************************
-navbar CSS be hitting different
-************************************************************************/
-.gg-close-o {
-  box-sizing: border-box;
-  position: relative;
-  display: block;
-  transform: scale(var(--ggs, 1.5));
-  width: 22px;
-  height: 22px;
-  border: 2px solid var(--white);
-  border-radius: 40px;
-}
-
-.gg-close-o::after,
-.gg-close-o::before {
-  content: "";
-  display: block;
-  box-sizing: border-box;
-  position: absolute;
-  width: 12px;
-  height: 2px;
-  background: var(--white);
-  transform: rotate(45deg);
-  border-radius: 5px;
-  top: 8px;
-  left: 3px;
-}
-
-.gg-close-o::after {
-  transform: rotate(-45deg);
-}
-
-.gg-menu-right {
-  transform: scale(var(--ggs, 1.2));
-}
-
-.gg-menu-right,
-.gg-menu-right::after,
-.gg-menu-right::before {
-  box-sizing: border-box;
-  position: relative;
-  display: block;
-  width: 20px;
-  height: 2px;
-  border-radius: 3px;
-  background: currentColor;
-}
-
-.gg-menu-right::after,
-.gg-menu-right::before {
-  content: "";
-  position: absolute;
-  top: -6px;
-  right: 0;
-  width: 10px;
-}
-
-.gg-menu-right::after {
-  top: 6px;
-  width: 14px;
-}
-.Logo-out img {
-  width: 60px;
-}
-.Logo-out {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1rem 0 1rem;
-}
-.hamburger {
-  /* position: fixed; */
-  z-index: 100;
-  top: 1rem;
-  right: 1rem;
-  padding: 4px;
-  border: transparent solid 1px;
-  background: white;
-  cursor: pointer;
-}
-.closeIcon {
-  display: none;
-}
-.menu {
-  position: fixed;
-  transform: translateY(-100%);
-  transition: transform 0.2s;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 99;
-  background: black;
-  color: white;
-  list-style: none;
-  padding-top: 4rem;
-}
-.showMenu {
-  transform: translateY(0);
-}
 
 /*8888888888888888888888888888888888*********************************
 This is the fith new freaking mobilenavbar
@@ -921,8 +820,6 @@ This is the fith new freaking mobilenavbar
   padding: 10px;
 }
 
-/* changed this from the tutorial video to
-   allow it to gain focus, making it tabbable */
 .nav-toggle {
   position: absolute !important;
   top: -9999px !important;
@@ -1034,7 +931,6 @@ This is the fith new freaking mobilenavbar
   .mobnav {
     /* all: unset; this causes issues with Edge, since it's unsupported */
 
-    /* the following lines are not from my video, but add Edge support */
     position: relative;
     text-align: left;
     transition: none;
@@ -1042,7 +938,6 @@ This is the fith new freaking mobilenavbar
     background: none;
     top: initial;
     left: initial;
-    /* end Edge support stuff */
 
     grid-column: 3 / 4;
     display: flex;
@@ -1206,6 +1101,10 @@ This is the fith new freaking mobilenavbar
   .csoverlay {
     display: none;
   }
+
+
+/*Media property for footer in home page for small phones*/
+/***********/
 
   .footer {
     width: 320px;
