@@ -1214,7 +1214,7 @@ This is the fith new freaking mobilenavbar
   }
 }
 
-@media screen and (max-device-width: 640px) and (orientation: landscape) {
+@media screen and (max-device-width: 765px) and (orientation: landscape) {
   .site-wrapper {
     max-width: 480px;
     padding: 0 auto;
