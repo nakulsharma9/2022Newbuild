@@ -949,9 +949,9 @@ This is the fith new freaking mobilenavbar
 .nav-toggle-label span::after {
   display: block;
   background: rgb(7, 7, 7);
-  height: 2px;
-  width: 2em;
-  border-radius: 2px;
+  height: 2.5px;
+  width: 1.5em;
+  border-radius: 5px;
   position: relative;
 }
 
@@ -973,9 +973,9 @@ This is the fith new freaking mobilenavbar
   position: absolute;
   text-align: right;
   top: 100%;
-  /* right: 2px; */
+  padding-top: 1rem;
   padding-right: 1rem;
-  background: #fffcfc;
+  background: var(--fadewhite);
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -994,11 +994,13 @@ This is the fith new freaking mobilenavbar
 }
 
 .mobnav a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
   color: rgb(8, 8, 8);
   text-decoration: none;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
 
