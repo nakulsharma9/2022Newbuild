@@ -1130,6 +1130,64 @@ This is the fith new freaking mobilenavbar
   .csoverlay {
     display: none;
   }
+  /* .visuals{
+    width: 320px;
+  } */
+  .vtext{
+    font-size: 10px;
+    line-height: 15px;
+    margin-left: 5px;
+
+  }
+  .visual-grid{
+    margin-left: 5px;
+  }
+  .visual-grid .twold{
+    display: flex;
+    grid-column-gap: 5px;
+    /* padding: 2rem; */
+  }
+  .visual-grid .twold img {
+    width: 150px;
+    height: 175px;
+    /* height: 98px;
+    object-fit: contain; */
+
+  }
+  .visual-grid .fullwall img{
+    width: 310px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .visual-grid .mdimage{
+    width: 310px;
+    height: 200px;
+  }
+  .visual-grid .oneldtwosm{
+    display: flex;
+    gap: 5px;
+  }
+  .visual-grid .oneldtwosm .ldimgs{
+    width: 105px;
+    height: 175px;
+  }
+  .visual-grid .oneldtwosm .smimage{
+    width: 95px;
+    height: 175px;
+  }
+  .visual-grid .twosmoneld{
+    display: flex;
+    gap: 5px;
+  }
+  .visual-grid .twosmoneld .ldimgs{
+    width: 105px;
+    height: 175px;
+  }
+  .visual-grid .twosmoneld .smimage{
+    width: 95px;
+    height: 175px;
+    /* border-radius: 10px; */
+  }
 
   /*Media property for footer in home page for small phones*/
   /***********/
