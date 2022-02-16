@@ -1144,13 +1144,13 @@ This is the fith new freaking mobilenavbar
   .aboutme {
     display: block;
     padding: 5px;
+    margin: 5rem 0 2rem;
   }
   .aboutlinks ul {
     justify-content: center;
   }
   .aboutdescription {
     width: 100%;
-    padding: 10px;
   }
   .aboutdescription p {
     font-size: 0.85rem;
