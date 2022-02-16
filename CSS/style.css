@@ -685,7 +685,7 @@ figcaption {
 .workimg img {
   width: 695px;
   height: 424px;
-  left: 352px;
+  /* left: 352px; */
   transition: 0.3s;
   border-radius: 10px;
   object-fit: cover;
