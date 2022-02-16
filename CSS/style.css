@@ -467,11 +467,11 @@ header nav .navlinks ul li {
   justify-content: space-between;
   padding: 100px 97px 130px 97px;
 }
-.aboutheading {
+.titleheading {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   font-size: 25px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: var(--purplelight);
   opacity: 85%;
 }
@@ -483,6 +483,7 @@ header nav .navlinks ul li {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   line-height: 28px;
+  margin-top: 0.5rem;
   margin-bottom: 8px;
   color: var(--black);
 }
@@ -654,34 +655,51 @@ figcaption {
     --row-height: 200px;
   }
 } */
-.workgrid {
+/* .work-grid {
   display: grid;
-  grid-template-columns: repeat(2) 1fr;
-  grid-row: auto;
-  align-items: center;
+} */
+.work-title p {
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 .work {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 .worktext {
   display: block;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: Manrope;
+  margin-left: 4rem;
+  width: 30%;
 }
-.worktext ul {
-  list-style: none;
-}
-.workimg {
-  width: 500px;
+
+.workimg img {
+  width: 695px;
+  height: 424px;
+  left: 352px;
   transition: 0.3s;
 }
-.workimg:hover img {
+.work-heading {
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  color: #ff557c;
+  opacity: 0.8;
+}
+.work-subheading {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #8d96b2;
+  opacity: 0.5;
+}
+/* .workimg:hover img {
   transform: scale(1.1);
   transition: all 0.3s ease-in-out;
-  /* transition: all 0.3s ease-out; */
-}
+} */
 
 /********************************************************************/
 /* Footer  */
@@ -792,7 +810,6 @@ figcaption {
   font-weight: 300;
   color: var(--textc);
 }
-
 
 /*8888888888888888888888888888888888*********************************
 This is the fith new freaking mobilenavbar
@@ -1096,9 +1113,8 @@ This is the fith new freaking mobilenavbar
     display: none;
   }
 
-
-/*Media property for footer in home page for small phones*/
-/***********/
+  /*Media property for footer in home page for small phones*/
+  /***********/
 
   .footer {
     width: 320px;
@@ -1107,45 +1123,45 @@ This is the fith new freaking mobilenavbar
     padding: 5px 15px;
   }
 
-  .aboutme{
+  .aboutme {
     display: block;
     padding: 5px;
   }
-  .aboutlinks ul{
+  .aboutlinks ul {
     justify-content: center;
   }
-  .aboutdescription{
+  .aboutdescription {
     width: 100%;
     padding: 10px;
   }
-  .aboutdescription p{
+  .aboutdescription p {
     font-size: 0.85rem;
     line-height: 1.45rem;
   }
-  .aboutme .myimage img{
+  .aboutme .myimage img {
     width: 100%;
     left: 0%;
     margin-top: 1rem;
     object-fit: cover;
   }
-  .aboutfooter{
+  .aboutfooter {
     padding: 10px;
   }
-  .footerrow{
+  .footerrow {
     display: flex;
     flex-direction: column;
     padding: 0%;
   }
-  .footerrow ul{
+  .footerrow ul {
     width: 100%;
   }
-  .footerrow li{
+  .footerrow li {
     padding: 0%;
   }
-  .footercol{
+  .footercol {
     width: 100%;
   }
-  .copyryt{
+  .copyryt {
     display: block;
   }
 }
