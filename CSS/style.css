@@ -674,6 +674,7 @@ figcaption {
   font-family: Manrope;
   margin-left: 4rem;
   width: 30%;
+  transform: translateY(-45%);
 }
 
 .workimg img {
@@ -693,8 +694,15 @@ figcaption {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  color: #8d96b2;
+  color: var(--textc);
   opacity: 0.5;
+}
+.work-description {
+  margin-top: 0.513rem;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  color: var(--textc);
 }
 /* .workimg:hover img {
   transform: scale(1.1);
