@@ -1182,6 +1182,9 @@ This is the fith new freaking mobilenavbar
   .copyryt {
     display: block;
   }
+  .copyryt .cleft {
+    padding-bottom: 40px;
+  }
 }
 
 @media screen and (max-device-width: 765px) and (orientation: landscape) {
