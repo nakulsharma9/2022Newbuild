@@ -471,7 +471,6 @@ header nav .navlinks ul li {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   font-size: 25px;
-  margin-bottom: 0.5rem;
   color: var(--purplelight);
   opacity: 85%;
 }
@@ -658,15 +657,21 @@ figcaption {
 /* .work-grid {
   display: grid;
 } */
+.work-title {
+  padding: 100px 97px 10px 97px;
+}
 .work-title p {
   font-family: Poppins;
   font-weight: 300;
   font-size: 16px;
+  margin-bottom: 0.5rem;
   letter-spacing: 0.02em;
 }
 .work {
   display: flex;
   align-items: center;
+  padding: 0px 97px 130px 97px;
+
   /* justify-content: space-around; */
 }
 .worktext {
@@ -682,6 +687,8 @@ figcaption {
   height: 424px;
   left: 352px;
   transition: 0.3s;
+  border-radius: 10px;
+  object-fit: cover;
 }
 .work-heading {
   font-weight: 500;
