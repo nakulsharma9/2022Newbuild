@@ -113,7 +113,7 @@ header nav .navlinks ul li {
 }
 
 .hero {
-  margin: 15rem 0 15rem;
+  margin: 15rem 0 6rem;
   height: 40vh;
 }
 .hero .Maintext {
@@ -321,7 +321,7 @@ header nav .navlinks ul li {
   transform: translateY(5px);
 }
 .casestudy {
-  margin-top: 4rem;
+  margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(495px, 100%), 1fr));
   gap: 20px;
@@ -1021,7 +1021,7 @@ This is the fith new freaking mobilenavbar
     padding: 0;
     margin: 0;
   }
-  .container1{
+  .container1 {
     display: none;
   }
   .hero {
@@ -1137,17 +1137,17 @@ This is the fith new freaking mobilenavbar
   /* .visuals{
     width: 320px;
   } */
-  .vtext{
+  .vtext {
     font-size: 10px;
     line-height: 15px;
     margin-left: 5px;
     margin-top: 7rem;
   }
-  .visual-grid{
+  .visual-grid {
     margin-left: 5px;
     grid-gap: 0px;
   }
-  .visual-grid .twold{
+  .visual-grid .twold {
     display: flex;
     grid-column-gap: 5px;
     height: 110px;
@@ -1157,42 +1157,41 @@ This is the fith new freaking mobilenavbar
     width: 150px;
     height: 110px;
     object-fit: contain;
-
   }
-  .visual-grid .fullwall img{
+  .visual-grid .fullwall img {
     width: 310px;
     height: 175px;
     object-fit: contain;
   }
-  .visual-grid .mdimage{
+  .visual-grid .mdimage {
     width: 310px;
     height: 140px;
     object-fit: cover;
   }
-  .visual-grid .oneldtwosm{
+  .visual-grid .oneldtwosm {
     display: flex;
     gap: 5px;
   }
-  .visual-grid .oneldtwosm .ldimgs{
+  .visual-grid .oneldtwosm .ldimgs {
     width: 105px;
     height: 175px;
     object-fit: cover;
   }
-  .visual-grid .oneldtwosm .smimage{
+  .visual-grid .oneldtwosm .smimage {
     width: 95px;
     height: 175px;
     object-fit: cover;
   }
-  .visual-grid .twosmoneld{
+  .visual-grid .twosmoneld {
     display: flex;
     gap: 5px;
   }
-  .visual-grid .twosmoneld .ldimgs{
+  .visual-grid .twosmoneld .ldimgs {
     width: 105px;
     height: 175px;
     object-fit: cover;
   }
-  .visual-grid .twosmoneld .smimage{
+  .visual-grid .twosmoneld .smimage {
     width: 95px;
     height: 175px;
     object-fit: cover;
@@ -1477,15 +1476,15 @@ This is the fith new freaking mobilenavbar
   .csoverlay {
     display: none;
   }
-  .vtext{
+  .vtext {
     font-size: 17px;
     margin: 40px 0 20px 16px;
   }
-  .visual-grid{
+  .visual-grid {
     margin-left: 5px;
     grid-gap: 5px;
   }
-  .visual-grid .twold{
+  .visual-grid .twold {
     display: flex;
     grid-column-gap: 5px;
     height: 100%;
@@ -1495,41 +1494,41 @@ This is the fith new freaking mobilenavbar
     height: 100%;
     object-fit: contain;
   }
-  .visual-grid .fullwall img{
+  .visual-grid .fullwall img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* margin-top: 1rem; */
   }
-  .visual-grid .mdimage{
+  .visual-grid .mdimage {
     width: 100%;
     height: 100%;
     object-fit: contain;
   }
-  .visual-grid .oneldtwosm{
+  .visual-grid .oneldtwosm {
     display: flex;
     gap: 1px;
   }
-  .visual-grid .oneldtwosm .ldimgs{
+  .visual-grid .oneldtwosm .ldimgs {
     width: 50%;
     height: 100%;
     object-fit: cover;
   }
-  .visual-grid .oneldtwosm .smimage{
+  .visual-grid .oneldtwosm .smimage {
     width: 25%;
     height: 100%;
     object-fit: contain;
   }
-  .visual-grid .twosmoneld{
+  .visual-grid .twosmoneld {
     display: flex;
     gap: 2px;
   }
-  .visual-grid .twosmoneld .ldimgs{
+  .visual-grid .twosmoneld .ldimgs {
     width: 50%;
     height: 100%;
     object-fit: cover;
   }
-  .visual-grid .twosmoneld .smimage{
+  .visual-grid .twosmoneld .smimage {
     width: 25%;
     height: 100%;
     object-fit: contain;
