@@ -147,39 +147,17 @@ header nav .navlinks ul li {
 .hero .designspan .middlemain h1 {
   z-index: 99999;
   position: relative;
-  font-size: 150px;
-  font-weight: 700;
   font-family: "Poppins", sans-serif;
-  outline: none;
-  text-transform: uppercase;
-  background: linear-gradient(
-    135deg,
-    #5335cf 0%,
-    #de005e 25%,
-    #f66e48 50%,
-    #de005e 75%,
-    #5335cf 100%
-  );
-  background-size: 400%;
-  background-clip: var(--textc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: animate 10s linear infinite;
-  /* font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 182px;
-  font-size: 11.375rem;
+  /* font-size: 11.375rem; */
   line-height: 10rem;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
     both;
-<<<<<<< HEAD
-  Width and color values;
-=======
   /* Width and color values */
->>>>>>> parent of ec23ad7 (-a)
   -webkit-text-stroke: 1.5px var(--lightblack);
-  -webkit-text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -187,16 +165,7 @@ header nav .navlinks ul li {
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
 }
-.middlemain {
-  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
-    both;
-}
-@keyframes animate {
-  to {
-    background-position: 400%;
-  }
-}
-@-webkit-keyframes tracking-in-expand {
+@keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.2em;
     opacity: 0;
@@ -208,14 +177,13 @@ header nav .navlinks ul li {
     opacity: 1;
   }
 }
-
 .hero .designspan .upperone h1 {
   position: absolute;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 152px;
-  line-height: 160px;
+  font-size: 102px;
+  line-height: 102px;
   animation: slide-in-bitupper 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.6s
     both;
   /* Width and color values */
@@ -234,7 +202,7 @@ header nav .navlinks ul li {
     opacity: 0;
   }
   100% {
-    transform: translateY(-300px);
+    transform: translateY(-260px);
     opacity: 0.2;
   }
 }
@@ -243,8 +211,8 @@ header nav .navlinks ul li {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 152px;
-  line-height: 160px;
+  font-size: 102px;
+  line-height: 102px;
   animation: slide-in-upper 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.2s both;
   /* Width and color values */
   -webkit-text-stroke: 1px var(--lightblack);
@@ -262,7 +230,7 @@ header nav .navlinks ul li {
     opacity: 0;
   }
   100% {
-    transform: translateY(-440px);
+    transform: translateY(-360px);
     opacity: 0.2;
   }
 }
@@ -272,8 +240,8 @@ header nav .navlinks ul li {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 152px;
-  line-height: 160px;
+  font-size: 102px;
+  line-height: 102px;
   animation: slide-in-bitbottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.6s
     both;
   /* Width and color values */
@@ -292,7 +260,7 @@ header nav .navlinks ul li {
     opacity: 0;
   }
   100% {
-    transform: translateY(-18px);
+    transform: translateY(-2px);
     opacity: 0.2;
   }
 }
@@ -302,8 +270,8 @@ header nav .navlinks ul li {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 152px;
-  line-height: 160px;
+  font-size: 102px;
+  line-height: 102px;
   animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.2s both;
   /* Width and color values */
   -webkit-text-stroke: 1px var(--lightblack);
@@ -321,7 +289,7 @@ header nav .navlinks ul li {
     opacity: 0;
   }
   100% {
-    transform: translateY(125px);
+    transform: translateY(95px);
     opacity: 0.2;
   }
 }
