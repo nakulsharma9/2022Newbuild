@@ -304,7 +304,6 @@ header nav .navlinks ul li {
   font-weight: 500;
   font-family: "Manrope", sans-serif;
   font-size: 30px;
-  /* margin-bottom: 2rem; */
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -458,9 +457,9 @@ header nav .navlinks ul li {
   height: auto;
 }
 
-/********************************************************************/
+/*******************************************************************/
 /*About page*/
-/********************************************************************/
+/*******************************************************************/
 
 .aboutme {
   display: flex;
@@ -566,9 +565,9 @@ figcaption {
   opacity: 0.5;
 }
 
-/********************************************************************/
+/*******************************************************************/
 /* The css of etc page */
-/********************************************************************/
+/*******************************************************************/
 
 .vtext {
   font-family: Poppins;
@@ -829,9 +828,9 @@ figcaption {
   color: var(--textc);
 }
 
-/*8888888888888888888888888888888888*********************************
+/********************************************************************
 This is the fith new freaking mobilenavbar
-**********************************************88888888888888888888888888888*/
+********************************************************************/
 .mobilenav {
   background: var(--white);
   top: 0%;
@@ -1006,9 +1005,10 @@ This is the fith new freaking mobilenavbar
   }
 }
 
-/********************************************************************/
+/*******************************************************************/
 /* Started with the media query */
-/********************************************************************/
+/*******************************************************************/
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .site-wrapper {
     max-width: 320px;
@@ -1394,6 +1394,13 @@ This is the fith new freaking mobilenavbar
   .csoverlay {
     display: none;
   }
+
+  .work{
+    width: 100%;
+  }
+  .workimg img{
+    width: 100%;
+  }
 }
 
 @media screen and (min-device-width: 765px) and (max-device-width: 1024px) {
@@ -1402,7 +1409,6 @@ This is the fith new freaking mobilenavbar
     padding: 0 auto;
     margin: 0 auto;
   }
-
   .container2 {
     width: 99%;
   }
@@ -1563,6 +1569,25 @@ This is the fith new freaking mobilenavbar
     height: 100%;
     object-fit: contain;
   }
+  .work{
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 1rem auto;
+  }
+  .work-title{
+    padding: 0%;
+    margin-top: 5rem;
+  }
+  .workimg img{
+    width: 100%;
+    height: 50%;
+  }
+  .worktext{
+    width: 100%;
+    transform: translateX(2px);
+    margin: 0.5rem 0.2rem;
+  }
 }
 
 @media screen and (min-width: 801px) and (max-width: 1024px) {
@@ -1573,6 +1598,7 @@ This is the fith new freaking mobilenavbar
     display: none;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .mobilenav {
     display: none;
