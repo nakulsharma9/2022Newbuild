@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+< lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,12 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!-- <script
       src="https://kit.fontawesome.com/ea90b49ccf.js"
       crossorigin="anonymous"
@@ -23,57 +20,74 @@
   </head>
 
   <body>
-    <header class="container1">
-      <nav>
-        <div class="navlinks">
-          <div class="navleft">
-            <ul>
-              <li>
-                <a href="#" class="underline">work</a>
-              </li>
-              <li>
-                <a href="./etc.html" class="underline">etc.</a>
-              </li>
-            </ul>
-          </div>
-          <div class="navcenter">
-            <a href="./index.html"><img src="./images/logo.png" alt="" /></a>
-          </div>
-          <div class="navright">
-            <ul>
-              <li>
-                <a href="./about.html" class="underline">about me</a>
-              </li>
-              <li>
-                <a href="#" class="underline">resume</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <div class="site-wrapper">
+      <div class="mobilenav">
+        <a href="./index.html"><img class="logoimg" src="./images/logo.png" alt="Nakul Sharma's Portfolio logo" /></a>
 
-    <div class="container2">
-      <div class="work-title">
-        <div class="titleheading">Work Designs</div>
-        <p>Some of my recent work designs.</p>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <nav class="mobnav">
+          <ul>
+            <li><a href="./about.html">about me</a></li>
+            <li><a href="./work.html">work</a></li>
+            <li><a href="./etc.html">etc</a></li>
+            <li><a href="#">resume</a></li>
+          </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
       </div>
-      <div class="work-grid">
-        <div class="work">
-          <div class="workimg">
-            <img src="./images/case1.svg" alt="" />
+      <header class="container1">
+        <nav>
+          <div class="navlinks">
+            <div class="navleft">
+              <ul>
+                <li>
+                  <a href="#" class="underline">work</a>
+                </li>
+                <li>
+                  <a href="./etc.html" class="underline">etc.</a>
+                </li>
+              </ul>
+            </div>
+            <div class="navcenter">
+              <a href="./index.html"><img src="./images/logo.png" alt="" /></a>
+            </div>
+            <div class="navright">
+              <ul>
+                <li>
+                  <a href="./about.html" class="underline">about me</a>
+                </li>
+                <li>
+                  <a href="#" class="underline">resume</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="worktext">
-            <div class="work-heading">MyRevue</div>
-            <div class="work-subheading">Mobile App Redesign</div>
-            <p class="work-description">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Repellendus, iste. Fugit molestiae ipsam quod officiis voluptas
-              ratione magni minus rem, accusamus pariatur.!
-            </p>
-          </div>
+        </nav>
+      </header>
+
+      <div class="container2">
+        <div class="work-title">
+          <div class="titleheading">Work Designs</div>
+          <p>Some of my recent work designs.</p>
         </div>
-        <!-- <div class="work">
+        <div class="work-grid">
+          <div class="work">
+            <div class="workimg">
+              <img src="./images/case1.svg" alt="" />
+            </div>
+            <div class="worktext">
+              <div class="work-heading">MyRevue</div>
+              <div class="work-subheading">Mobile App Redesign</div>
+              <p class="work-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Repellendus, iste. Fugit molestiae ipsam quod officiis voluptas
+                ratione magni minus rem, accusamus pariatur.!
+              </p>
+            </div>
+          </div>
+          <!-- <div class="work">
           <div class="worktext">
             <h3>title is here</h3>
             <ul>
@@ -86,7 +100,7 @@
             <img src="./images/etcimg/sm1.png" alt="" />
           </div>
         </div> -->
-        <!-- <div class="work">
+          <!-- <div class="work">
           <div class="worktext">
             <h3>title is here</h3>
             <ul>
@@ -99,34 +113,28 @@
             <img src="./images/etcimg/sm3.png" alt="" />
           </div>
         </div> -->
+        </div>
       </div>
+
+      <footer class="footer">
+        <div class="socialinks">
+          <ul>
+            <li>
+              <a href=""><img src="./images/Icons/ph_linkedin-logo-light.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./images/Icons/ph_instagram-logo-light.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./images/Icons/ph_behance-logo-light.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./images/Icons/ph_twitter-logo-light.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
   </body>
 
-  <footer class="footer">
-    <div class="socialinks">
-      <ul>
-        <li>
-          <a href=""
-            ><img src="./images/Icons/ph_linkedin-logo-light.svg" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href=""
-            ><img src="./images/Icons/ph_instagram-logo-light.svg" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href=""
-            ><img src="./images/Icons/ph_behance-logo-light.svg" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href=""
-            ><img src="./images/Icons/ph_twitter-logo-light.svg" alt=""
-          /></a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-</html>
+  </html>
