@@ -1531,8 +1531,8 @@ This is the fith new freaking mobilenavbar
   
   .aboutme {
     display: flex;
-    /* padding: 5px; */
-    margin: 5rem 0 2rem;
+    padding: 25px;
+    /* margin: 5rem 0 2rem; */
   }
   .aboutdescription {
     width: 100%;
@@ -1642,15 +1642,15 @@ This is the fith new freaking mobilenavbar
     margin: 1rem auto;
   }
   .work-title{
-    padding: 0%;
+    padding: 0.5%;
     margin-top: 5rem;
   }
   .workimg img{
-    width: 100%;
+    width: 99%;
     height: 50%;
   }
   .worktext{
-    width: 100%;
+    width: 99%;
     transform: translateX(2px);
     margin: 0.5rem 0.2rem;
   }
