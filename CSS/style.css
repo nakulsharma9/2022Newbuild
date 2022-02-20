@@ -80,7 +80,7 @@ header nav .navlinks ul li {
 /*<a> anims*/
 .navlinks a::before {
   text-decoration: none;
-  color: #0074d9;
+  color: #2a54e9;
 }
 .navlinks a:hover {
   color: var(--linkactive);
@@ -88,16 +88,19 @@ header nav .navlinks ul li {
 .underline {
   position: relative;
 }
-
+.navlinks .current {
+  color: #2a54e9;
+}
 .underline::before {
   content: "";
+  border-radius: 10px;
   position: absolute;
   bottom: 0;
   right: 0;
   width: 0;
   height: 2px;
   text-emphasis-color: var(--linkactive);
-  background-color: var(--primary);
+  background-color: var(--linkactive);
   transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
@@ -116,7 +119,6 @@ header nav .navlinks ul li {
 .navcenter img {
   width: 4rem;
 }
-
 .hero {
   margin: 15rem 0 6rem;
   height: 40vh;
