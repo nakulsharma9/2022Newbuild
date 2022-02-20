@@ -1140,7 +1140,8 @@ This is the fith new freaking mobilenavbar
     font-size: 10px;
     line-height: 15px;
     margin-left: 5px;
-    margin-top: 7rem;
+    margin-top: 10rem;
+    margin-bottom: 10px;
   }
   .visual-grid {
     margin-left: 5px;
@@ -1198,20 +1199,22 @@ This is the fith new freaking mobilenavbar
   }
   .work-title {
     padding: 0;
-    margin-top: 8rem;
+    margin-top: 10rem;
+  }
+  .work-title .titleheading {
+    font-size: 16px;
   }
   .work-title p {
-    font-size: 13px;
+    font-size: 12px;
     margin-bottom: 0.2rem;
   }
   .work {
     display: block;
     padding: 0;
-    margin: 1rem auto;
+    margin: 1rem auto 3rem;
   }
   .work .workimg img {
     width: 100%;
-    height: 50%;
   }
   .worktext {
     width: 100%;
@@ -1235,13 +1238,18 @@ This is the fith new freaking mobilenavbar
     width: 100%;
   }
   .socialinks a {
-    padding: 5px 15px;
+    padding: 0px 12px;
   }
-
+  .socialinks img {
+    width: 90%;
+  }
   .aboutme {
     display: block;
     padding: 5px;
-    margin: 5rem 0 2rem;
+    margin: 7rem 0 2rem;
+  }
+  .aboutme .aboutdescription br {
+    display: none;
   }
   .aboutlinks ul {
     justify-content: center;
@@ -1249,6 +1257,12 @@ This is the fith new freaking mobilenavbar
   .aboutdescription {
     width: 100%;
     margin-top: 4rem;
+  }
+  .aboutlinks a {
+    margin-left: 10px;
+  }
+  .aboutlinks ul li {
+    margin-right: 0;
   }
   .aboutdescription p {
     font-size: 0.85rem;
@@ -1261,7 +1275,7 @@ This is the fith new freaking mobilenavbar
     object-fit: cover;
   }
   .aboutfooter {
-    padding: 10px;
+    padding: 20px;
   }
   .footerrow {
     display: flex;
