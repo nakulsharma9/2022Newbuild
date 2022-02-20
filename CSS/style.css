@@ -411,13 +411,13 @@ header nav .navlinks ul li {
   opacity: 1;
 }
 .case1:hover img {
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   opacity: 50%;
-  -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
   filter: blur(2px);
 }
 .case2 {
@@ -1143,6 +1143,11 @@ This is the fith new freaking mobilenavbar
     width: 80%;
     height: 80%;
     object-fit: cover;
+  }
+  .case1 img,
+  .case2 img,
+  .case3 img:hover {
+    opacity: 1;
   }
   .case2 {
     width: 100%;
