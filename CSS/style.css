@@ -9,6 +9,7 @@
   --fadewhite: #fafafa;
   --textc: #8d96b2;
   --purplelight: #734fff;
+  --nav-load-time:1000ms;
 }
 
 html {
@@ -43,7 +44,17 @@ html {
 header nav {
   margin: 3vw auto;
 }
-
+#main-nav{
+  animation: nav-load var(--nav-load-time) ease-in;
+}
+@keyframes nav-load{
+  0%{
+    transform:translateY(-500%);
+  }
+  100%{
+    transform:translateY(0%);
+  }
+}
 header nav .navlinks {
   display: flex;
   align-items: center;
