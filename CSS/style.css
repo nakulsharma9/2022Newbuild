@@ -850,6 +850,7 @@ This is the fith new freaking mobilenavbar
   position: fixed;
   z-index: 99999999;
   width: 100%;
+  transition: top 0.5s;
 }
 .logoimg {
   width: 64px;
