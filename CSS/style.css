@@ -17,6 +17,12 @@ html {
 .body {
   font-family: "Manrope", sans-serif;
   font-family: "Poppins", sans-serif;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 * {
   padding: 0;
@@ -347,7 +353,6 @@ header nav .navlinks ul li {
     transform: translateY(-20px);
   }
 }
-
 .case1 {
   border-radius: 20px;
   width: 100%;
@@ -358,6 +363,13 @@ header nav .navlinks ul li {
   align-items: center;
   justify-content: center;
   z-index: 1;
+}
+.case1:hover {
+  box-shadow: 5px 10px #fefefe;
+  -webkit-transition: box-shadow 0.5s 0s ease-out;
+  -moz-transition: box-shadow 0.5s 0s ease-out;
+  -o-transition: box-shadow 0.5s 0s ease-out;
+  transition: box-shadow 0.5s 0s ease-out;
 }
 .case1 img {
   width: 100%;
@@ -371,7 +383,7 @@ header nav .navlinks ul li {
   width: 20%;
   height: auto;
   opacity: 0;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
