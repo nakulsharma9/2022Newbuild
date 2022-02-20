@@ -89,6 +89,8 @@ header nav .navlinks ul li {
   position: relative;
 }
 .navlinks .current {
+  letter-spacing: 0.002rem;
+  font-weight: 600;
   color: #2a54e9;
 }
 .underline::before {
