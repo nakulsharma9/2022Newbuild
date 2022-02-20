@@ -9,7 +9,6 @@
   --fadewhite: #fafafa;
   --textc: #8d96b2;
   --purplelight: #734fff;
-  --nav-load-time:1000ms;
 }
 
 html {
@@ -18,6 +17,12 @@ html {
 .body {
   font-family: "Manrope", sans-serif;
   font-family: "Poppins", sans-serif;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 * {
   padding: 0;
@@ -43,17 +48,6 @@ html {
 /********************************************************************/
 header nav {
   margin: 3vw auto;
-}
-#main-nav{
-  animation: nav-load var(--nav-load-time) ease-in;
-}
-@keyframes nav-load{
-  0%{
-    transform:translateY(-500%);
-  }
-  100%{
-    transform:translateY(0%);
-  }
 }
 header nav .navlinks {
   display: flex;
@@ -86,7 +80,7 @@ header nav .navlinks ul li {
 /*<a> anims*/
 .navlinks a::before {
   text-decoration: none;
-  color: #0074d9;
+  color: #2a54e9;
 }
 .navlinks a:hover {
   color: var(--linkactive);
@@ -94,16 +88,20 @@ header nav .navlinks ul li {
 .underline {
   position: relative;
 }
-
+.navlinks .current {
+  text-transform: capitalize;
+  color: #2a54e9;
+}
 .underline::before {
   content: "";
+  border-radius: 10px;
   position: absolute;
   bottom: 0;
   right: 0;
   width: 0;
   height: 2px;
   text-emphasis-color: var(--linkactive);
-  background-color: var(--primary);
+  background-color: var(--linkactive);
   transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
@@ -122,11 +120,11 @@ header nav .navlinks ul li {
 .navcenter img {
   width: 4rem;
 }
-
 .hero {
   margin: 15rem 0 6rem;
   height: 40vh;
 }
+
 .hero .Maintext {
   margin-left: 0.7rem;
   z-index: -99999;
@@ -358,7 +356,6 @@ header nav .navlinks ul li {
     transform: translateY(-20px);
   }
 }
-
 .case1 {
   border-radius: 20px;
   width: 100%;
@@ -369,6 +366,13 @@ header nav .navlinks ul li {
   align-items: center;
   justify-content: center;
   z-index: 1;
+}
+.case1:hover {
+  box-shadow: 5px 10px #fefefe;
+  -webkit-transition: box-shadow 0.5s 0s ease-out;
+  -moz-transition: box-shadow 0.5s 0s ease-out;
+  -o-transition: box-shadow 0.5s 0s ease-out;
+  transition: box-shadow 0.5s 0s ease-out;
 }
 .case1 img {
   width: 100%;
@@ -382,7 +386,7 @@ header nav .navlinks ul li {
   width: 20%;
   height: auto;
   opacity: 0;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -407,13 +411,13 @@ header nav .navlinks ul li {
   opacity: 1;
 }
 .case1:hover img {
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   opacity: 50%;
-  -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
   filter: blur(2px);
 }
 .case2 {
@@ -658,15 +662,6 @@ figcaption {
   height: 424px;
 }
 
-/* @media screen and (max-width: 1024px) {
-  .visual-grid {
-    --num-cols: 3;
-    --row-height: 200px;
-  }
-} */
-/* .work-grid {
-  display: grid;
-} */
 .work-title {
   padding: 100px 97px 10px 97px;
 }
@@ -681,9 +676,8 @@ figcaption {
   display: flex;
   align-items: center;
   padding: 0px 97px 130px 97px;
-
-  /* justify-content: space-around; */
 }
+
 .worktext {
   display: block;
   font-family: Manrope;
@@ -695,11 +689,10 @@ figcaption {
 .workimg img {
   width: 695px;
   height: 424px;
-  /* left: 352px; */
-  transition: 0.3s;
   border-radius: 10px;
   object-fit: cover;
 }
+
 .work-heading {
   font-weight: 500;
   font-size: 30px;
@@ -721,10 +714,6 @@ figcaption {
   line-height: 25px;
   color: var(--textc);
 }
-/* .workimg:hover img {
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-} */
 
 /********************************************************************/
 /* Footer  */
@@ -756,6 +745,7 @@ figcaption {
   -moz-transition: margin 0.3s ease-out;
   -o-transition: margin 0.3s ease-out;
 }
+
 .aboutfooter {
   font-family: "Poppins", sans-serif;
   left: 0;
@@ -1134,6 +1124,11 @@ This is the fith new freaking mobilenavbar
     height: 80%;
     object-fit: cover;
   }
+  .case1 img,
+  .case2 img,
+  .case3 img:hover {
+    opacity: 1;
+  }
   .case2 {
     width: 100%;
     height: 550px;
@@ -1152,7 +1147,8 @@ This is the fith new freaking mobilenavbar
     font-size: 10px;
     line-height: 15px;
     margin-left: 5px;
-    margin-top: 9rem;
+    margin-top: 10rem;
+    margin-bottom: 10px;
   }
   .visual-grid {
     margin-left: 5px;
@@ -1208,35 +1204,37 @@ This is the fith new freaking mobilenavbar
     object-fit: cover;
     /* border-radius: 10px; */
   }
-  .work-title{
+  .work-title {
     padding: 0;
-    margin-top: 8rem;
+    margin-top: 10rem;
   }
-  .work-title p{
-    font-size: 13px;
-    margin-bottom: 0.2rem;  
+  .work-title .titleheading {
+    font-size: 16px;
   }
-  .work{
+  .work-title p {
+    font-size: 12px;
+    margin-bottom: 0.2rem;
+  }
+  .work {
     display: block;
     padding: 0;
-    margin: 1rem auto;
+    margin: 1rem auto 3rem;
   }
-  .work .workimg img{
+  .work .workimg img {
     width: 100%;
-    height: 50%;
   }
-  .worktext{
+  .worktext {
     width: 100%;
     transform: translateX(2px);
     margin: 0.5rem 0.2rem;
   }
-  .work-heading{
+  .work-heading {
     font-size: 18px;
   }
-  .work-subheading{
+  .work-subheading {
     font-size: 12px;
   }
-  .work-description{
+  .work-description {
     font-size: 12px;
     line-height: 18px;
     margin-top: 0.3rem;
@@ -1247,13 +1245,18 @@ This is the fith new freaking mobilenavbar
     width: 100%;
   }
   .socialinks a {
-    padding: 5px 15px;
+    padding: 0px 12px;
   }
-
+  .socialinks img {
+    width: 90%;
+  }
   .aboutme {
     display: block;
     padding: 5px;
-    margin: 5rem 0 2rem;
+    margin: 7rem 0 2rem;
+  }
+  .aboutme .aboutdescription br {
+    display: none;
   }
   .aboutlinks ul {
     justify-content: center;
@@ -1261,6 +1264,12 @@ This is the fith new freaking mobilenavbar
   .aboutdescription {
     width: 100%;
     margin-top: 4rem;
+  }
+  .aboutlinks a {
+    margin-left: 10px;
+  }
+  .aboutlinks ul li {
+    margin-right: 0;
   }
   .aboutdescription p {
     font-size: 0.85rem;
@@ -1273,7 +1282,7 @@ This is the fith new freaking mobilenavbar
     object-fit: cover;
   }
   .aboutfooter {
-    padding: 10px;
+    padding: 20px;
   }
   .footerrow {
     display: flex;
@@ -1408,10 +1417,10 @@ This is the fith new freaking mobilenavbar
     display: none;
   }
 
-  .work{
+  .work {
     width: 100%;
   }
-  .workimg img{
+  .workimg img {
     width: 100%;
   }
 }
@@ -1635,22 +1644,22 @@ This is the fith new freaking mobilenavbar
     height: 100%;
     object-fit: contain;
   }
-  .work{
+  .work {
     width: 100%;
     display: block;
     padding: 0;
     margin: 1rem auto;
   }
-  .work-title{
-    padding: 0.5%;
+  .work-title {
+    padding: 0%;
     margin-top: 5rem;
   }
-  .workimg img{
-    width: 99%;
+  .workimg img {
+    width: 100%;
     height: 50%;
   }
-  .worktext{
-    width: 99%;
+  .worktext {
+    width: 100%;
     transform: translateX(2px);
     margin: 0.5rem 0.2rem;
   }
