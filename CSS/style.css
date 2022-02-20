@@ -9,7 +9,6 @@
   --fadewhite: #fafafa;
   --textc: #8d96b2;
   --purplelight: #734fff;
-  --nav-load-time:1000ms;
 }
 
 html {
@@ -43,17 +42,6 @@ html {
 /********************************************************************/
 header nav {
   margin: 3vw auto;
-}
-#main-nav{
-  animation: nav-load var(--nav-load-time) ease-in;
-}
-@keyframes nav-load{
-  0%{
-    transform:translateY(-500%);
-  }
-  100%{
-    transform:translateY(0%);
-  }
 }
 header nav .navlinks {
   display: flex;
@@ -1208,35 +1196,35 @@ This is the fith new freaking mobilenavbar
     object-fit: cover;
     /* border-radius: 10px; */
   }
-  .work-title{
+  .work-title {
     padding: 0;
     margin-top: 8rem;
   }
-  .work-title p{
+  .work-title p {
     font-size: 13px;
-    margin-bottom: 0.2rem;  
+    margin-bottom: 0.2rem;
   }
-  .work{
+  .work {
     display: block;
     padding: 0;
     margin: 1rem auto;
   }
-  .work .workimg img{
+  .work .workimg img {
     width: 100%;
     height: 50%;
   }
-  .worktext{
+  .worktext {
     width: 100%;
     transform: translateX(2px);
     margin: 0.5rem 0.2rem;
   }
-  .work-heading{
+  .work-heading {
     font-size: 18px;
   }
-  .work-subheading{
+  .work-subheading {
     font-size: 12px;
   }
-  .work-description{
+  .work-description {
     font-size: 12px;
     line-height: 18px;
     margin-top: 0.3rem;
@@ -1407,10 +1395,10 @@ This is the fith new freaking mobilenavbar
     display: none;
   }
 
-  .work{
+  .work {
     width: 100%;
   }
-  .workimg img{
+  .workimg img {
     width: 100%;
   }
 }
@@ -1581,21 +1569,21 @@ This is the fith new freaking mobilenavbar
     height: 100%;
     object-fit: contain;
   }
-  .work{
+  .work {
     width: 100%;
     display: block;
     padding: 0;
     margin: 1rem auto;
   }
-  .work-title{
+  .work-title {
     padding: 0%;
     margin-top: 5rem;
   }
-  .workimg img{
+  .workimg img {
     width: 100%;
     height: 50%;
   }
-  .worktext{
+  .worktext {
     width: 100%;
     transform: translateX(2px);
     margin: 0.5rem 0.2rem;
