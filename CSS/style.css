@@ -1304,7 +1304,8 @@ This is the fith new freaking mobilenavbar
     margin: 0 auto;
   }
   .container2 {
-    max-width: 480px;
+    /* max-width: 480px; */
+    width: 100%;
   }
   .hero {
     text-align: center;
@@ -1434,6 +1435,9 @@ This is the fith new freaking mobilenavbar
   .intro {
     font-size: 25px;
   }
+  .navlinks{
+    margin: 0 2rem;
+  }
   .hero .designspan .middlemain h1 {
     font-weight: bold;
     font-size: 60px;
@@ -1523,6 +1527,56 @@ This is the fith new freaking mobilenavbar
   }
   .csoverlay {
     display: none;
+  }
+  
+  .aboutme {
+    display: flex;
+    /* padding: 5px; */
+    margin: 5rem 0 2rem;
+  }
+  .aboutdescription {
+    width: 100%;
+    margin-top: 4rem;
+  }
+  .aboutdescription p {
+    font-size: 0.85rem;
+    line-height: 1.45rem;
+  }
+  .aboutme .myimage img {
+    width: 100%;
+    left: 0%;
+    margin-top: 1rem;
+    object-fit: cover;
+  }
+  .aboutfooter {
+    padding: 10px;
+  }
+  .footerrow {
+    display: flex;
+    /* flex-direction: column;
+    padding: 0%; */
+    flex-wrap: nowrap;
+    padding: 80px 0;
+    margin: 0 2rem;
+  }
+  .footerrow ul {
+    width: 100%;
+  }
+  .footerrow li {
+    padding: 0%;
+  }
+  .footercol {
+    width: 100%;
+  }
+  .copyryt {
+    display: block;
+  }
+  .copyryt .cleft {
+    padding-bottom: 40px;
+    margin: 0 2rem;
+  }
+  .cright{
+    margin: 0 2rem;
   }
   .vtext {
     font-size: 17px;
