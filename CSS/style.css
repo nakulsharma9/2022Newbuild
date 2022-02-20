@@ -662,15 +662,6 @@ figcaption {
   height: 424px;
 }
 
-/* @media screen and (max-width: 1024px) {
-  .visual-grid {
-    --num-cols: 3;
-    --row-height: 200px;
-  }
-} */
-/* .work-grid {
-  display: grid;
-} */
 .work-title {
   padding: 100px 97px 10px 97px;
 }
@@ -685,9 +676,8 @@ figcaption {
   display: flex;
   align-items: center;
   padding: 0px 97px 130px 97px;
-
-  /* justify-content: space-around; */
 }
+
 .worktext {
   display: block;
   font-family: Manrope;
@@ -699,11 +689,10 @@ figcaption {
 .workimg img {
   width: 695px;
   height: 424px;
-  /* left: 352px; */
-  transition: 0.3s;
   border-radius: 10px;
   object-fit: cover;
 }
+
 .work-heading {
   font-weight: 500;
   font-size: 30px;
@@ -725,10 +714,6 @@ figcaption {
   line-height: 25px;
   color: var(--textc);
 }
-/* .workimg:hover img {
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-} */
 
 /********************************************************************/
 /* Footer  */
