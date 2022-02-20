@@ -761,11 +761,6 @@ figcaption {
   -o-transition: margin 0.3s ease-out;
 }
 
-.socialinks img:hover {
-  box-shadow: 5px 5px 32px -6px rgba(0, 0, 0, 0.27);
-  -webkit-box-shadow: 5px 5px 32px -6px rgba(0, 0, 0, 0.27);
-  -moz-box-shadow: 5px 5px 32px -6px rgba(0, 0, 0, 0.27);
-}
 .aboutfooter {
   font-family: "Poppins", sans-serif;
   left: 0;
