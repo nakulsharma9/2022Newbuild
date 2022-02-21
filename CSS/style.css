@@ -371,7 +371,6 @@ header nav .navlinks ul li {
   width: 100%;
   opacity: 0;
   transition: 0.8s ease;
-  border-radius: 10px;
   /* background-color: #008cba; */
   backdrop-filter: blur(9px) saturate(157%);
   -webkit-backdrop-filter: blur(9px) saturate(157%);
@@ -380,9 +379,12 @@ header nav .navlinks ul li {
 .casecontent:hover .overlay {
   opacity: 1;
 }
+
 .text {
-  color: var(--lightblack);
-  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #8d96b2;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -391,13 +393,158 @@ header nav .navlinks ul li {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+<<<<<<< HEAD
 .text .headoverlay {
-  font-weight: 600;
-  font-size: 2.5rem;
+=======
+
+/* .casestudy {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(495px, 100%), 1fr));
+  gap: 20px;
+  margin-bottom: 2rem;
 }
+.casetitle {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+.case1 {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: #ff557c;
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.case1:hover {
+  box-shadow: 5px 10px #fefefe;
+  -webkit-transition: box-shadow 0.5s 0s ease-out;
+  -moz-transition: box-shadow 0.5s 0s ease-out;
+  -o-transition: box-shadow 0.5s 0s ease-out;
+  transition: box-shadow 0.5s 0s ease-out;
+}
+.case1 img {
+  width: 100%;
+  height: auto;
+}
+.csoverlay {
+  position: absolute;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  width: 20%;
+  height: auto;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.csoverlay h2 {
+  font-family: "Poppins", sans-serif;
+>>>>>>> parent of e1cb18e (responsiveness of case study part)
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--fadewhite);
+
+  margin: 0.8rem;
+}
+<<<<<<< HEAD
 .text .overlaycontent {
+=======
+.csoverlay .csdescription {
+  color: var(--fadewhite);
+  opacity: 80%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+>>>>>>> parent of e1cb18e (responsiveness of case study part)
   font-size: 1rem;
 }
+.case1:hover .csoverlay {
+  opacity: 1;
+}
+.case1:hover img {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  opacity: 50%;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+.case2 {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #d2c8fa;
+  justify-content: center;
+  z-index: 1;
+}
+.case3 {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #bfecff;
+  justify-content: center;
+  z-index: 1;
+}
+.case2:hover .csoverlay {
+  opacity: 1;
+}
+.case2:hover img {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  opacity: 50%;
+  -webkit-filter: blur(4px); 
+  filter: blur(2px);
+}
+
+.case2 img {
+  width: 100%;
+  height: auto;
+}
+.case3:hover .csoverlay {
+  opacity: 1;
+}
+.case3:hover img {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  opacity: 50%;
+  -webkit-filter: blur(4px); 
+  filter: blur(2px);
+}
+.case3 img {
+  width: 100%;
+  height: auto;
+} */
 
 /*******************************************************************/
 /*About page*/
@@ -1472,9 +1619,10 @@ This is the fith new freaking mobilenavbar
     transform: translateY(0px);
   }
   .casestudy {
-    width: 100%;
-    padding: 0%;
-    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    margin-top: 1rem;
   }
   .csoverlay {
     width: auto;
@@ -1484,6 +1632,7 @@ This is the fith new freaking mobilenavbar
     width: 100%;
     height: 550px;
   }
+<<<<<<< HEAD
   .caseimage {
     width: 100%;
     border: transparent;
@@ -1492,15 +1641,28 @@ This is the fith new freaking mobilenavbar
     background: #ff557c;
     width: 100%;
     /* height: 18rem; */
+=======
+  .case1 img,
+  .case2 img,
+  .case3 img {
+>>>>>>> parent of e1cb18e (responsiveness of case study part)
     border-radius: 10px;
-    /* margin-bottom: 2rem; */
-    display: flex;
-    border: none;
-    align-items: center;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
   }
+<<<<<<< HEAD
   .casestudy .sml {
     margin-bottom: 1rem;
+=======
+  .case2 {
+    width: 100%;
+    height: 550px;
+  }
+  .case3 {
+    width: 100%;
+    height: 550px;
+>>>>>>> parent of e1cb18e (responsiveness of case study part)
   }
   .csoverlay {
     display: none;
