@@ -47,7 +47,7 @@ body::-webkit-scrollbar {
 /* Home Page  */
 /********************************************************************/
 header nav {
-  margin: 3vw auto0;
+  margin: 3vw auto;
 }
 header nav .navlinks {
   display: flex;
@@ -309,11 +309,10 @@ header nav .navlinks ul li {
   margin-left: calc(-45vw + 50%);
 }
 /* .casetitle  */
-.casetitle {
+.casetitle{
   display: flex;
   align-items: center;
   font-size: 30px;
-  margin-top: 2rem;
 }
 
 .sectionheading {
@@ -394,6 +393,7 @@ header nav .navlinks ul li {
   text-align: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .text .headoverlay {
 =======
 
@@ -464,12 +464,16 @@ header nav .navlinks ul li {
 .csoverlay h2 {
   font-family: "Poppins", sans-serif;
 >>>>>>> parent of e1cb18e (responsiveness of case study part)
+=======
+.text .headoverlay{
+>>>>>>> parent of e6df657 (-a)
   font-weight: 600;
   font-size: 2rem;
   color: var(--fadewhite);
 
   margin: 0.8rem;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .text .overlaycontent {
 =======
@@ -479,6 +483,9 @@ header nav .navlinks ul li {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 >>>>>>> parent of e1cb18e (responsiveness of case study part)
+=======
+.text .overlaycontent{
+>>>>>>> parent of e6df657 (-a)
   font-size: 1rem;
 }
 .case1:hover .csoverlay {
@@ -1194,25 +1201,25 @@ This is the fith new freaking mobilenavbar
     width: 100%;
     height: 550px;
   }
-  .casestudy .sml {
+  .casestudy .sml{
     display: block;
   }
-  #image1 {
-    background: #ff557c;
+  #image1{
+    background: #FF557C;
     height: 18rem;
     border-radius: 10px;
     margin-bottom: 2rem;
     display: flex;
     align-items: center;
   }
-  #image2 {
-    background: #b4e8ffd9;
+  #image2{
+    background: #B4E8FFD9;
     height: 18rem;
     border-radius: 10px;
     margin-bottom: 2rem;
   }
-  #image3 {
-    background: #cbbff9d9;
+  #image3{
+    background: #CBBFF9D9;
     height: 18rem;
     border-radius: 10px;
     margin-bottom: 2rem;
@@ -1231,7 +1238,7 @@ This is the fith new freaking mobilenavbar
     height: 50%;
     object-fit: cover;
   }
-  .casecontent .caseimage img {
+  .casecontent .caseimage img{
     border: transparent;
   }
   .case1 img,
@@ -1239,7 +1246,7 @@ This is the fith new freaking mobilenavbar
   .case3 img:hover {
     opacity: 1;
   }
-  .casecontent {
+  .casecontent{
     width: 100%;
     /* height: 550px; */
   }
@@ -1558,7 +1565,7 @@ This is the fith new freaking mobilenavbar
   .intro {
     font-size: 25px;
   }
-  .navlinks {
+  .navlinks{
     margin: 0 2rem;
   }
   .hero .designspan .middlemain h1 {
@@ -1633,12 +1640,16 @@ This is the fith new freaking mobilenavbar
     height: 550px;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .caseimage {
+=======
+  .caseimage{
+>>>>>>> parent of e6df657 (-a)
     width: 100%;
     border: transparent;
   }
-  #image1 {
-    background: #ff557c;
+  #image1{
+    background: #FF557C;
     width: 100%;
     /* height: 18rem; */
 =======
@@ -1652,7 +1663,11 @@ This is the fith new freaking mobilenavbar
     object-fit: cover;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   .casestudy .sml {
+=======
+  .casestudy .sml{
+>>>>>>> parent of e6df657 (-a)
     margin-bottom: 1rem;
 =======
   .case2 {
@@ -1667,7 +1682,7 @@ This is the fith new freaking mobilenavbar
   .csoverlay {
     display: none;
   }
-
+  
   .aboutme {
     display: flex;
     padding: 25px;
@@ -1714,7 +1729,7 @@ This is the fith new freaking mobilenavbar
     padding-bottom: 40px;
     margin: 0 2rem;
   }
-  .cright {
+  .cright{
     margin: 0 2rem;
   }
   .vtext {
