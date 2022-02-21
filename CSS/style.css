@@ -1161,8 +1161,8 @@ This is the fith new freaking mobilenavbar
   }
   .casetitle {
     justify-content: center;
-    /* display: block; */
     grid-area: 10px;
+    margin-top: 1rem;
   }
   .sectionheading {
     font-size: 20px;
@@ -1174,7 +1174,7 @@ This is the fith new freaking mobilenavbar
   .casestudy {
     width: auto;
     display: block;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     grid-auto-rows: 300px;
   }
   .csoverlay {
@@ -1187,6 +1187,26 @@ This is the fith new freaking mobilenavbar
   }
   .casestudy .sml{
     display: block;
+  }
+  #image1{
+    background: #FF557C;
+    height: 18rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  #image2{
+    background: #B4E8FFD9;
+    height: 18rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  #image3{
+    background: #CBBFF9D9;
+    height: 18rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
   }
   /* .case1 img,
   .case2 img,
@@ -1202,6 +1222,9 @@ This is the fith new freaking mobilenavbar
     height: 50%;
     object-fit: cover;
   }
+  .casecontent .caseimage img{
+    border: transparent;
+  }
   .case1 img,
   .case2 img,
   .case3 img:hover {
@@ -1209,7 +1232,7 @@ This is the fith new freaking mobilenavbar
   }
   .casecontent{
     width: 100%;
-    height: 550px;
+    /* height: 550px; */
   }
   /* .case2 {
     width: 100%;
