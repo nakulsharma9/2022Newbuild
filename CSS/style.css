@@ -47,7 +47,7 @@ body::-webkit-scrollbar {
 /* Home Page  */
 /********************************************************************/
 header nav {
-  margin: 3vw auto0;
+  margin: 3vw auto;
 }
 header nav .navlinks {
   display: flex;
