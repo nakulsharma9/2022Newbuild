@@ -89,7 +89,6 @@ header nav .navlinks ul li {
   position: relative;
 }
 .navlinks .current {
-  text-transform: capitalize;
   color: #2a54e9;
 }
 .underline::before {
