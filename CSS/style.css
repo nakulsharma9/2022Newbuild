@@ -371,7 +371,7 @@ header nav .navlinks {
 }
 .casecontent {
   position: relative;
-  transition: .5s ease;
+  transition: .8s ease;
   /* transition: transform .5s; */
   /* width: 50%; */
 }
@@ -395,10 +395,10 @@ header nav .navlinks {
   opacity: 1;
   box-shadow: var(--lightprimary);
 }
-.casecontent:hover{
+.casecontent:hover {
   /* -webkit-transform: scale(1.1);  */
   /* transform: scale(1.1); */
-  transform: rotate(45deg) scale(1.5);
+  transform: rotate(359deg) scale(1.5);
   z-index: 99;
 }
 .text {
@@ -1073,7 +1073,7 @@ This is the fith new freaking mobilenavbar
   }
   #image1 {
     background: #ff557c;
-    height: 18rem;
+    height: 26.5rem;
     border-radius: 10px;
     margin-bottom: 2rem;
     display: flex;
@@ -1081,13 +1081,13 @@ This is the fith new freaking mobilenavbar
   }
   #image2 {
     background: #b4e8ffd9;
-    height: 18rem;
+    height: 26.5rem;
     border-radius: 10px;
     margin-bottom: 2rem;
   }
   #image3 {
     background: #cbbff9d9;
-    height: 18rem;
+    height: 26.5rem;
     border-radius: 10px;
     margin-bottom: 2rem;
   }
