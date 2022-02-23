@@ -17,12 +17,6 @@ html {
 .body {
   font-family: "Manrope", sans-serif;
   font-family: "Poppins", sans-serif;
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
-}
-body::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
 }
 * {
   padding: 0;
@@ -75,7 +69,7 @@ header nav .navlinks {
   color: var(--black);
 }
 .linkright {
-  margin-right: 16px;
+  margin-right: 25px;
 }
 
 .navleft {
@@ -91,10 +85,6 @@ header nav .navlinks {
   flex-direction: row-reverse;
 }
 /*<a> anims*/
-.navlinks a::before {
-  text-decoration: none;
-  color: #2a54e9;
-}
 .navlinks a:hover {
   color: var(--linkactive);
 }
