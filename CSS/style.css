@@ -75,7 +75,7 @@ header nav .navlinks {
   color: var(--black);
 }
 .linkright{
-  padding-right: 16px;
+  margin-right: 16px;
 }
 
 .navleft{
