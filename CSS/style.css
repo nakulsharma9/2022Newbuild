@@ -74,18 +74,18 @@ header nav .navlinks {
   text-decoration: none;
   color: var(--black);
 }
-.linkright{
+.linkright {
   margin-right: 16px;
 }
 
-.navleft{
+.navleft {
   display: flex;
   flex: 1 1 0px;
 }
-.navcenter{
+.navcenter {
   display: flex;
 }
-.navright{
+.navright {
   display: flex;
   flex: 1 1 0px;
   flex-direction: row-reverse;
@@ -320,7 +320,6 @@ header nav .navlinks {
   width: 90vw;
   margin-left: calc(-45vw + 50%);
 }
-/* .casetitle  */
 .casetitle {
   display: flex;
   align-items: center;
@@ -371,7 +370,7 @@ header nav .navlinks {
 }
 .casecontent {
   position: relative;
-  transition: .8s ease;
+  transition: 0.8s ease;
   /* transition: transform .5s; */
   /* width: 50%; */
 }
@@ -396,8 +395,8 @@ header nav .navlinks {
   box-shadow: var(--lightprimary);
 }
 .casecontent:hover {
-  -webkit-transform: scale(1.1); 
-  transform: scale(1.1);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
   /* transform: rotate(359deg) scale(1.5); */
   z-index: 99;
 }
@@ -685,7 +684,6 @@ figcaption {
 }
 
 .socialinks a {
-  color: black;
   padding: 10px 20px;
   display: inline-block;
   transition: none;
@@ -722,7 +720,6 @@ figcaption {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: 22px;
-
   color: var(--textc);
 }
 .footercol ul li {
@@ -780,96 +777,105 @@ figcaption {
 /********************************************************************
 This is the fith new freaking mobilenavbar
 ********************************************************************/
-.mobilenav {
+
+#mobilenav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: var(--white);
   top: 0%;
   left: 0%;
-  /* text-align: center; */
+  width: 100%;
   position: fixed;
   z-index: 99999999;
-  width: 100%;
-  transition: top 0.5s;
 }
 .logoimg {
-  width: 64px;
-  left: 0%;
-  margin-top: 1rem;
-  margin-left: 1rem;
-  padding: 10px;
-}
-
-.nav-toggle {
-  position: absolute !important;
-  top: -9999px !important;
-  left: -9999px !important;
-}
-
-.nav-toggle:focus ~ .nav-toggle-label {
-  outline: 3px solid rgba(rgb(0, 0, 0), 0.75);
-}
-
-.nav-toggle-label {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-top: 0.5rem;
-  margin-right: 1.5rem;
-  height: 100%;
   display: flex;
+  justify-content: center;
+  width: 64px;
+  left: 2%;
+}
+#toggle {
+  position: absolute;
+  background: #ffffff;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
-
-.nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
+#toggle span {
   display: block;
   background: rgb(7, 7, 7);
-  height: 2.5px;
+  height: 2px;
   width: 1.5em;
   border-radius: 5px;
-  position: relative;
+  transform: translateY(0px);
 }
-
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
+#toggle::before {
+  display: block;
+  background: rgb(7, 7, 7);
+  height: 2px;
+  width: 1.5em;
+  border-radius: 5px;
+  transform: translateY(-5px);
+}
+#toggle::after {
+  display: block;
+  background: rgb(7, 7, 7);
+  height: 2px;
+  width: 1.5em;
+  border-radius: 5px;
+  transform: translateY(5px);
+}
+#toggle::before,
+#toggle::after {
+  transition: 0.2s;
   content: "";
   position: absolute;
 }
-
-.nav-toggle-label span::before {
-  bottom: 7px;
+#toggle.active::before {
+  transform: translateY(0) rotate(45deg);
+}
+#toggle.active::after {
+  transform: translateY(0) rotate(-45deg);
+}
+#toggle.active span {
+  display: none;
 }
 
-.nav-toggle-label span::after {
-  top: 7px;
-}
-
-.mobnav {
+#navbar {
   position: absolute;
+  font-family: "Manrope", sans-serif;
   text-align: right;
   top: 100%;
   padding-top: 1rem;
-  padding-right: 1rem;
   background: var(--fadewhite);
-  width: 100%;
-  transform: scale(1, 0);
+  width: 0%;
+  overflow: hidden;
+  transform: scale(0, 0);
   transform-origin: top;
-  transition: transform 400ms ease-in-out;
+  transition-property: all;
+  transition-duration: 500ms;
 }
-
-.mobnav ul {
+#navbar.active {
+  transform: scale(1, 1);
+  width: 100%;
+}
+#navbar ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.mobnav li {
+#navbar li {
   margin-bottom: 1em;
   margin-left: 1em;
   margin-right: 1rem;
 }
 
-.mobnav a {
+#navbar a {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -880,24 +886,11 @@ This is the fith new freaking mobilenavbar
   transition: opacity 150ms ease-in-out;
 }
 
-.mobnav a:hover {
-  color: rgb(2, 2, 2);
-}
-
-.nav-toggle:checked ~ .mobnav {
-  transform: scale(1, 1);
-}
-
-.nav-toggle:checked ~ .mobnav a {
-  opacity: 1;
-  transition: opacity 250ms ease-in-out 250ms;
-}
-
 @media screen and (min-width: 800px) {
   .nav-toggle-label {
     display: none;
   }
-  .mobilenav {
+  #mobilenav {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
   }
@@ -907,8 +900,6 @@ This is the fith new freaking mobilenavbar
   } */
 
   .mobnav {
-    /* all: unset; this causes issues with Edge, since it's unsupported */
-
     position: relative;
     text-align: left;
     transition: none;
@@ -1653,19 +1644,181 @@ This is the fith new freaking mobilenavbar
 }
 
 @media screen and (min-width: 801px) and (max-width: 1024px) {
-  .nav-toggle-label {
-    display: block;
-  }
-  .mobilenav {
+  #mobilenav {
     display: none;
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .mobilenav {
+@media screen and (min-width: 1024px) and (max-width: 1800px) {
+  #mobilenav {
     display: none;
   }
   nav {
     display: block;
+  }
+  .navlinks a {
+    font-size: 14px;
+  }
+  .site-wrapper {
+    width: 100%;
+  }
+  .navcenter img {
+    width: 3.5rem;
+  }
+  .container1 {
+    /* width: 100%; */
+    max-width: 1500px;
+  }
+  .container2 {
+    width: 100%;
+  }
+  .hero .designspan .middlemain h1 {
+    font-size: 150px;
+    font-weight: 600;
+    line-height: 8rem;
+  }
+  .hero .designspan .upperone h1 {
+    font-size: 82px;
+    font-weight: 600;
+    line-height: 82px;
+  }
+  @keyframes slide-in-bitupper {
+    0% {
+      transform: translateY(0px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(-240px);
+      opacity: 0.2;
+    }
+  }
+  .hero .designspan .uppertwo h1 {
+    font-size: 82px;
+    font-weight: 600;
+    line-height: 82px;
+    animation: slide-in-upper 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.2s both;
+  }
+  @keyframes slide-in-upper {
+    0% {
+      transform: translateY(0px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(-330px);
+      opacity: 0.2;
+    }
+  }
+  .hero .designspan .lowerone h1 {
+    font-size: 82px;
+    font-weight: 600;
+    line-height: 82px;
+  }
+  @keyframes slide-in-bitbottom {
+    0% {
+      transform: translateY(-180px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(-2px);
+      opacity: 0.2;
+    }
+  }
+  .hero .designspan .lowertwo h1 {
+    font-size: 82px;
+    font-weight: 600;
+    line-height: 82px;
+  }
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(-220px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(80px);
+      opacity: 0.2;
+    }
+  }
+  .casestudy {
+    padding: 1rem;
+    align-items: center;
+    width: 10 0%;
+  }
+  #image1 {
+    width: 100%;
+  }
+
+  .sml{
+    display: grid;
+  }
+  .aboutdescription p {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    line-height: 25px;
+    margin-top: 0.3rem;
+    margin-bottom: 6px;
+  }
+  .myimage img {
+    width: 345px;
+    height: 460px;
+  }
+  .footerrow {
+    padding: 105px 0;
+  }
+  .footercol ul li {
+    margin-bottom: 16px;
+  }
+  .footercol ul li a {
+    margin-bottom: 16px;
+  }
+  .aboutfooter {
+    padding: 0 85px;
+  }
+  .casecontent:hover {
+    transform: scale(1.02);
+  }
+  .vtext {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .visual-grid .twold {
+    grid-gap: 0%;
+  }
+  .visual-grid .twold img {
+    width: 677px;
+    height: 390px;
+  }
+  .visual-grid .fullwall img {
+    width: 1385px;
+    height: 770px;
+  }
+  .visual-grid .mdimage {
+    width: 1385px;
+    height: 440px;
+  }
+  .visual-grid .oneldtwosm {
+    display: grid;
+    grid-column-gap: 0;
+  }
+  .visual-grid .oneldtwosm .ldimgs {
+    width: 670px;
+    height: 400px;
+  }
+  .visual-grid .oneldtwosm .smimage {
+    width: 330px;
+    height: 400px;
+  }
+  .visual-grid .twosmoneld {
+    grid-column-gap: 0;
+  }
+  .visual-grid .twosmoneld .ldimgs {
+    width: 670px;
+    height: 400px;
+  }
+  .visual-grid .twosmoneld .smimage {
+    width: 331px;
+    height: 400px;
+  }
+  .socialinks a {
+    padding: 5px 15px;
   }
 }

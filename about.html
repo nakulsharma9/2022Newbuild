@@ -21,30 +21,29 @@
 
 <body>
   <div class="site-wrapper">
-    <div class="mobilenav" id="mobilenav">
-      <!-- <img class="logoimg" src="./images/logo.png" alt="Nakul Sharma's Portfolio logo" /> -->
-      <a href="./index.html"><img class="logoimg" src="./images/logo.png" alt="Nakul Sharma's Portfolio logo" /></a>
-
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-      <nav class="mobnav">
+    <div id="mobilenav">
+      <img class="logoimg" src="./images/logo.png" alt="Nakul Sharma's Portfolio logo" />
+      <div id="toggle">
+        <span></span>
+      </div>
+      <div id="navbar">
         <ul>
-          <li><a href="./about.html">about me</a></li>
-          <li><a href="./work.html">work</a></li>
-          <li><a href="./etc.html">etc</a></li>
+          <li>
+            <a href="#">about me</a>
+          </li>
+          <li><a href="/work.html">work</a></li>
+          <li><a href="/etc.html">etc</a></li>
           <li><a href="#">resume</a></li>
         </ul>
-      </nav>
-      <label for="nav-toggle" class="nav-toggle-label">
-        <span></span>
-      </label>
+      </div>
     </div>
     <header class="container1">
       <nav id="main-nav">
         <div class="navlinks">
           <div class="navleft">
             <!-- <a href="./etc.html" class="underline linkright">etc.</a> -->
-            <a href="./about.html" class="underline linkright">about me</a>
-            <a href="./work.html" class="underline">etc</a>
+            <a href="#" class="underline linkright">about me</a>
+            <a href="./etc.html" class="underline">etc</a>
             
           </div>
           <div class="navcenter">
@@ -53,7 +52,7 @@
           <div class="navright">
             <a href="#" class="underline">resume</a>
             <!-- <a href="./about.html" class="underline linkright">about me</a> -->
-            <a href="./about.html" class="underline linkright">work</a>
+            <a href="./work.html" class="underline linkright">work</a>
           </div>
         </div>
       </nav>
