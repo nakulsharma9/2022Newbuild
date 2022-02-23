@@ -17,12 +17,6 @@ html {
 .body {
   font-family: "Manrope", sans-serif;
   font-family: "Poppins", sans-serif;
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
-}
-body::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
 }
 * {
   padding: 0;
@@ -74,18 +68,18 @@ header nav .navlinks {
   text-decoration: none;
   color: var(--black);
 }
-.linkright{
+.linkright {
   margin-right: 16px;
 }
 
-.navleft{
+.navleft {
   display: flex;
   flex: 1 1 0px;
 }
-.navcenter{
+.navcenter {
   display: flex;
 }
-.navright{
+.navright {
   display: flex;
   flex: 1 1 0px;
   flex-direction: row-reverse;
@@ -371,7 +365,7 @@ header nav .navlinks {
 }
 .casecontent {
   position: relative;
-  transition: .8s ease;
+  transition: 0.8s ease;
   /* transition: transform .5s; */
   /* width: 50%; */
 }
@@ -396,7 +390,7 @@ header nav .navlinks {
   box-shadow: var(--lightprimary);
 }
 .casecontent:hover {
-  -webkit-transform: scale(1.1); 
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
   /* transform: rotate(359deg) scale(1.5); */
   z-index: 99;
