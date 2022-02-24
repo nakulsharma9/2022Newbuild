@@ -1248,6 +1248,7 @@ This is the fith new freaking mobilenavbar
     font-weight: bold;
     font-size: 60px;
     line-height: 65px;
+    -webkit-text-stroke: 1px var(--lightblack);
     /* text-align: center; */
     margin-bottom: 1rem;
   }
@@ -1257,7 +1258,7 @@ This is the fith new freaking mobilenavbar
     line-height: 30px;
     margin-bottom: 0.3rem;
     letter-spacing: 0.02em;
-    -webkit-text-stroke: 0.5px var(--lightblack);
+    -webkit-text-stroke: 0.25px var(--lightblack);
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
       both;
   }
@@ -1265,7 +1266,7 @@ This is the fith new freaking mobilenavbar
     position: relative;
     font-size: 30px;
     line-height: 30px;
-    -webkit-text-stroke: 0.5px var(--lightblack);
+    -webkit-text-stroke: 0.25px var(--lightblack);
     margin-bottom: 0.3rem;
 
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
@@ -1275,7 +1276,7 @@ This is the fith new freaking mobilenavbar
     position: relative;
     font-size: 30px;
     line-height: 30px;
-    -webkit-text-stroke: 0.5px var(--lightblack);
+    -webkit-text-stroke: 0.25px var(--lightblack);
     margin-bottom: 0.3rem;
 
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
@@ -1285,7 +1286,7 @@ This is the fith new freaking mobilenavbar
     position: relative;
     font-size: 30px;
     line-height: 30px;
-    -webkit-text-stroke: 0.5px var(--lightblack);
+    -webkit-text-stroke: 0.25px var(--lightblack);
     margin-bottom: 0.3rem;
 
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
@@ -1322,7 +1323,7 @@ This is the fith new freaking mobilenavbar
     width: 100%;
   }
 }
-/*************************************************SORTED hai itna*************************************/
+/***************************************SORTED hai itna*************************************/
 @media (min-device-width: 765px) and (max-device-width: 1024px) {
   #main-nav {
     display: none;
