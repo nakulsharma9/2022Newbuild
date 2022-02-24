@@ -1221,9 +1221,9 @@ This is the fith new freaking mobilenavbar
   #main-nav {
     display: none;
   }
-  #mobilenav {
+  /* #mobilenav {
     display: flex;
-  }
+  } */
   .site-wrapper {
     max-width: 480px;
     padding: 0 auto;
