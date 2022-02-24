@@ -1514,7 +1514,7 @@ This is the fith new freaking mobilenavbar
   .aboutme {
     display: flex;
     padding: 25px;
-    /* margin: 5rem 0 2rem; */
+    margin: 5rem 0 2rem;
   }
   .aboutdescription {
     width: 100%;
