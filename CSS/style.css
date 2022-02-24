@@ -781,9 +781,10 @@ This is the fith new freaking mobilenavbar
   z-index: 99999999;
 }
 .logoimg {
+  width: 60px;
+  padding: 1rem;
   display: flex;
   justify-content: center;
-  width: 64px;
   left: 2%;
 }
 #toggle {
@@ -905,7 +906,7 @@ This is the fith new freaking mobilenavbar
   }
   .hero {
     text-align: center;
-    margin: 11rem 0 7.5rem;
+    margin: 11rem 0 6.5rem;
   }
   .salutation {
     font-size: 20px;
@@ -919,6 +920,7 @@ This is the fith new freaking mobilenavbar
     line-height: 65px;
     text-align: center;
     margin-bottom: 1rem;
+    -webkit-text-stroke: 1px var(--lightblack);
   }
   .hero .designspan .upperone h1 {
     position: relative;
@@ -926,7 +928,7 @@ This is the fith new freaking mobilenavbar
     line-height: 30px;
     margin-bottom: 0.3rem;
     letter-spacing: 0.02em;
-    -webkit-text-stroke: 0.5px var(--lightblack);
+    -webkit-text-stroke: 0.25px var(--lightblack);
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
       both;
   }
@@ -934,7 +936,7 @@ This is the fith new freaking mobilenavbar
     position: relative;
     font-size: 28px;
     line-height: 30px;
-    -webkit-text-stroke: 0.5px var(--lightblack);
+    -webkit-text-stroke: 0.25px var(--lightblack);
     margin-bottom: 0.3rem;
 
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
@@ -944,7 +946,7 @@ This is the fith new freaking mobilenavbar
     position: relative;
     font-size: 28px;
     line-height: 30px;
-    -webkit-text-stroke: 0.5px var(--lightblack);
+    -webkit-text-stroke: 0.25px var(--lightblack);
     margin-bottom: 0.3rem;
 
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
@@ -954,7 +956,7 @@ This is the fith new freaking mobilenavbar
     position: relative;
     font-size: 28px;
     line-height: 30px;
-    -webkit-text-stroke: 0.5px var(--lightblack);
+    -webkit-text-stroke: 0.25px var(--lightblack);
     margin-bottom: 0.3rem;
 
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
@@ -990,9 +992,8 @@ This is the fith new freaking mobilenavbar
     /* margin-top: 1rem; */
     grid-auto-rows: 300px;
   }
-  .csoverlay {
-    width: auto;
-    opacity: 1;
+  .overlay {
+    display: none;
   }
   .case1 {
     width: 100%;
@@ -1221,21 +1222,21 @@ This is the fith new freaking mobilenavbar
   #main-nav {
     display: none;
   }
-  /* #mobilenav {
+  #mobilenav {
     display: flex;
-  } */
+  }
   .site-wrapper {
     max-width: 480px;
     padding: 0 auto;
     margin: 0 auto;
   }
   .container2 {
-    /* max-width: 480px; */
     width: 100%;
   }
   .hero {
     text-align: center;
-    margin: 10.5rem 0 7.5rem;
+    margin: 7rem 0 2.5rem;
+    height: auto;
   }
   .salutation {
     font-size: 20px;
@@ -1301,19 +1302,19 @@ This is the fith new freaking mobilenavbar
     transform: translateY(0px);
   }
   .casestudy {
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    margin-top: 1rem;
+    /* width: 500px; */
+    margin: 1rem auto;
+    padding: 0;
   }
-  .csoverlay {
-    width: auto;
-    opacity: 1;
-  }
-  .csoverlay {
+  .overlay {
     display: none;
   }
-
+  .socialinks a {
+    padding: 0px 12px;
+  }
+  .socialinks a img {
+    width: 80%;
+  }
   .work {
     width: 100%;
   }
