@@ -1394,7 +1394,7 @@ This is the fith new freaking mobilenavbar
   }
 }
 
-@media screen and (min-device-width: 480px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
   #main-nav {
     display: none;
   }
