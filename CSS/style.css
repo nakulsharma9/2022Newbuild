@@ -1674,8 +1674,11 @@ This is the fith new freaking mobilenavbar
     padding: 0;
     margin: 1rem auto;
   }
+  .work-grid{
+    padding: 1rem;
+  }
   .work-title {
-    padding: 0%;
+    padding: 1rem;
     margin-top: 10rem;
   }
   .workimg img {
@@ -1683,9 +1686,8 @@ This is the fith new freaking mobilenavbar
     height: 320px;
   }
   .worktext {
-    width: 100%;
-    transform: translateX(2.5px);
-    margin: 0.5rem 0.2rem;
+    width: 80%;
+    margin: 0.5rem 0.4rem;
   }
   .work-heading{
     font-size: 25px;
