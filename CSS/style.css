@@ -942,6 +942,9 @@ This is the fith new freaking mobilenavbar
 /*******************************************************************/
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  #main-nav{
+    display: none;
+  }
   .site-wrapper {
     max-width: 320px;
     padding: 0 auto;
@@ -1073,14 +1076,7 @@ This is the fith new freaking mobilenavbar
     border-radius: 10px;
     margin-bottom: 2rem;
   }
-  /* .case1 img,
-  .case2 img,
-  .case3 img {
-    border-radius: 10px;
-    width: 80%;
-    height: 80%;
-    object-fit: cover;
-  } */
+
   .casecontent .caseimage {
     border-radius: 10px;
     /* width: 50%; */
@@ -1277,6 +1273,9 @@ This is the fith new freaking mobilenavbar
 }
 
 @media screen and (max-device-width: 765px) and (orientation: landscape) {
+  #main-nav{
+    display: none;
+  }
   .site-wrapper {
     max-width: 480px;
     padding: 0 auto;
@@ -1288,7 +1287,7 @@ This is the fith new freaking mobilenavbar
   }
   .hero {
     text-align: center;
-    margin: 7.5rem 0 7.5rem;
+    margin: 10.5rem 0 7.5rem;
   }
   .salutation {
     font-size: 20px;
@@ -1396,6 +1395,9 @@ This is the fith new freaking mobilenavbar
 }
 
 @media screen and (min-device-width: 765px) and (max-device-width: 1024px) {
+  #main-nav{
+    display: none;
+  }
   .site-wrapper {
     width: 100%;
     padding: 0 auto;
@@ -1406,7 +1408,7 @@ This is the fith new freaking mobilenavbar
   }
   .hero {
     text-align: center;
-    margin: 7rem 0 7rem;
+    margin: 10.5rem 0 7rem;
   }
   .salutation {
     font-size: 20px;
@@ -1635,7 +1637,7 @@ This is the fith new freaking mobilenavbar
 }
 
 @media screen and (min-width: 801px) and (max-width: 1024px) {
-  #mobilenav {
+  #main-nav{
     display: none;
   }
 }
@@ -1987,8 +1989,13 @@ This is the fith new freaking mobilenavbar
     transform: translateY(-25%);
   }
 }
-@media (min-width:1600px) and (max-width: 1900px){
+@media (min-width:1600px) and (max-width: 2000px){
   #mobilenav {
     display: none;
   }
 }
+/* @media screen and (min-width:1600px) {
+  #mobilenav{
+    display: none;
+  }
+} */
