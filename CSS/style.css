@@ -876,67 +876,9 @@ This is the fith new freaking mobilenavbar
   text-decoration: none;
   transition: opacity 150ms ease-in-out;
 }
-
-@media screen and (min-width: 800px) {
-  .nav-toggle-label {
-    display: none;
-  }
-  #mobilenav {
-    display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
-  }
-
-  /* .logo {
-    grid-column: 2 / 3;
-  } */
-
-  .mobnav {
-    position: relative;
-    text-align: left;
-    transition: none;
-    transform: scale(1, 1);
-    background: none;
-    top: initial;
-    left: initial;
-
-    grid-column: 3 / 4;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
-  .mobnav ul {
-    display: flex;
-  }
-
-  .mobnav li {
-    margin-left: 3em;
-    margin-bottom: 0;
-  }
-
-  .mobnav a {
-    opacity: 1;
-    position: relative;
-  }
-
-  .mobnav a::before {
-    content: "";
-    display: block;
-    height: 5px;
-    background: black;
-    position: absolute;
-    top: -0.75em;
-    left: 0;
-    right: 0;
-    transform: scale(0, 1);
-    transition: transform ease-in-out 250ms;
-  }
-
-  .mobnav a:hover::before {
-    transform: scale(1, 1);
-  }
+#mobilenav {
+  display: none;
 }
-
 /*******************************************************************/
 /* Started with the media query */
 /*******************************************************************/
@@ -944,6 +886,9 @@ This is the fith new freaking mobilenavbar
 @media screen and (min-width: 320px) and (max-width: 480px) {
   #main-nav {
     display: none;
+  }
+  #mobilenav {
+    display: flex;
   }
   .site-wrapper {
     max-width: 320px;
@@ -1276,6 +1221,9 @@ This is the fith new freaking mobilenavbar
   #main-nav {
     display: none;
   }
+  #mobilenav {
+    display: flex;
+  }
   .site-wrapper {
     max-width: 480px;
     padding: 0 auto;
@@ -1390,11 +1338,11 @@ This is the fith new freaking mobilenavbar
     width: 100%;
     max-width: 1024px;
   }
-  #mobilenav img{
+  #mobilenav img {
     width: 50px;
     padding: 1rem;
   }
-  .hero{
+  .hero {
     margin: 15rem 0.5rem 3rem;
   }
   .hero .designspan .middlemain h1 {
@@ -1674,7 +1622,7 @@ This is the fith new freaking mobilenavbar
     padding: 0;
     margin: 1rem auto;
   }
-  .work-grid{
+  .work-grid {
     padding: 1rem;
   }
   .work-title {
@@ -1689,10 +1637,10 @@ This is the fith new freaking mobilenavbar
     width: 80%;
     margin: 0.5rem 0.4rem;
   }
-  .work-heading{
+  .work-heading {
     font-size: 25px;
   }
-  .work-description{
+  .work-description {
     font-size: 12px;
     line-height: 20px;
     margin-top: 0.49rem;
