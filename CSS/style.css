@@ -58,7 +58,7 @@ header nav .navlinks {
   width: 10px;
   height: 10px;
   transform: translate(-50%, -50%);
-  background-color: #6e6969;
+  background-color: var(--lightblack);
   border-radius: 50%;
   pointer-events: none;
   transition: width 0.5s, height 0.5s;
