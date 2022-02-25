@@ -51,9 +51,9 @@ header nav .navlinks {
   justify-content: space-between;
   flex-grow: 1;
 }
-.innercursor{
+/* .innercursor{
   position:fixed;
-  /* z-index: 99999; */
+  z-index: 99999;
   top: 50%;
   width: 10px;
   height: 10px;
@@ -81,7 +81,7 @@ header nav .navlinks {
   border: 1px solid black;
   pointer-events: none;
   transition: width 0.5s, height 0.5s;
-}
+} */
 
 /* header nav .navlinks ul li {
   margin-right: 1.5rem;

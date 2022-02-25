@@ -28,31 +28,29 @@ toggle.onclick = function () {
   navbar.classList.toggle("active");
 };
 
-let innerCursor = document.querySelector(".innercursor");
-let outerCursor = document.querySelector(".outercursor");
 
-document.addEventListener("mousemove", moveCursor);
 
-function moveCursor(e) {
-    let x = e.clientX;
-    let y = e.clientY;
-    innerCursor.style.left = `${x}px`;
-    innerCursor.style.top = `${y}px`;
-    outerCursor.style.left = `${x}px`;
-    outerCursor.style.top = `${y}px`;
+// let innerCursor = document.querySelector(".innercursor");
+// let outerCursor = document.querySelector(".outercursor");
+// document.addEventListener("mousemove", moveCursor);
+// function moveCursor(e) {
+//     let x = e.clientX;
+//     let y = e.clientY;
+//     innerCursor.style.left = `${x}px`;
+//     innerCursor.style.top = `${y}px`;
+//     outerCursor.style.left = `${x}px`;
+//     outerCursor.style.top = `${y}px`;
 
-    // console.log(e);
-}
+//     // console.log(e);
+// }
 
-let links = Array.from(document.querySelectorAll("a"));
-
-console.log(links);
-
-links.forEach((link) => {
-    link.addEventListener("mouseover", () => {
-        innerCursor.classList.add("grow");
-    });
-    link.addEventListener("mouseleave", () => {
-        innerCursor.classList.remove("grow");
-    });
-});
+// let links = Array.from(document.querySelectorAll("a"));
+// console.log(links);
+// links.forEach((link) => {
+//     link.addEventListener("mouseover", () => {
+//         innerCursor.classList.add("grow");
+//     });
+//     link.addEventListener("mouseleave", () => {
+//         innerCursor.classList.remove("grow");
+//     });
+// });
