@@ -914,6 +914,7 @@
     }
     .hero {
       margin: 10rem 0 1rem;
+      height: 32vh;
     }
     .hero .designspan .middlemain h1 {
       font-size: 92px;
