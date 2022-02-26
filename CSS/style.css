@@ -21,7 +21,6 @@ html {
 * {
   padding: 0;
   margin: 0;
-  /* cursor: none; */
 }
 .container1 {
   max-width: 1700px;
@@ -29,7 +28,7 @@ html {
   margin: 0 auto;
 }
 .container2 {
-  max-width: 1410px;
+  max-width: 1400px;
   padding: 0 auto;
   margin: 0 auto;
 }
@@ -51,41 +50,7 @@ header nav .navlinks {
   justify-content: space-between;
   flex-grow: 1;
 }
-/* .innercursor{
-  position:fixed;
-  z-index: 99999;
-  top: 50%;
-  width: 10px;
-  height: 10px;
-  transform: translate(-50%, -50%);
-  background-color: var(--lightblack);
-  border-radius: 50%;
-  pointer-events: none;
-  transition: width 0.5s, height 0.5s;
-  mix-blend-mode: color-dodge;
-}
-.innercursor.grow{
-  width: 25px;
-  height: 25px;
-  transition: width 0.5s height 0.5s;
-  opacity: 0.5;
-}
-.outercursor{
-  position:fixed;
-  z-index: 99999;
-  top: 50%;
-  width: 25px;
-  height: 25px;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  border: 1px solid black;
-  pointer-events: none;
-  transition: width 0.5s, height 0.5s;
-} */
 
-/* header nav .navlinks ul li {
-  margin-right: 1.5rem;
-} */
 .navlinks a {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -94,7 +59,7 @@ header nav .navlinks {
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
   /* padding-right: 1rem; */
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   text-decoration: none;
@@ -116,7 +81,6 @@ header nav .navlinks {
   flex: 1 1 0px;
   flex-direction: row-reverse;
 }
-/*<a> anims*/
 .navlinks a:hover {
   color: var(--linkactive);
 }
@@ -124,7 +88,12 @@ header nav .navlinks {
   position: relative;
 }
 .navlinks .current {
+  font-weight: 500;
+  text-transform: capitalize;
   color: #2a54e9;
+}
+.navlinks .opac{
+  opacity: 0.5;
 }
 .underline::before {
   content: "";
@@ -194,12 +163,11 @@ header nav .navlinks {
   font-style: normal;
   font-weight: 700;
   font-size: 182px;
-  /* font-size: 11.375rem; */
   line-height: 10rem;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0.9s
     both;
   /* Width and color values */
-  -webkit-text-stroke: 1.5px var(--lightblack);
+  -webkit-text-stroke: 2px var(--lightblack);
   -webkit-text-fill-color: transparent;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -225,12 +193,12 @@ header nav .navlinks {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 102px;
+  font-size: 110px;
   line-height: 102px;
   animation: slide-in-bitupper 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.6s
     both;
   /* Width and color values */
-  -webkit-text-stroke: 1px var(--lightblack);
+  -webkit-text-stroke: 0.9px var(--lightblack);
   -webkit-text-fill-color: transparent;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -254,11 +222,11 @@ header nav .navlinks {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 102px;
+  font-size: 110px;
   line-height: 102px;
   animation: slide-in-upper 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.2s both;
   /* Width and color values */
-  -webkit-text-stroke: 1px var(--lightblack);
+  -webkit-text-stroke: 0.9px var(--lightblack);
   -webkit-text-fill-color: transparent;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -283,12 +251,12 @@ header nav .navlinks {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 102px;
+  font-size: 110px;
   line-height: 102px;
   animation: slide-in-bitbottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.6s
     both;
   /* Width and color values */
-  -webkit-text-stroke: 1px var(--lightblack);
+  -webkit-text-stroke: 0.9px var(--lightblack);
   -webkit-text-fill-color: transparent;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -313,7 +281,7 @@ header nav .navlinks {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 102px;
+  font-size: 110px;
   line-height: 102px;
   animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.2s both;
   /* Width and color values */
@@ -332,7 +300,7 @@ header nav .navlinks {
     opacity: 0;
   }
   100% {
-    transform: translateY(95px);
+    transform: translateY(97px);
     opacity: 0.2;
   }
 }
@@ -340,13 +308,14 @@ header nav .navlinks {
   height: 0;
   border: 1px solid #eef2f4;
   width: 90vw;
+  margin-top: 1rem;
   margin-left: calc(-45vw + 50%);
 }
 .casetitle {
   display: flex;
   align-items: center;
   font-size: 30px;
-  margin-top: 2rem;
+  margin: 2rem 0;
 }
 
 .sectionheading {
@@ -370,31 +339,19 @@ header nav .navlinks {
 }
 .casestudy {
   display: grid;
-  padding: 2rem;
   grid-gap: 1rem;
+  margin: 2rem 0;
 }
-/* .casecontent{
-  width: 320px;
-} */
-/* .casecontent img{
-  width: 100%;
-} */
+
 .casestudy .sml {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
-  /* width: 320px; */
 }
-.caseimage {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+
 .casecontent {
   position: relative;
-  transition: 0.8s ease;
-  /* transition: transform .5s; */
-  /* width: 50%; */
+  transition: 0.5s ease;
 }
 .overlay {
   position: absolute;
@@ -405,11 +362,10 @@ header nav .navlinks {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 0.8s ease;
+  transition: 0.5s ease;
   border-radius: 10px;
-  /* background-color: #008cba; */
-  backdrop-filter: blur(9px) saturate(157%);
-  -webkit-backdrop-filter: blur(9px) saturate(157%);
+  backdrop-filter: blur(2px) saturate(100%);
+  -webkit-backdrop-filter: blur(2px) saturate(100%);
 }
 
 .casecontent:hover .overlay {
@@ -419,26 +375,20 @@ header nav .navlinks {
 .casecontent:hover {
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
-  /* transform: rotate(359deg) scale(1.5); */
   z-index: 99;
 }
 .text {
   color: var(--lightblack);
   font-family: "Manrope", sans-serif;
   position: absolute;
+  font-size: 1.2rem;
+  font-weight: 500;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
-.text .headoverlay {
-  font-weight: 600;
-  font-size: 2.5rem;
-}
-.text .overlaycontent {
-  font-size: 1rem;
 }
 
 /*******************************************************************/
@@ -454,8 +404,7 @@ header nav .navlinks {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   font-size: 25px;
-  color: var(--purplelight);
-  opacity: 85%;
+  color: rgba(115, 79, 255, 0.85);
 }
 .aboutdescription {
   display: block;
@@ -475,7 +424,7 @@ header nav .navlinks {
 }
 .aboutdescription p a {
   filter: none;
-  transition: color 300ms ease-out;
+  transition: filter 300ms ease-out;
 }
 .aboutdescription p a:hover {
   filter: grayscale(100%);
@@ -504,23 +453,22 @@ header nav .navlinks {
 .aboutlinks ul li {
   margin-right: 0.4rem;
 }
-.aboutlinks a {
-  color: black;
+.aboutlinks svg{
   margin-top: 10px;
   margin-right: 10px;
-  display: inline-block;
-  transition: none;
-  -webkit-transition: margin 0.3s ease-out;
-  -moz-transition: margin 0.3s ease-out;
-  -o-transition: margin 0.3s ease-out;
+  transition: transform .3s ease-in-out;
+
 }
-.aboutextra .aboutlinks img {
-  width: 90%;
+.aboutlinks svg:hover path{
+  fill:var(--primary);
+}
+.aboutlinks svg:hover{
+  transform: scale(1.2);
 }
 .aboutextra {
   margin-top: 41px;
 }
-.aboutextra a {
+.aboutextra .emaillink{
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
@@ -529,7 +477,6 @@ header nav .navlinks {
 }
 
 .myimage img {
-  /* position: absolute; */
   width: 355px;
   height: 473px;
   border-radius: 5px;
@@ -560,8 +507,7 @@ figcaption {
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.02em;
-  margin-top: 100px;
-  /* margin-left: 10px; */
+  margin-top: 138px;
   margin-bottom: 25px;
 }
 .vtext span {
@@ -631,29 +577,32 @@ figcaption {
   height: 424px;
 }
 
+/**********************************************************************
+*****************************Work page********************************/
+
 .work-title {
-  padding: 100px 97px 10px 97px;
+  padding: 107px 97px 51px 100px;
 }
 .work-title p {
   font-family: Poppins;
   font-weight: 300;
   font-size: 16px;
+  line-height: 12px;
   margin-bottom: 0.5rem;
   letter-spacing: 0.02em;
 }
 .work {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 10px;
+  margin-bottom: 4rem;
+  transition: transform 0.3s ease-in-out;
 }
 
 .worktext {
   display: block;
   font-family: Manrope;
-  margin-left: 4rem;
   width: 30%;
-  transform: translateY(-45%);
 }
 
 .workimg img {
@@ -661,6 +610,9 @@ figcaption {
   height: 424px;
   border-radius: 10px;
   object-fit: cover;
+}
+.work:hover{
+  transform: scale(1.05);
 }
 
 .work-heading {
@@ -688,13 +640,7 @@ figcaption {
 /********************************************************************/
 /* Footer  */
 /********************************************************************/
-/* .footer{
-  position: absolute;
-    bottom: 0;
-  } */
-.footer .divider {
-  margin: 1.5rem;
-}
+
 .footer .socialinks {
   margin: 1rem 0;
 }
@@ -703,17 +649,21 @@ figcaption {
   flex-direction: row;
   justify-content: center;
   list-style: none;
-  /* font-size: 2rem; */
 }
 
-.socialinks a {
-  padding: 10px 20px;
+.socialinks svg {
+  padding: 0px 15px;
   display: inline-block;
-  transition: none;
-  -webkit-transition: margin 0.3s ease-out;
-  -moz-transition: margin 0.3s ease-out;
-  -o-transition: margin 0.3s ease-out;
+  transition: transform .3s ease-in-out;
 }
+.socialinks svg:hover path{
+  fill:var(--linkactive);
+}
+.socialinks svg:hover{
+  transform: scale(1.2);
+}
+
+/************************about footer******************************/
 
 .aboutfooter {
   font-family: "Poppins", sans-serif;
