@@ -891,7 +891,10 @@
     }
   }
   
-  @media screen and (min-width: 1024px) and (max-width: 1200px) {
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    #mobilenav {
+      display: none;
+    }
     nav {
       display: block;
     }
@@ -1146,26 +1149,41 @@
       max-width: 90vw;
     }
     .container2 {
-      max-width: 1100px;
+      max-width: 70vw;
     }
     .navlinks a {
-      font-size: 14px;
+      font-size: 0.9vw;
     }
     .navcenter img {
-      width: 50px;
+      width: 3.5vw;
     }
     .hero {
-      margin: 12rem 0 6rem;
+      margin: 13vw 0 8vw;
+      height: 31.5vh;
+    }
+    .hero .Maintext{
+      margin-left: 0.375vw;
+    }
+    .salutation{
+      font-size: 1.406vw;
+      line-height: 1.406vw;
+    }
+    .intro{
+      font-size: 1.719vw;
+      line-height: 1.953vw;
+
     }
     .hero .designspan .middlemain h1 {
-      font-size: 7.5rem;
-      font-weight: 700;
-      line-height: 7rem;
+      font-size: 8.5vw;
+      font-weight: 800;
+      line-height: 6.203vw;
+      letter-spacing: 0.275vw;
+      -webkit-text-stroke: 1.3px var(--lightblack);
     }
     .hero .designspan .upperone h1 {
-      font-size: 4.3rem;
-      font-weight: 700;
-      line-height: 85px;
+      font-size: 6vw;
+      font-weight: 800;
+      line-height: 6vw;
     }
     @keyframes slide-in-bitupper {
       0% {
@@ -1173,14 +1191,14 @@
         opacity: 0;
       }
       100% {
-        transform: translateY(-210px);
+        transform: translateY(-12.5vw);
         opacity: 0.2;
       }
     }
     .hero .designspan .uppertwo h1 {
-      font-size: 4.3rem;
-      font-weight: 700;
-      line-height: 85px;
+      font-size: 6vw;
+      font-weight: 800;
+      line-height: 6vw;
       animation: slide-in-upper 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.2s
         both;
     }
@@ -1190,176 +1208,226 @@
         opacity: 0;
       }
       100% {
-        transform: translateY(-280px);
+        transform: translateY(-17.5vw);
         opacity: 0.2;
       }
     }
     .hero .designspan .lowerone h1 {
-      font-size: 4.3rem;
-      font-weight: 700;
-      line-height: 85px;
+      font-size: 6vw;
+      font-weight: 800;
+      line-height: 6vw;
     }
     @keyframes slide-in-bitbottom {
       0% {
-        transform: translateY(-180px);
+        transform: translateY(-14.063vw);
         opacity: 0;
       }
       100% {
-        transform: translateY(-2px);
+        transform: translateY(0.31vw);
         opacity: 0.2;
       }
     }
     .hero .designspan .lowertwo h1 {
-      font-size: 4.3rem;
-      font-weight: 700;
-      line-height: 85px;
+      font-size: 6vw;
+      font-weight: 800;
+      line-height: 6vw;
     }
     @keyframes slide-in-bottom {
       0% {
-        transform: translateY(-220px);
+        transform: translateY(-17.188vw);
         opacity: 0;
       }
       100% {
-        transform: translateY(70px);
+        transform: translateY(5.5vw);
         opacity: 0.2;
       }
     }
-  
-    .titleheading {
-      font-size: 20px;
+    .divider{
+      border:0.5px solid #eef2f4;
+      margin-top: 3vw;
     }
-    .casestudy {
-      padding: 1rem;
+    .casetitle {
+      margin: 1vw 0;
+    }
+    .casestudy{
+      margin: 1.4vw 0;
+    }
+    .text{
+      font-size: 1vw;
     }
     .sectionheading {
-      font-size: 28px;
+      font-size: 1.2vw;
     }
     .arrow {
-      margin-left: 0.5rem;
+      margin-left: 0.625vw;
     }
-    .socialinks a {
-      padding: 6px 15px;
+    .arrow img{
+      width: 70%;
+      transform: translate(0);
     }
+    .socialinks svg {
+      width: 2.5vw;
+      height: 2.5vw;
+      padding:0 1vw;
+    }
+    .underline::before{
+      height: 0.1vw;
+    }
+    /*******************aboutme*********************/
+    
     .aboutme {
-      padding: 90px 70px 115px 70px;
+      padding: 10vh 4vw 18vh;
     }
+    .titleheading{
+      font-size: 1.3vw;
+    }
+    .aboutdescription{
+      width: 50%;
+    }
+    .aboutdescription p{
+      font-size: 0.8vw;
+      line-height: 1.4vw;
+      margin: 0.5vw 0;
+    }
+    .aboutdescription p .emoji{
+      font-size: 1.2vw;
+    }
+    .aboutdescription p a img{
+      width: 04%;
+    }
+    .aboutextra{
+      margin-top: 2vw;
+    }
+    .name {
+      font-size: 0.7vw;
+      line-height: 0.7vw;
+    }
+    .aboutextra .emaillink{
+      font-size: 0.8vw;
+    }
+    .aboutlinks svg{
+      width: 2vw;
+      height: 2vw;
+    }
+    .myimage img {
+      width: 18vw;
+      height: 23vw;
+    }
+    figcaption{
+      font-size: 0.6vw;
+      opacity: 0.9;
+    }
+/*************Aboutfooter******************/
     .footerrow {
-      padding: 103px 0;
+      padding: 5vh 0;
     }
-    .copyryt .cright {
-      padding-right: 40px;
+    .footercol .colhead{
+      font-size:0.729vw;
     }
+    .footercol ul li{
+      font-size: 0.8vw;
+      margin-bottom: 0.99vw;
+    }
+    .footercol ul li a{
+      font-size: 0.8vw;
+      margin-bottom: 0.99vw;
+    }
+    .aboutfooter .copyryt{
+      padding:8vh 0;
+    }
+    .copyryt .copryttxt1{
+      font-size: 0.6vw;
+    }
+    .copyryt .copyryttxt2{
+      font-size: 0.65vw;
+    }
+    .copyryt .cright{
+      font-size: 0.6vw;
+      padding-right: 3.125vw;
+    }
+
     .vtext {
-      font-size: 14px;
-      line-height: 25px;
-      margin-top: 75px;
+      font-size: 0.89vw;
+      line-height:1.5vw;
+      margin-top: 7vw;
+      margin-bottom: 0.5vw;
+    }
+    .visual-grid{
+      grid-row-gap:10px;
     }
     .visual-grid .twold {
       display: flex;
       gap: 5px;
     }
     .visual-grid .twold img {
-      width: 545px;
-      height: 320px;
+      width: 34.9vw;
+      height: 23.5vw;
       object-fit: cover;
     }
     .visual-grid .fullwall img {
-      width: 1080px;
-      height: 573px;
+      width: 70vw;
+      height: 39.397vw;
       object-fit: cover;
     }
     .visual-grid .mdimage {
-      width: 1080px;
+      width: 70vw;
       height: 400px;
     }
     .visual-grid .oneldtwosm {
       display: flex;
     }
     .visual-grid .oneldtwosm .ldimgs {
-      width: 534px;
-      height: 374px;
+      width: 34.9vw;
+      height: 21.406vw;
     }
     .visual-grid .oneldtwosm .smimage {
-      width: 257px;
-      height: 374px;
+      width: 16vw;
+      height: 21.406vw;
     }
   
     .visual-grid .twosmoneld .ldimgs {
-      width: 520px;
-      height: 374px;
+      width: 34.9vw;
+      height: 21.406vw;
     }
     .visual-grid .twosmoneld .smimage {
-      width: 257px;
-      height: 374px;
+      width: 16vw;
+      height: 21.406vw;
     }
-    .name {
-      font-size: 12px;
-      line-height: 12px;
-    }
-    .aboutextra a {
-      font-size: 10px;
-      line-height: 14px;
-    }
-    .aboutdescription p {
-      font-size: 13px;
-      line-height: 22px;
-    }
-    .myimage img {
-      width: 305px;
-      height: 400px;
-    }
-    .footerrow {
-      padding: 85px 0;
-    }
-    .aboutfooter .copyryt {
-      padding: 14px 0;
-      align-items: center;
-    }
-    .footercol ul li {
-      font-size: 12px;
-      margin-bottom: 15px;
-    }
-    .footercol ul li a {
-      font-size: 12px;
-      margin-bottom: 15px;
-    }
-    .copyryt .cright {
-      display: flex;
-      justify-content: center;
-    }
+/************************Work page**********************/    
+
     .work {
       padding: 0;
       margin-top: 0;
     }
     .work-title {
-      padding: 50px 56px 15px 48px;
+      padding: 10vh 0 4vh 4vw; /*top right bottom left*/
+    }
+    .work-title p {
+      font-size: 0.9vw;
+      letter-spacing: 0.01rem;
+      margin-bottom: 0.250vh;
     }
     .workimg img {
-      width: 610px;
-      height: 372px;
+      width: 35vw;
+      height: 22vw;
     }
     .worktext {
       display: block;
       font-family: Manrope;
       width: 30%;
-      margin-left: 2rem;
-    }
-    .work-title p {
-      font-size: 14px;
-      letter-spacing: 0.01rem;
-      margin-bottom: 0.2rem;
+      margin-left: 2.500vw;
     }
     .work-heading {
-      font-size: 23px;
+      font-size: 1.563vw;
       letter-spacing: 0;
     }
     .work-subheading {
-      font-size: 11px;
+      font-size: 0.781vw;
       letter-spacing: 0;
     }
     .work-description {
-      font-size: 12px;
-      line-height: 20px;
+      font-size: 0.859vw;
+      line-height: 1.3vw;
     }
   }
   
