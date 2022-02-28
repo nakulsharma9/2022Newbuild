@@ -1083,19 +1083,29 @@ CaseStudy
   
 }
 .notfoundarea h1{
-  padding: 3rem 0;
+  padding: 3rem 0 1rem 0;
   font-size: 10vw;
   font-family: Manrope;
   color: var(--white);
 }
+.notfoundarea h2{
+  font-size: 2.083vw;
+  font-weight: 800;
+  font-family: Poppins;
+  letter-spacing: 0.026vw;
+  -webkit-text-stroke: 0.026vw var(--white);
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.833vw;
+}
 .notfoundarea .notfounddescr{
-  padding:2rem 0;
+  padding:1.667vw 0;
 }
 .notfoundarea .notfounddescr p{
   font-size: 0.8vw;
   font-family: Manrope;
   color: var(--white);
-  line-height: 25px;
+  line-height: 1.302vw;
 }
 .notfoundarea button{
   border: none;
@@ -1103,13 +1113,13 @@ CaseStudy
   opacity: 0.9;
   color: var(--white);
   font-family: Manrope;
-  padding: 15px 32px;
+  padding: 0.781vw 1.667vw;
   text-align: center;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 0.521vw;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 0.833vw;
+  margin: 0.208vw 0.104vw;
   cursor: pointer;
   transition: transform 0.3s ease;
 } 
