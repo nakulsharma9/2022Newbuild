@@ -322,6 +322,77 @@
     .copyryt .cleft {
       padding-bottom: 40px;
     }
+    .casestudytitle{
+      margin-top: 8rem;
+      font-size: 25px;
+    }
+    .titlecol{
+      padding: 0;
+      text-align: center;
+    }
+    .titlecol h4{
+      font-size: 12px;
+      line-height: 15px;
+    }
+    .titlecol p{
+      font-size: 9px;
+      width: 10em;
+    }
+    .inContent{
+      padding: 1px;
+      margin-top: 1rem; 
+    }
+    .content{
+      width: 75vw;
+      margin-top: 1rem;
+    }
+    .chead{
+      font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0.2rem;
+    }
+    .context{
+      font-size: 13px;
+      line-height: 15px;
+    }
+    .anhead{
+      font-size: 18px;
+      width: auto;
+      line-height: 20px;
+    }
+    .analysis img{
+      width: 70vw;
+      margin: 1rem auto;
+    }
+    .content img{
+      width: 70vw;
+    }
+    .qtime{
+      font-size: 20px;
+      line-height: 20px;
+      margin-top: 1rem;
+    }
+    .contentimage{
+      padding: 0;
+      margin: 1rem auto;
+    }
+    .others{
+      gap: 2px;
+      height: 50px;
+    }
+    .others img{
+      width: 40vw;
+      height: 60px;
+    }
+    .quote{
+      font-size: 11px;
+      line-height: normal;
+      margin: 0.5rem auto;
+    }
+    .alink a{
+      font-size: 10px;
+      line-height: normal;
+    }
   }
 
   /********************************* landscape mobile devices**********************************/
