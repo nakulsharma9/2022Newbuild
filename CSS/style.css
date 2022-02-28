@@ -866,3 +866,206 @@ This is the fith new freaking mobilenavbar
 #mobilenav {
   display: none;
 }
+
+
+/********************************************************
+CaseStudy
+********************************************************/
+
+.casestudypage {
+  background: #ff557c;
+}
+.main-case-section {
+  border: 1px solid red;
+  background-color: var(--white);
+  width: 90vw;
+  font-family: "Manrope", sans-serif;
+  margin: auto;
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.casestudytitle {
+  z-index: 99;
+  font-size: 34px;
+  padding: 1rem;
+  color: #ff557c;
+  text-align: center;
+}
+.titlerow {
+  display: flex;
+  justify-content: center;
+}
+.titlecol {
+  padding: 2rem;
+}
+.titlecol h4 {
+  font-style: normal;
+  color: var(--linkactive);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  z-index: 2;
+  text-align: center;
+}
+.titlecol p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  z-index: 2;
+}
+.bannerimage {
+  border: 1px solid red;
+  width: 78vw;
+  /* height: 509px; */
+  margin: auto;
+  z-index: 2;
+}
+.bannerimage img {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.content {
+  display: block;
+  position: relative;
+  width: 50vw;
+  margin: auto;
+  z-index: 2;
+}
+.inContent {
+  padding: 2rem;
+}
+.context {
+  text-align: left;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #8d96b2;
+  z-index: 2;
+}
+.chead {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  z-index: 2;
+}
+
+.qtime {
+  font-size: 36px;
+  line-height: 49px;
+  font-weight: 600;
+  text-align: center;
+  z-index: 2;
+}
+.qtime span {
+  color: #ff557c;
+}
+.contentimage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+  z-index: 2;
+}
+
+.analysis img {
+  display: flex;
+  margin: auto;
+  z-index: 2;
+}
+.anhead {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #262626;
+  opacity: 0.85;
+  z-index: 2;
+  width: 50rem;
+}
+.ddesign {
+  display: flex;
+  justify-content: center;
+}
+.midpart {
+  background-image: url("../images/CaseStudy/C1/Wireframepichewalaphutu.svg");
+  height: 1500px;
+  position: relative;
+  width: 100%;
+  border: 2px solid blue;
+  margin-bottom: 4rem;
+}
+.midcontent{
+  width: 40%;
+  padding: 4rem;
+}
+.apple{
+  display: flex;
+  margin: auto;
+}
+.imgdiv{
+  width: 40%;
+  transform: translate(120%,-40%);
+  margin-bottom: 151.5px;
+}
+.imgdiv .class1{
+  transform: translateY(50%);
+  margin-right: 108px;
+}
+.applelist{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.applelist p{
+  margin-right: 121px;
+}
+.midhead {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 55px;
+  color: #6d7386;
+}
+.midcontext {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #8d96b2;
+  opacity: 0.65;
+}
+.quote {
+  color: #8d96b2;
+  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
+  z-index: 2;
+  letter-spacing: 0.02em;
+}
+.alink {
+  text-align: center;
+  padding: 0.5rem;
+}
+.alink a {
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #2d59f0;
+}
+.wave{
+  text-align: center;
+  font-size: 40px;
+}
+.others{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  height: 336px;
+  padding: 2rem;
+  gap: 90px;
+}
