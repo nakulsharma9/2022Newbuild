@@ -92,7 +92,7 @@ header nav .navlinks {
   text-transform: capitalize;
   color: #2a54e9;
 }
-.navlinks .opac {
+.navlinks .opac{
   opacity: 0.5;
 }
 .underline::before {
@@ -457,21 +457,22 @@ header nav .navlinks {
 .aboutlinks ul li {
   margin-right: 0.4rem;
 }
-.aboutlinks svg {
+.aboutlinks svg{
   margin-top: 10px;
   margin-right: 10px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform .3s ease-in-out;
+
 }
-.aboutlinks svg:hover path {
-  fill: var(--primary);
+.aboutlinks svg:hover path{
+  fill:var(--primary);
 }
-.aboutlinks svg:hover {
+.aboutlinks svg:hover{
   transform: scale(1.2);
 }
 .aboutextra {
   margin-top: 41px;
 }
-.aboutextra .emaillink {
+.aboutextra .emaillink{
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
@@ -614,7 +615,7 @@ figcaption {
   border-radius: 10px;
   object-fit: cover;
 }
-.work:hover {
+.work:hover{
   transform: scale(1.05);
 }
 
@@ -657,12 +658,12 @@ figcaption {
 .socialinks svg {
   padding: 0px 15px;
   display: inline-block;
-  transition: transform 0.3s ease-in-out;
+  transition: transform .3s ease-in-out;
 }
-.socialinks svg:hover path {
-  fill: var(--linkactive);
+.socialinks svg:hover path{
+  fill:var(--linkactive);
 }
-.socialinks svg:hover {
+.socialinks svg:hover{
   transform: scale(1.2);
 }
 
@@ -866,6 +867,7 @@ This is the fith new freaking mobilenavbar
   display: none;
 }
 
+
 /********************************************************
 CaseStudy
 ********************************************************/
@@ -887,7 +889,6 @@ CaseStudy
   z-index: 99;
   font-size: 34px;
   padding: 1rem;
-  margin-top: 1.5rem;
   color: #ff557c;
   text-align: center;
 }
@@ -896,7 +897,7 @@ CaseStudy
   justify-content: center;
 }
 .titlecol {
-  padding: 1.5rem;
+  padding: 2rem;
 }
 .titlecol h4 {
   font-style: normal;
@@ -919,7 +920,7 @@ CaseStudy
   border: 1px solid red;
   width: 78vw;
   /* height: 509px; */
-  margin: 1rem auto;
+  margin: auto;
   z-index: 2;
 }
 .bannerimage img {
@@ -993,48 +994,36 @@ CaseStudy
 }
 .midpart {
   background-image: url("../images/CaseStudy/C1/Wireframepichewalaphutu.svg");
-  background-repeat: no-repeat;
-  background-color: #f4f7fc;
   height: 1500px;
-  /* position: relative; */
+  position: relative;
   width: 100%;
+  border: 2px solid blue;
   margin-bottom: 4rem;
 }
-.midcontent {
+.midcontent{
   width: 40%;
   padding: 4rem;
 }
-.midhalf {
-  display: flex;
-}
-.midimage1 {
-  margin-top: 5rem;
-}
-.midhalftwo {
-  display: flex;
-  justify-content: center;
-  margin-top: 5rem;
-}
-.apple {
+.apple{
   display: flex;
   margin: auto;
 }
-.imgdiv {
+.imgdiv{
   width: 40%;
-  transform: translate(120%, -40%);
+  transform: translate(120%,-40%);
   margin-bottom: 151.5px;
 }
-.imgdiv .class1 {
+.imgdiv .class1{
   transform: translateY(50%);
   margin-right: 108px;
 }
-.applelist {
+.applelist{
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: center;
 }
-.applelist p {
+.applelist p{
   margin-right: 121px;
 }
 .midhead {
@@ -1068,11 +1057,11 @@ CaseStudy
   letter-spacing: 0.02em;
   color: #2d59f0;
 }
-.wave {
+.wave{
   text-align: center;
   font-size: 40px;
 }
-.others {
+.others{
   display: flex;
   margin: auto;
   justify-content: center;

@@ -225,7 +225,6 @@
       padding: 0;
       padding-top: 10rem;
       padding-bottom: 2rem;
-      margin-left: 1rem;
     }
     .work-title .titleheading {
       font-size: 16px;
@@ -242,15 +241,13 @@
       transition: none;
     }
     .work .workimg img {
-      width: 90vw;
-      display: flex;
-      margin: auto;
+      width: 100%;
       height: 350px;
     }
     .worktext {
-      width: 90vw;
+      width: 100%;
       transform: translateX(2px);
-      margin: 0.5rem 1rem;
+      margin: 0.5rem 0.2rem;
     }
     .work-heading {
       font-size: 18px;
@@ -366,40 +363,6 @@
     .analysis img{
       width: 70vw;
       margin: 1rem auto;
-    }
-    .midpart{
-      height: auto;
-      margin: auto;
-      display: block;
-    }
-    .midcontent{
-      /* display: flex;
-      flex-direction: column; */
-      margin: auto;
-      width: auto;
-      padding: 1rem;
-    }
-    .midcontext{
-      font-size: 12px;
-      line-height: 15px;
-    }
-    .midhalf{
-      display: flex;
-      flex-direction: column;
-    }
-    .midhead{
-      font-size: 24px;
-    line-height: 40px;
-    }
-    .midimage1{
-      display: flex;
-      margin: auto;
-    }
-    .midimage1 img{
-      width: 78vw;
-    }
-    .midhalftwo img{
-      width: 85vw;
     }
     .content img{
       width: 70vw;
@@ -679,15 +642,13 @@
       transition: none;
     }
     .work .workimg img {
-      width: 90vw;
-      display: flex;
-      margin: auto;
+      width: 100%;
       height: 350px;
     }
     .worktext {
-      width: 90vw;
+      width: 100%;
       transform: translateX(2px);
-      margin: 0.5rem 1rem;
+      margin: 0.5rem 0.2rem;
     }
     .work-heading {
       font-size: 18px;
