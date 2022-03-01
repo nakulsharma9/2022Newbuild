@@ -875,20 +875,24 @@ CaseStudy
 .casestudypage {
   background: #ff557c;
 }
+.navlinks .myR{
+  color: var(--white);
+}
 .main-case-section {
-  border: 1px solid red;
   background-color: var(--white);
-  width: 90vw;
   font-family: "Manrope", sans-serif;
-  margin: auto;
   z-index: 2;
-  border-radius: 10px;
+  border-radius: 21px;
 }
 
 .casestudytitle {
   z-index: 99;
+  font-family: Poppins;
   font-size: 34px;
-  padding: 1rem;
+  letter-spacing: 0.02em;
+  line-height: 51px;
+  font-weight: 600;
+  padding-top: 3.5rem;
   color: #ff557c;
   text-align: center;
 }
@@ -897,11 +901,14 @@ CaseStudy
   justify-content: center;
 }
 .titlecol {
-  padding: 2rem;
+  padding: 1.9rem;
 }
 .titlecol h4 {
   font-style: normal;
-  color: var(--linkactive);
+  color: var(--lightblack);
+  opacity: 0.75;
+  font-family: Manrope;
+  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
@@ -915,11 +922,11 @@ CaseStudy
   line-height: 19px;
   letter-spacing: 0.02em;
   z-index: 2;
+  color: #8D96B2;
+opacity: 0.75;
 }
 .bannerimage {
-  border: 1px solid red;
-  width: 78vw;
-  /* height: 509px; */
+  width: 80.313vw;
   margin: auto;
   z-index: 2;
 }
@@ -939,30 +946,39 @@ CaseStudy
   padding: 2rem;
 }
 .context {
-  text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 25px;
   letter-spacing: 0.02em;
-  color: #8d96b2;
+  color: #8D96B2;
+
+  opacity: 0.8;
   z-index: 2;
 }
 .chead {
+  color: #262626;
+  opacity: 0.85;
   margin-bottom: 0.5rem;
-  font-weight: 600;
-  font-size: 22px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
   line-height: 30px;
-  z-index: 2;
 }
 
 .qtime {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
   font-size: 36px;
   line-height: 49px;
-  font-weight: 600;
   text-align: center;
   z-index: 2;
+  color: #262626;
+  opacity: 0.9;
 }
 .qtime span {
-  color: #ff557c;
+  color: #FF557C;
+  opacity: 0.9;
 }
 .contentimage {
   display: flex;
@@ -972,13 +988,17 @@ CaseStudy
   padding: 3rem;
   z-index: 2;
 }
-
+.analysis{
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
 .analysis img {
   display: flex;
   margin: auto;
   z-index: 2;
 }
 .anhead {
+  font-family: Manrope;
   font-weight: bold;
   font-size: 22px;
   line-height: 30px;
@@ -993,11 +1013,10 @@ CaseStudy
   justify-content: center;
 }
 .midpart {
-  background-image: url("../images/CaseStudy/C1/Wireframepichewalaphutu.svg");
-  height: 1500px;
+  background-image: url("../images/CaseStudy/C1/Wireframebase.png");
+  /* height: 1500px; */
   position: relative;
-  width: 100%;
-  border: 2px solid blue;
+  /* width: 110%; */
   margin-bottom: 4rem;
 }
 .midcontent{
