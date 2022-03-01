@@ -945,7 +945,9 @@ opacity: 0.75;
   z-index: 2;
 }
 .inContent {
-  padding: 2rem;
+  padding: 3rem;
+  max-width: 720px;
+  margin: auto;
 }
 .context {
   font-size: 16px;
@@ -1016,6 +1018,7 @@ opacity: 0.75;
 }
 .midpart {
   background-image: url("../images/CaseStudy/C1/Wireframebase.svg");
+  background-repeat: space;
   margin-bottom: 4rem;
 }
 .midcontent{
@@ -1084,7 +1087,7 @@ color: #8D96B2;
 opacity: 0.3;
 }
 .centerquote{
-  padding: 2rem;
+  padding: 1rem;
   font-family: Manrope;
 font-style: normal;
 font-weight: 600;
@@ -1097,13 +1100,15 @@ opacity: 0.3;
 }
 .alink {
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 .alink a {
+  text-decoration: none;
+  font-family: Manrope;
   font-size: 14px;
   line-height: 19px;
   letter-spacing: 0.02em;
-  color: #2d59f0;
+  color: var(--linkactive);
 }
 .wave{
   text-align: center;
@@ -1114,10 +1119,12 @@ opacity: 0.3;
   margin: auto;
   justify-content: center;
   height: 336px;
-  padding: 2rem;
+  padding: 5rem;
   gap: 90px;
 }
-
+.main-case-section .footer .socialinks{
+  padding-bottom: 2rem;
+}
 /****************** 404 page********************/
 .notfoundarea{
  
