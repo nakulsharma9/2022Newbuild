@@ -1058,6 +1058,16 @@ opacity: 0.75;
   color: #8d96b2;
   opacity: 0.65;
 }
+.midhalf{
+  display: flex;
+}
+.midimage1{
+  margin: 2rem auto;
+}
+.midhalftwo img{
+  display: flex;
+  margin: 2rem auto;
+}
 .quote {
   color: #8d96b2;
   text-align: center;
