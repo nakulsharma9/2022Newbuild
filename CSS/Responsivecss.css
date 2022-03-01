@@ -10,14 +10,14 @@
       display: flex;
     }
     .site-wrapper {
-      max-width: 320px;
+      /* max-width: 320px; */
       padding: 0 auto;
       margin: 0 auto;
     }
     .container2 {
-      width: 100%;
+      width: 90vw;
       padding: 0;
-      margin: 0;
+      margin: auto;
     }
     .container1 {
       display: none;
@@ -328,6 +328,7 @@
     ************************************/
     .casestudytitle{
       margin-top: 8rem;
+      display: flex;
       font-size: 25px;
     }
     .titlecol{
@@ -345,6 +346,7 @@
     }
     .bannerimage{
       width: 65vw;
+      display: flex;
     }
     .inContent{
       padding: 1px;
@@ -448,9 +450,9 @@
       margin: 0 auto;
     }
     .container2 {
-      width: 100%;
+      width: 90vw;
       padding: 0;
-      margin: 0;
+      margin: auto;
     }
     .hero {
       text-align: center;
@@ -699,7 +701,21 @@
       line-height: 18px;
       margin-top: 0.3rem;
     }
-  
+    .analysis img{
+      display: none;
+    }
+    .midimage1{
+      display: none;
+    }
+    .midhalftwo{
+      display: none;
+    }
+    .contentimage{
+      display: none;
+    }
+    .others{
+      display: none;
+    }
   }
   
 
