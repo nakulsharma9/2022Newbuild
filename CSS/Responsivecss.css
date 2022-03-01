@@ -10,7 +10,6 @@
       display: flex;
     }
     .site-wrapper {
-      /* max-width: 320px; */
       padding: 0 auto;
       margin: 0 auto;
     }
@@ -329,7 +328,9 @@
     .casestudytitle{
       margin-top: 8rem;
       display: flex;
-      font-size: 25px;
+      font-size: 20px;
+      line-height:25px;
+      padding:1rem;
     }
     .titlecol{
       padding: 0;
@@ -457,6 +458,7 @@
       margin: 8vw 0.104vw;
       border-radius:2vw
     }
+    /***************Myrevuepage*******************/
 
 
   }
