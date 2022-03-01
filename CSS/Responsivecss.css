@@ -433,6 +433,32 @@
       font-size: 10px;
       line-height: normal;
     }
+    /**************404 page*******************/
+    .notfoundarea{
+      margin-top: 40vw;
+      margin-bottom: 10vw;
+      height: 80vh;
+    }
+    .notfoundarea h1{
+      font-size: 25vw;
+    }
+    .notfoundarea h2{
+      font-size:4vw;
+      -webkit-text-stroke: 0.04vw var(--white);
+      margin-bottom:3vw;
+    }
+    .notfoundarea .notfounddescr p{
+      font-size: 2.8vw;
+      line-height: 3.2vw;
+    }
+    .notfoundarea button{
+      font-size: 3.5vw;
+      padding: 6vw 13vw;
+      margin: 8vw 0.104vw;
+      border-radius:2vw
+    }
+
+
   }
 
   /********************************* landscape mobile devices**********************************/
@@ -445,7 +471,7 @@
       display: flex;
     }
     .site-wrapper {
-      max-width: 480px;
+      /* max-width: 480px; */
       padding: 0 auto;
       margin: 0 auto;
     }
@@ -716,8 +742,34 @@
     .others{
       display: none;
     }
+    .notfoundarea{
+      margin-top: 20vw;
+      margin-bottom: 10vw;
+      height: 100vh;
+    }
+    .notfoundarea h1{
+      font-size: 15vw;
+      padding:1rem 0 1rem 0;
+    }
+    .notfoundarea h2{
+      font-size:4vw;
+      -webkit-text-stroke: 0.04vw var(--white);
+      margin-bottom:1vw;
+    }
+    .notfoundarea .notfounddescr{
+      padding: 0vw;
+    }
+    .notfoundarea .notfounddescr p{
+      font-size: 1.8vw;
+      line-height: 2.2vw;
+    }
+    .notfoundarea button{
+      font-size: 2vw;
+      padding: 4vw 9vw;
+      margin: 4vw 0.104vw;
+      border-radius:1.5vw
+    }
   }
-  
 
   /***************************************SORTED hai itna*************************************/
   @media (min-device-width: 766px) and (max-device-width: 1024px) {
@@ -728,7 +780,7 @@
       display: flex;
     }
     .site-wrapper {
-      width: 100%;
+      /* width: 100%; */
       padding: 0 auto;
       margin: 0 auto;
     }
@@ -737,7 +789,6 @@
     }
     .container2 {
       width: 80vw;
-      /* max-width: 1024px; */
     }
     #mobilenav img {
       width: 50px;
@@ -1014,6 +1065,33 @@
       line-height: 20px;
       margin-top: 0.49rem;
     }
+    .notfoundarea{
+      margin-top: 20vw;
+      margin-bottom: 10vw;
+      height: 90vh;
+    }
+    .notfoundarea h1{
+      font-size: 15vw;
+      padding:8rem 0 1rem 0;
+    }
+    .notfoundarea h2{
+      font-size:4vw;
+      -webkit-text-stroke: 0.04vw var(--white);
+      margin-bottom:1vw;
+    }
+    .notfoundarea .notfounddescr{
+      padding: 0vw;
+    }
+    .notfoundarea .notfounddescr p{
+      font-size: 1.8vw;
+      line-height: 2.2vw;
+    }
+    .notfoundarea button{
+      font-size: 2vw;
+      padding: 4vw 9vw;
+      margin: 4vw 0.104vw;
+      border-radius:1.5vw
+    }
   }
   
   @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -1263,6 +1341,32 @@
       font-size: 12px;
       line-height: 20px;
       margin-top: 0.49rem;
+    }
+    .notfoundarea{
+      margin-bottom: 5vw;
+      height: 80vh;
+    }
+    .notfoundarea h1{
+      font-size: 15vw;
+      padding:5rem 0 3rem 0;
+    }
+    .notfoundarea h2{
+      font-size:2vw;
+      -webkit-text-stroke: 0.025vw var(--white);
+      margin-bottom:1vw;
+    }
+    .notfoundarea .notfounddescr{
+      padding: 0vw;
+    }
+    .notfoundarea .notfounddescr p{
+      font-size: 1.2vw;
+      line-height: 1.5vw;
+    }
+    .notfoundarea button{
+      font-size: 2vw;
+      padding: 2.5vw 5vw;
+      margin: 4vw 0.104vw;
+      border-radius:1vw;
     }
   }
   /********************************Done till here**/
