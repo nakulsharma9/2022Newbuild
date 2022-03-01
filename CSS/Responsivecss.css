@@ -327,83 +327,83 @@
     CASE STUDY
     ************************************/
     .casestudytitle{
-      margin-top: 8rem;
+      margin-top: 40vw;
       display: flex;
-      font-size: 25px;
+      font-size: 7.8vw;
     }
     .titlecol{
       padding: 0;
       text-align: center;
     }
     .titlecol h4{
-      font-size: 12px;
-      line-height: 20px;
+      font-size: 3.75vw;
+      line-height: 6.25vw;
     }
     .titlecol p{
-      font-size: 9px;
-      width: 10em;
-      line-height: 15px;
+      font-size: 2.8vw;
+      width: 50vw;
+      line-height: 4.7vw;
     }
     .bannerimage{
       width: 65vw;
       display: flex;
     }
     .inContent{
-      padding: 1px;
-      margin: 1rem; 
+      padding: 0.3vw;
+      margin: 5vw; 
     }
     .content{
       width: 75vw;
-      margin-top: 1rem;
+      margin-top: 5vw;
     }
     .chead{
-      font-size: 15px;
-    line-height: 20px;
-    margin-bottom: 0.2rem;
+      font-size: 4.7vw;
+    line-height: 6.25vw;
+    margin-bottom: 1vw;
     }
     .context{
-      font-size: 13px;
-      line-height: 15px;
+      font-size: 4.1vw;
+      line-height: 4.7vw;
       width: 65vw;
     }
     .anhead{
-      font-size: 18px;
+      font-size: 5.6vw;
       width: auto;
-      line-height: 20px;
+      line-height: 6.25vw;
     }
     .analysis img{
       width: 65vw;
-      margin: 1rem auto;
+      margin: 5vw auto;
     }
     .content img{
       width: 65vw;
     }
     .qtime{
-      font-size: 20px;
-      line-height: 20px;
-      margin-top: 1rem;
+      font-size: 6.25vw;
+      line-height: 6.25vw;
+      margin-top: 5vw;
     }
     .contentimage{
       padding: 0;
-      margin: 1rem auto;
+      margin: 5vw auto;
     }
     .midpart{
-      height: 37rem;
+      height: 185vw;
     }
     .midhalf{
       display: flex;
       flex-direction: column;
     }
     .midhead{
-      font-size: 20px;
-      line-height: 35px;
+      font-size: 6.25vw;
+      line-height: 11vw;
     }
     .midcontext{
-      font-size: 14px;
-      line-height: 15px;
+      font-size: 4.3vw;
+      line-height: 4.7vw;
     }
     .midcontent{
-      padding: 0.5rem;
+      padding: 2.5vw;
       width: 70vw;
     }
     .midimage1 img{
@@ -413,24 +413,24 @@
     }
     .midhalftwo img{
       width: 70vw;
-      margin: 2rem auto;
+      margin: 10vw auto;
       display: flex;
     }
     .others{
-      gap: 2px;
-      height: 50px;
+      gap: 0.6vw;
+      height: 15.6vw;
     }
     .others img{
       width: 40vw;
-      height: 60px;
+      height: 18.7vw;
     }
     .quote{
-      font-size: 11px;
+      font-size: 3.43vw;
       line-height: normal;
-      margin: 0.5rem auto;
+      margin: 2.5vw auto;
     }
     .alink a{
-      font-size: 10px;
+      font-size: 3.1vw;
       line-height: normal;
     }
   }
