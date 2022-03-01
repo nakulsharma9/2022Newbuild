@@ -878,10 +878,9 @@ CaseStudy
 .main-case-section {
   border: 1px solid red;
   background-color: var(--white);
-  width: 90vw;
+  /* width: 90vw; */
   font-family: "Manrope", sans-serif;
-  margin: auto;
-  z-index: 2;
+  /* margin-bottom: 2rem; */
   border-radius: 10px;
 }
 
@@ -994,11 +993,11 @@ CaseStudy
 }
 .midpart {
   background-image: url("../images/CaseStudy/C1/Wireframepichewalaphutu.svg");
+  background-color: #F4F7FC;;
   height: 1500px;
   position: relative;
   width: 100%;
-  border: 2px solid blue;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .midcontent{
   width: 40%;
@@ -1038,6 +1037,16 @@ CaseStudy
   letter-spacing: 0.02em;
   color: #8d96b2;
   opacity: 0.65;
+}
+.midhalf{
+  display: flex;
+}
+.midimage1{
+  margin: 2rem auto;
+}
+.midhalftwo img{
+  display: flex;
+  margin: 2rem auto;
 }
 .quote {
   color: #8d96b2;

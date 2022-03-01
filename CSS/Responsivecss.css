@@ -322,6 +322,10 @@
     .copyryt .cleft {
       padding-bottom: 40px;
     }
+
+    /************************************
+    CASE STUDY
+    ************************************/
     .casestudytitle{
       margin-top: 8rem;
       font-size: 25px;
@@ -332,15 +336,19 @@
     }
     .titlecol h4{
       font-size: 12px;
-      line-height: 15px;
+      line-height: 20px;
     }
     .titlecol p{
       font-size: 9px;
       width: 10em;
+      line-height: 15px;
+    }
+    .bannerimage{
+      width: 65vw;
     }
     .inContent{
       padding: 1px;
-      margin-top: 1rem; 
+      margin: 1rem; 
     }
     .content{
       width: 75vw;
@@ -354,6 +362,7 @@
     .context{
       font-size: 13px;
       line-height: 15px;
+      width: 65vw;
     }
     .anhead{
       font-size: 18px;
@@ -361,11 +370,11 @@
       line-height: 20px;
     }
     .analysis img{
-      width: 70vw;
+      width: 65vw;
       margin: 1rem auto;
     }
     .content img{
-      width: 70vw;
+      width: 65vw;
     }
     .qtime{
       font-size: 20px;
@@ -375,6 +384,35 @@
     .contentimage{
       padding: 0;
       margin: 1rem auto;
+    }
+    .midpart{
+      height: 37rem;
+    }
+    .midhalf{
+      display: flex;
+      flex-direction: column;
+    }
+    .midhead{
+      font-size: 20px;
+      line-height: 35px;
+    }
+    .midcontext{
+      font-size: 14px;
+      line-height: 15px;
+    }
+    .midcontent{
+      padding: 0.5rem;
+      width: 70vw;
+    }
+    .midimage1 img{
+      width: 70vw;
+      margin: auto;
+      display: flex;
+    }
+    .midhalftwo img{
+      width: 70vw;
+      margin: 2rem auto;
+      display: flex;
     }
     .others{
       gap: 2px;
