@@ -325,12 +325,18 @@
     /************************************
     CASE STUDY
     ************************************/
-    .casestudytitle{
+    .main-case-section{
       margin-top: 40vw;
+    }
+    .casestudytitle{
+      margin-top: 4vw;
       display: flex;
-      font-size: 20px;
-      line-height:25px;
-      padding:1rem;
+      font-size: 6.250vw;
+      line-height:7.813vw;
+      padding:5vw;
+    }
+    .whattitle{
+      padding-bottom: 5vw;
     }
     .titlecol{
       padding: 0;
@@ -342,11 +348,11 @@
     }
     .titlecol p{
       font-size: 2.8vw;
-      width: 50vw;
+      width: 30vw;
       line-height: 4.7vw;
+      letter-spacing: 0;
     }
     .bannerimage{
-      width: 65vw;
       display: flex;
     }
     .inContent{
@@ -354,85 +360,73 @@
       margin: 5vw; 
     }
     .content{
-      width: 75vw;
+      margin: auto;
+      width: 90vw;
       margin-top: 5vw;
+      padding-bottom: 0rem;
     }
     .chead{
-      font-size: 4.7vw;
+      font-size: 5.625vw;
     line-height: 6.25vw;
-    margin-bottom: 1vw;
+    margin-bottom: 2vw;
     }
     .context{
-      font-size: 4.1vw;
-      line-height: 4.7vw;
-      width: 65vw;
+      font-size: 4.375vw;
+      line-height: 5vw;
+      width: 75vw;
     }
-    .anhead{
-      font-size: 5.6vw;
-      width: auto;
-      line-height: 6.25vw;
-    }
-    .analysis img{
-      width: 65vw;
-      margin: 5vw auto;
-    }
-    .content img{
-      width: 65vw;
+    .contentimage img{
+      width: 88vw;
+      padding-top: 10vw;
+    padding-bottom: 10vw;
     }
     .qtime{
-      font-size: 6.25vw;
-      line-height: 6.25vw;
-      margin-top: 5vw;
+      padding-top: 10vw;
+      padding-bottom: 10vw;
+      font-size: 4.375vw;
     }
-    .contentimage{
-      padding: 0;
-      margin: 5vw auto;
+    .anhead{
+      margin: auto;
+      font-size:5vw;
+      line-height: 6.250vw;
+      text-align: center;
+      padding-bottom: 10vw;
+      width: 100%;
     }
-    .midpart{
-      height: 185vw;
+    .analysis img{
+      width: 71vw;
     }
     .midhalf{
-      display: flex;
       flex-direction: column;
-    }
-    .midhead{
-      font-size: 6.25vw;
-      line-height: 11vw;
-    }
-    .midcontext{
-      font-size: 4.3vw;
-      line-height: 4.7vw;
-    }
-    .midcontent{
-      padding: 2.5vw;
-      width: 70vw;
-    }
-    .midimage1 img{
-      width: 70vw;
-      margin: auto;
-      display: flex;
+      align-content: center;
+      flex-wrap: wrap;
     }
     .midhalftwo img{
-      width: 70vw;
-      margin: 10vw auto;
-      display: flex;
+      padding-bottom: 0.3330000000000002vw;
+      width: 72.57300000000001vw
     }
-    .others{
-      gap: 0.6vw;
-      height: 15.6vw;
+    .midpart{
+      background-repeat: repeat-y;
     }
-    .others img{
-      width: 40vw;
-      height: 18.7vw;
+    .midimage1 img{
+      width: 85vw;
+    }
+    .midcontent{
+      padding: 5vw;
     }
     .quote{
-      font-size: 3.43vw;
-      line-height: normal;
-      margin: 2.5vw auto;
+      padding: 2.500vw;
+      font-size:4.375vw;
+    }
+    .midhead{
+      font-size: 5vw;
+      margin-bottom: 5vw;
+    }
+    .centerquote{
+      font-size: 1.563vw;
     }
     .alink a{
-      font-size: 3.1vw;
-      line-height: normal;
+      font-size: 4.375vw
     }
     /**************404 page*******************/
     .notfoundarea{
@@ -771,6 +765,110 @@
       margin: 4vw 0.104vw;
       border-radius:1.5vw
     }
+    /********myreuve**********/
+    .main-case-section{
+      margin-top: 40vw;
+    }
+    .casestudytitle{
+      margin-top: 4vw;
+      display: flex;
+      font-size: 6.250vw;
+      line-height:7.813vw;
+      padding:5vw;
+    }
+    .whattitle{
+      padding-bottom: 5vw;
+    }
+    .titlecol{
+      padding: 0;
+      text-align: center;
+    }
+    .titlecol h4{
+      font-size: 3.75vw;
+      line-height: 6.25vw;
+    }
+    .titlecol p{
+      font-size: 2.8vw;
+      width: 30vw;
+      line-height: 4.7vw;
+      letter-spacing: 0;
+    }
+    .bannerimage{
+      display: flex;
+    }
+    .inContent{
+      padding: 0.3vw;
+      margin: 5vw; 
+    }
+    .content{
+      margin: auto;
+      width: 90vw;
+      margin-top: 5vw;
+      padding-bottom: 0rem;
+    }
+    .chead{
+      font-size: 5.625vw;
+    line-height: 6.25vw;
+    margin-bottom: 2vw;
+    }
+    .context{
+      font-size: 4.375vw;
+      line-height: 5vw;
+      width: 75vw;
+    }
+    .contentimage img{
+      width: 88vw;
+      padding-top: 10vw;
+    padding-bottom: 10vw;
+    }
+    .qtime{
+      padding-top: 10vw;
+      padding-bottom: 10vw;
+      font-size: 4.375vw;
+    }
+    .anhead{
+      margin: auto;
+      font-size:5vw;
+      line-height: 6.250vw;
+      text-align: center;
+      padding-bottom: 10vw;
+      width: 100%;
+    }
+    .analysis img{
+      width: 71vw;
+    }
+    .midhalf{
+      flex-direction: column;
+      align-content: center;
+      flex-wrap: wrap;
+    }
+    .midhalftwo img{
+      padding-bottom: 0.3330000000000002vw;
+      width: 72.57300000000001vw
+    }
+    .midpart{
+      background-repeat: repeat-y;
+    }
+    .midimage1 img{
+      width: 85vw;
+    }
+    .midcontent{
+      padding: 5vw;
+    }
+    .quote{
+      padding: 2.500vw;
+      font-size:4.375vw;
+    }
+    .midhead{
+      font-size: 5vw;
+      margin-bottom: 5vw;
+    }
+    .centerquote{
+      font-size: 1.563vw;
+    }
+    .alink a{
+      font-size: 4.375vw
+    }
   }
 
   /***************************************SORTED hai itna*************************************/
@@ -1093,6 +1191,76 @@
       padding: 4vw 9vw;
       margin: 4vw 0.104vw;
       border-radius:1.5vw
+    }
+    /**********Myrevue*******************/
+    .main-case-section{
+      margin-top: 20vw;
+    }
+    .casestudytitle{
+      margin-top: 4vw;
+      display: block;
+      font-size: 3vw;
+      padding-top:3vw;
+    }
+    .titlecol h4{
+      font-size: 1.5vw;
+      line-height: 3vw;
+    }
+    .titlecol p{
+      font-size: 1vw;
+      line-height: 1.8vw;
+    }
+    .chead{
+      font-size: 2vw;
+      line-height: 2.2vw;
+      margin-bottom: 1vw;
+    }
+    .inContent{
+      padding: 0.3vw;
+      margin: 5vw 0; 
+    }
+    .context{
+      font-size: 2vw;
+      line-height: 2.2vw;
+      width: 55vw;
+    }
+    .contentimage img{
+      width: 55vw;
+      padding-top: 1vw;
+    padding-bottom: 1vw;
+    }
+    .qtime{
+      padding-top: 0vw;
+      /* padding-bottom: 3vw; */
+      font-size: 3vw;
+    }
+    .anhead{
+      /* margin: auto; */
+      font-size:3vw;
+      line-height: 3.5vw;
+      text-align: center;
+      padding-bottom: 1vw;
+      width: 50vw;
+    }
+    .analysis img{
+      width: 80vw;
+    }
+    .midpart{
+      background-repeat: repeat-y;
+    }
+    .midhalf{
+      flex-direction: column;
+      align-content: center;
+      flex-wrap: wrap;
+    }
+    .midimage1 img{
+      width: 55vw;
+    }
+    .centerquote{
+      font-size: 1.563vw;
+    }
+    .alink a{
+      font-size: 2vw
     }
   }
   

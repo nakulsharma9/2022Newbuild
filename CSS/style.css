@@ -871,14 +871,16 @@ This is the fith new freaking mobilenavbar
 /********************************************************
 CaseStudy
 ********************************************************/
-
+.navlinks .myR{
+  color: var(--white);
+}
 .casestudypage {
-  background: #ff557c;
+  background: #FF557C;
 }
 .main-case-section {
-  border: 1px solid red;
   background-color: var(--white);
-  /* width: 90vw; */
+  width: 90vw;
+  margin: auto;
   font-family: "Manrope", sans-serif;
   z-index: 2;
   border-radius: 1.094vw;
@@ -904,7 +906,8 @@ CaseStudy
 }
 .titlecol h4 {
   font-style: normal;
-  color: var(--linkactive);
+  color: var(--lightblack);
+  opacity: 0.75;
   font-weight: 600;
   font-size: 0.729vw;
   line-height: 0.990vw;
@@ -918,6 +921,8 @@ CaseStudy
   line-height: 0.990vw;
   letter-spacing: 0.02em;
   z-index: 2;
+  color: #8D96B2;
+  opacity: 0.75;
 }
 .bannerimage img {
   width: 80.313vw;
