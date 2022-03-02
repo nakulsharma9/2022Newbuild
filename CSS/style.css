@@ -18,11 +18,6 @@ html {
   font-family: "Manrope", sans-serif;
   font-family: "Poppins", sans-serif;
 }
-#my-scrollbar{
-  width: 100%;
-  height: 100vh;
-  overflow: auto;
-}
 * {
   padding: 0;
   margin: 0;
