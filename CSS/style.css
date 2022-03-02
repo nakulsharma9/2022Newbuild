@@ -1101,7 +1101,16 @@ CaseStudy
   gap: 4.688vw;
 }
 .others img {
+  border-radius: 10px;
   width: 28.698vw;
+  backdrop-filter: brightness(.65);
+  -webkit-backdrop-filter: brightness(.5);
+  transition: 0.5s ease;
+}
+.others img:hover{
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+  z-index: 99;
 }
 .main-case-section .footer .socialinks {
   padding-bottom: 1.667vw;
