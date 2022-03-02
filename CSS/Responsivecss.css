@@ -173,7 +173,6 @@
       display: flex;
       grid-column-gap: 5px;
       height: 110px;
-      /* padding: 2rem; */
     }
     .visual-grid .twold img {
       width: 150px;
@@ -217,7 +216,6 @@
       width: 95px;
       height: 175px;
       object-fit: cover;
-      /* border-radius: 10px; */
     }
     /**************Work************/
     .work-title {
@@ -467,7 +465,6 @@
       display: flex;
     }
     .site-wrapper {
-      /* max-width: 480px; */
       padding: 0 auto;
       margin: 0 auto;
     }
@@ -492,7 +489,6 @@
       font-size: 60px;
       line-height: 65px;
       -webkit-text-stroke: 1px var(--lightblack);
-      /* text-align: center; */
       margin-bottom: 1rem;
     }
     .hero .designspan .upperone h1 {
@@ -546,7 +542,6 @@
       transform: translateY(0px);
     }
     .casestudy {
-      /* width: 500px; */
       margin: 1rem auto;
       padding: 0;
     }
@@ -637,7 +632,6 @@
       display: flex;
       grid-column-gap: 5px;
       height: 110px;
-      /* padding: 2rem; */
     }
     .visual-grid .twold img {
       width: 150px;
@@ -681,7 +675,6 @@
       width: 95px;
       height: 175px;
       object-fit: cover;
-      /* border-radius: 10px; */
     }
     /**************Work************/
     .work-title {
@@ -843,8 +836,8 @@
       flex-wrap: wrap;
     }
     .midhalftwo img{
-      padding-bottom: 0.3330000000000002vw;
-      width: 72.57300000000001vw
+      padding-bottom: 0.33vw;
+      width: 72.57vw
     }
     .midpart{
       background-repeat: repeat-y;
@@ -880,7 +873,6 @@
       display: flex;
     }
     .site-wrapper {
-      /* width: 100%; */
       padding: 0 auto;
       margin: 0 auto;
     }
@@ -1002,15 +994,12 @@
     }
     .caseimage {
       width: 100%;
-      /* display: none; */
       border: transparent;
     }
     #image1 {
       background: #ff557c;
       width: 100%;
-      /* height: 18rem; */
       border-radius: 10px;
-      /* margin-bottom: 2rem; */
       display: flex;
       border: none;
       align-items: center;
@@ -1084,7 +1073,6 @@
       margin: 10rem 0 1.25rem 1rem;
     }
     .visual-grid {
-      /* margin-left: 5px; */
       grid-gap: 10px;
     }
     .visual-grid .twold {
@@ -1101,7 +1089,6 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      /* margin-top: 1rem; */
     }
     .visual-grid .mdimage {
       width: 100%;
@@ -1231,11 +1218,10 @@
     }
     .qtime{
       padding-top: 0vw;
-      /* padding-bottom: 3vw; */
+
       font-size: 3vw;
     }
     .anhead{
-      /* margin: auto; */
       font-size:3vw;
       line-height: 3.5vw;
       text-align: center;
@@ -1282,11 +1268,9 @@
     }
     .container1 {
       width: 90vw;
-      /* max-width: 1111px; */
     }
     .container2 {
       width: 70vw;
-      /* max-width: 1020px; */
     }
     .hero {
       margin: 10rem 0 1rem;
@@ -1537,6 +1521,7 @@
       padding: 2.5vw 5vw;
       margin: 4vw 0.104vw;
       border-radius:1vw;
+
     }
   }
   /********************************Done till here**/
