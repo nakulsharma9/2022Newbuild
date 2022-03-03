@@ -27,15 +27,3 @@ toggle.onclick = function () {
   toggle.classList.toggle("active");
   navbar.classList.toggle("active");
 };
-var loading = document.getElementById('loading');
-window.addEventListener("load", function(){
-    loading.style.display = 'none';
-})
-// setTimeout((function() {  
-//   return process.exit(1);
-// }), 50000);
-
-function hide(){
-  document.getElementById("loading").style.visibility="hidden";
-}
-setTimeout("hide()", 3000);
