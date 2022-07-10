@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://nakulsharma.me/</loc>
+  <lastmod>2022-03-03T09:37:25+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://nakulsharma.me/about/</loc>
+  <lastmod>2022-03-03T09:37:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nakulsharma.me/work/</loc>
+  <lastmod>2022-03-03T09:37:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nakulsharma.me/etc/</loc>
+  <lastmod>2022-03-03T09:37:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nakulsharma.me/myrevue.html</loc>
+  <lastmod>2022-03-03T09:37:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

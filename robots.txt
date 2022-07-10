@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /images/
+Disallow: /CSS/Resposiveness.css
+Disallow: /CSS/style.css
+Disallow: /js/
+Disallow: /about/index.html
+Disallow: /etc/index.html
+Disallow: /work/index.html
