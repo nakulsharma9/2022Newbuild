@@ -343,10 +343,15 @@ header nav .navlinks {
   grid-gap: 10px;
 }
 .caseimage {
-  display: block;
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.reformat {
+  width: 695px;
+  height: 424px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 .casecontent {
   position: relative;
