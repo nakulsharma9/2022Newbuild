@@ -346,6 +346,7 @@ header nav .navlinks {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 .casecontent {
   position: relative;
@@ -362,8 +363,8 @@ header nav .navlinks {
   opacity: 0;
   transition: 0.5s ease;
   border-radius: 10px;
-  backdrop-filter: brightness(.65);
-  -webkit-backdrop-filter: brightness(.5);
+  backdrop-filter: brightness(0.65);
+  -webkit-backdrop-filter: brightness(0.5);
 }
 
 .casecontent:hover .overlay {
@@ -1103,11 +1104,11 @@ CaseStudy
 .others img {
   border-radius: 10px;
   width: 28.698vw;
-  backdrop-filter: brightness(.65);
-  -webkit-backdrop-filter: brightness(.5);
+  backdrop-filter: brightness(0.65);
+  -webkit-backdrop-filter: brightness(0.5);
   transition: 0.5s ease;
 }
-.others img:hover{
+.others img:hover {
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
   z-index: 99;
